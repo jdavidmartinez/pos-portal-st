@@ -1,7 +1,26 @@
 {
   "name": "landing-page",
   "version": "0.1.0",
+  "description": "EmpleApp landing-page",
   "private": true,
+  "keywords": [
+    "landing-page",
+    "react.js",
+    "frontend"
+  ],
+  "contributors": [
+    "David Martínez",
+    "Mayerly Espinosa",
+    "Yovanny López"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -10,12 +29,6 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
