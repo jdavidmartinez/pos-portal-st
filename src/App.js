@@ -6,7 +6,6 @@ import {
   Redirect,
 } from 'react-router-dom';
 
-import './helpers/Firebase';
 import { NotificationContainer } from './components/common/react-notifications';
 import { getDirection } from './helpers/Utils';
 
