@@ -1,12 +1,6 @@
 import React, { Suspense } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import { NotificationContainer } from './components/common/react-notifications';
 import { getDirection } from './helpers/Utils';
 
 const ViewHome = React.lazy(() =>
@@ -30,7 +24,6 @@ class App extends React.Component {
     return (
       <div className="h-100">
         <>
-          <NotificationContainer />
           <Suspense fallback={<div className="loading" />}>
             <Router>
               <Switch>
@@ -39,10 +32,6 @@ class App extends React.Component {
                   exact
                   render={(props) => <ViewHome {...props} />}
                 />
-                {/*
-                  <Redirect exact from="/" to={adminRoot} />
-                  */}
-                <Redirect to="/error" />
               </Switch>
             </Router>
           </Suspense>
