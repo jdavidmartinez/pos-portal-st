@@ -3,7 +3,7 @@ export const UserRole = {
   Editor: 1,
 };
 
-/* 
+/*
 Menu Types:
 "menu-default", "menu-sub-hidden", "menu-hidden"
 */
@@ -11,12 +11,6 @@ export const defaultMenuType = 'menu-default';
 
 export const subHiddenBreakpoint = 1440;
 export const menuHiddenBreakpoint = 768;
-export const defaultLocale = 'en';
-export const localeOptions = [
-  { id: 'en', name: 'English - LTR', direction: 'ltr' },
-  { id: 'es', name: 'Español', direction: 'ltr' },
-  { id: 'enrtl', name: 'English - RTL', direction: 'rtl' },
-];
 
 export const firebaseConfig = {
   apiKey: 'AIzaSyBBksq-Asxq2M4Ot-75X19IyrEYJqNBPcg',
@@ -36,7 +30,7 @@ export const currentUser = {
 };
 
 export const adminRoot = '/app';
-export const buyUrl = 'https://1.envato.market/k4z0';
+export const buyUrl = '#';
 export const searchPath = `${adminRoot}/pages/miscellaneous/search`;
 export const servicePath = 'https://api.coloredstrategies.com';
 
