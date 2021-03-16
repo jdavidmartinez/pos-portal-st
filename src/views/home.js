@@ -25,17 +25,17 @@ const slideSettings = {
 const slideItems = [
   {
     icon: 'iconsminds-mouse-3',
-    title: 'Right Click Menu',
+    title: 'LOREM IPSUM',
     detail: 'lorem ipsum',
   },
   {
     icon: 'iconsminds-electric-guitar',
-    title: 'Video Player',
+    title: 'LOREM IPSUM',
     detail: 'lorem ipsum',
   },
   {
     icon: 'iconsminds-keyboard',
-    title: 'Keyboard Shortcuts',
+    title: 'LOREM IPSUM',
     detail: 'lorem ipsum',
   },
   {
@@ -46,21 +46,6 @@ const slideItems = [
   {
     icon: 'iconsminds-deer',
     title: 'Icons Mind',
-    detail: 'lorem ipsum',
-  },
-  {
-    icon: 'iconsminds-palette',
-    title: '20 Color Schemes',
-    detail: 'lorem ipsum',
-  },
-  {
-    icon: 'iconsminds-air-balloon-1',
-    title: '3 Applications',
-    detail: 'lorem ipsum',
-  },
-  {
-    icon: 'iconsminds-resize',
-    title: 'Extra Responsive',
     detail: 'lorem ipsum',
   },
 ];
@@ -74,21 +59,6 @@ const features = [
   {
     title: 'lorem ipsum',
     img: '/assets/img/landing-page/features/extra-responsive.png',
-    detail: 'lorem ipsum',
-  },
-  {
-    title: 'lorem ipsum',
-    img: '/assets/img/landing-page/features/superfine-charts.png',
-    detail: 'lorem ipsum',
-  },
-  {
-    title: 'lorem ipsum',
-    img: '/assets/img/landing-page/features/layouts-for-the-job.png',
-    detail: 'lorem ipsum',
-  },
-  {
-    title: 'lorem ipsum',
-    img: '/assets/img/landing-page/features/smart-menu.png',
     detail: 'lorem ipsum',
   },
 ];
@@ -110,29 +80,6 @@ const layouts = [
     title: 'Image List',
     img: '/assets/img/landing-page/layouts/image-list.jpg',
   },
-  {
-    title: 'Thumb List',
-    img: '/assets/img/landing-page/layouts/thumb-list.jpg',
-  },
-  { title: 'Data List', img: '/assets/img/landing-page/layouts/data-list.jpg' },
-  { title: 'Details', img: '/assets/img/landing-page/layouts/details.jpg' },
-  {
-    title: 'Authentication',
-    img: '/assets/img/landing-page/layouts/authentication.jpg',
-  },
-  {
-    title: 'Search Results',
-    img: '/assets/img/landing-page/layouts/search-result.jpg',
-  },
-  {
-    title: 'Single Page Application',
-    img: '/assets/img/landing-page/layouts/spa.jpg',
-  },
-  {
-    title: 'Data List App Menu Hidden',
-    img: '/assets/img/landing-page/layouts/data-list-app-menu-hidden.jpg',
-  },
-  { title: 'Tabs', img: '/assets/img/landing-page/layouts/tabs.jpg' },
 ];
 
 const applications = [
@@ -146,24 +93,11 @@ const applications = [
     path: `${adminRoot}/applications/chat`,
     img: '/assets/img/landing-page/applications/chat.jpg',
   },
-  {
-    title: 'Todo',
-    path: `${adminRoot}/applications/todo`,
-    img: '/assets/img/landing-page/applications/todo.jpg',
-  },
 ];
 
 const themes = [
   { title: 'Navy Blue', class: 'bluenavy' },
   { title: 'Olympic Blue', class: 'blueolympic' },
-  { title: 'Yale Blue', class: 'blueyale' },
-  { title: 'Moss Green', class: 'greenmoss' },
-  { title: 'Lime Green', class: 'greenlime' },
-  { title: 'Carrot Orange', class: 'carrotorange' },
-  { title: 'Ruby Red', class: 'rubyred' },
-  { title: 'Monster Purple', class: 'monsterpurple' },
-  { title: 'Steel Grey', class: 'steelgrey' },
-  { title: 'Granola Yellow', class: 'granolayellow' },
 ];
 
 const Home = () => {
@@ -401,7 +335,7 @@ const Home = () => {
 
                 <div className="col-12 col-xl-4 col-lg-5 col-md-6">
                   <div className="home-text">
-                    <div className="display-1">UNDERGROUND</div>
+                    <div className="display-1">LOREM IPSUM</div>
                     <p className="white mb-5">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elita.
                       <br />
@@ -412,13 +346,10 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-12 col-xl-7 offset-xl-1 col-lg-7 col-md-6  d-none d-md-block">
-                  {/* eslint-disable-next-line react/jsx-no-target-blank */}
-                  <a href={adminRoot} target="_blank">
-                    <img
-                      alt="hero"
-                      src="/assets/img/landing-page/home-hero.png"
-                    />
-                  </a>
+                  <img
+                    alt="hero"
+                    src="/assets/img/landing-page/home-hero.png"
+                  />
                 </div>
               </div>
 
@@ -670,7 +601,7 @@ const Home = () => {
             <div className="container">
               <div className="row">
                 <div className="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                  <h1>LOrem ipsum</h1>
+                  <h1>Lorem ipsum</h1>
                   <p>The standard chunk of Lorem Ipsum used since the 1500s</p>
                 </div>
                 <div className="col-12 offset-0 col-lg-6 offset-lg-3 newsletter-input-container">
