@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import classnames from 'classnames';
 import { scroller } from 'react-scroll';
 import Headroom from 'react-headroom';
+
 import GlideComponent from '../components/carousel/GlideComponent';
 import { buyUrl, adminRoot } from '../constants/defaultValues';
 
@@ -25,83 +26,70 @@ const slideItems = [
   {
     icon: 'iconsminds-mouse-3',
     title: 'Right Click Menu',
-    detail:
-      'Increases overall usability of the project by providing additional actions menu.',
+    detail: 'lorem ipsum',
   },
   {
     icon: 'iconsminds-electric-guitar',
     title: 'Video Player',
-    detail:
-      'Carefully themed multimedia players powered by Video.js library with Youtube support.',
+    detail: 'lorem ipsum',
   },
   {
     icon: 'iconsminds-keyboard',
     title: 'Keyboard Shortcuts',
-    detail:
-      'Easily configurable keyboard shortcuts plugin that highly improves user experience.',
+    detail: 'lorem ipsum',
   },
   {
     icon: 'iconsminds-three-arrow-fork ',
     title: 'Two Panels Menu',
-    detail:
-      'Three states two panels icon menu that looks good, auto resizes and does the job well.',
+    detail: 'lorem ipsum',
   },
   {
     icon: 'iconsminds-deer',
     title: 'Icons Mind',
-    detail:
-      '1040 icons in 53 different categories, designed pixel perfect and ready for your project.',
+    detail: 'lorem ipsum',
   },
   {
     icon: 'iconsminds-palette',
     title: '20 Color Schemes',
-    detail:
-      'Colors, icons and design harmony that creates excellent themes to cover entire project.',
+    detail: 'lorem ipsum',
   },
   {
     icon: 'iconsminds-air-balloon-1',
     title: '3 Applications',
-    detail:
-      'Applications that mostly made of components are the way to get started to create something similar.',
+    detail: 'lorem ipsum',
   },
   {
     icon: 'iconsminds-resize',
     title: 'Extra Responsive',
-    detail:
-      'Custom Bootstrap 4 xxs & xxl classes delivers better experiences for smaller and larger screens.',
+    detail: 'lorem ipsum',
   },
 ];
 
 const features = [
   {
-    title: 'Pleasant Design',
+    title: 'lorem ipsum',
     img: '/assets/img/landing-page/features/plesant-design.png',
-    detail:
-      'As a web developer we enjoy to work on something looks nice. It is not an absolute necessity but it really motivates us that final product will look good for user point of view. <br /><br />So we put a lot of work into colors, icons, composition and design harmony. Themed components and layouts with same design language. <br /><br />We kept user experience principles always at the heart of the design process.',
+    detail: 'lorem ipsum',
   },
   {
-    title: 'Extra Responsive',
+    title: 'lorem ipsum',
     img: '/assets/img/landing-page/features/extra-responsive.png',
-    detail:
-      'Xxs breakpoint is for smaller screens that has a resolution lower than 420px. Xs works between 576px and 420px. Xxl breakpoint is for larger screens that has a resolution higher than 1440px. Xl works between 1200px and 1440px.<br><br>With this approach we were able to create better experiences for smaller and larger screens.',
+    detail: 'lorem ipsum',
   },
   {
-    title: 'Superfine Charts',
+    title: 'lorem ipsum',
     img: '/assets/img/landing-page/features/superfine-charts.png',
-    detail:
-      'Using charts is a good way to visualize data but they often look ugly and break the rhythm of design. <br /><br />We concentrated on a single chart library and tried to create charts that look good with color, opacity, border and shadow. <br /><br />Used certain plugins and created some to make charts even more useful and beautiful.',
+    detail: 'lorem ipsum',
   },
   {
-    title: 'Layouts for the Job',
+    title: 'lorem ipsum',
     img: '/assets/img/landing-page/features/layouts-for-the-job.png',
-    detail:
-      'Layouts are the real thing, they need to be accurate and right for the job. They should be functional for both user and developer. <br /><br />We created lots of different layouts for different jobs.<br /><br />Listing pages with view mode changing capabilities, shift select and select all functionality, application layouts with an additional menu, authentication and error layouts which has a different design than the other pages were our main focus. We also created details page with tabs that can hold many components.',
+    detail: 'lorem ipsum',
   },
   {
-    title: 'Smart Menu',
+    title: 'lorem ipsum',
     img: '/assets/img/landing-page/features/smart-menu.png',
-    detail:
-      'Instead of good old single panel menus with accordion structure that looks over complicated, we created 2 panels and categorized pages accordingly.<br><br>The default menu auto hides sub panel when resolution is under some breakpoint to open some space. You may also hide menu completely or use only main panel open only.',
+    detail: 'lorem ipsum',
   },
 ];
 
@@ -260,7 +248,7 @@ const Home = () => {
               href="#scroll"
               onClick={(event) => scrollTo(event, 'features')}
             >
-              FEATURES
+              SECTION-1
             </a>
           </li>
           <li className="nav-item">
@@ -269,7 +257,7 @@ const Home = () => {
               href="#scroll"
               onClick={(event) => scrollTo(event, 'layouts')}
             >
-              LAYOUTS
+              SECTION-2
             </a>
           </li>
           <li className="nav-item">
@@ -278,7 +266,7 @@ const Home = () => {
               href="#scroll"
               onClick={(event) => scrollTo(event, 'components')}
             >
-              COMPONENTS
+              SECTION-3
             </a>
           </li>
           <li className="nav-item">
@@ -287,7 +275,7 @@ const Home = () => {
               href="#scroll"
               onClick={(event) => scrollTo(event, 'apps')}
             >
-              APPS
+              SECTION-4
             </a>
           </li>
           <li className="nav-item">
@@ -296,7 +284,7 @@ const Home = () => {
               href="#scroll"
               onClick={(event) => scrollTo(event, 'themes')}
             >
-              THEMES
+              SECTION-5
             </a>
           </li>
           <li className="nav-item">
@@ -309,7 +297,7 @@ const Home = () => {
               rel="noopener noreferrer"
               href={buyUrl}
             >
-              BUY
+              LOGIN
             </a>
           </li>
         </ul>
@@ -334,7 +322,7 @@ const Home = () => {
                     href="#scroll"
                     onClick={(event) => scrollTo(event, 'features')}
                   >
-                    FEATURES
+                    SECTION-1
                   </a>
                 </li>
                 <li className="nav-item">
@@ -343,7 +331,7 @@ const Home = () => {
                     href="#scroll"
                     onClick={(event) => scrollTo(event, 'layouts')}
                   >
-                    LAYOUTS
+                    SECTION-2
                   </a>
                 </li>
                 <li className="nav-item">
@@ -352,7 +340,7 @@ const Home = () => {
                     href="#scroll"
                     onClick={(event) => scrollTo(event, 'components')}
                   >
-                    COMPONENTS
+                    SECTION-3
                   </a>
                 </li>
                 <li className="nav-item">
@@ -361,7 +349,7 @@ const Home = () => {
                     href="#scroll"
                     onClick={(event) => scrollTo(event, 'apps')}
                   >
-                    APPS
+                    SECTION-4
                   </a>
                 </li>
                 <li className="nav-item">
@@ -370,7 +358,7 @@ const Home = () => {
                     href="#scroll"
                     onClick={(event) => scrollTo(event, 'themes')}
                   >
-                    THEMES
+                    SECTION-5
                   </a>
                 </li>
                 <li className="nav-item pl-4">
@@ -380,7 +368,7 @@ const Home = () => {
                     rel="noopener noreferrer"
                     href={buyUrl}
                   >
-                    BUY
+                    LOGIN
                   </a>
                 </li>
               </ul>
@@ -413,28 +401,14 @@ const Home = () => {
 
                 <div className="col-12 col-xl-4 col-lg-5 col-md-6">
                   <div className="home-text">
-                    <div className="display-1">
-                      MAGIC IS IN <br />
-                      THE DETAILS
-                    </div>
+                    <div className="display-1">UNDERGROUND</div>
                     <p className="white mb-5">
-                      Gogo is the combination of good design, quality code and
-                      attention for details.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elita.
                       <br />
                       <br />
-                      We used same design language for components, layouts, apps
-                      and other parts of the template. <br />
-                      <br />
-                      Hope you enjoy it!
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem.
                     </p>
-                    {/* eslint-disable-next-line react/jsx-no-target-blank */}
-                    <a
-                      className="btn btn-light btn-xl mr-2 mb-2"
-                      href={adminRoot}
-                      target="_blank"
-                    >
-                      VIEW NOW <i className="simple-icon-arrow-right" />
-                    </a>
                   </div>
                 </div>
                 <div className="col-12 col-xl-7 offset-xl-1 col-lg-7 col-md-6  d-none d-md-block">
@@ -489,12 +463,11 @@ const Home = () => {
             <div className="container" id="features">
               <div className="row">
                 <div className="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                  <h1>Features At a Glance</h1>
+                  <h1>SECTION-1</h1>
                   <p>
-                    We tried to create an admin theme that we would like to use
-                    ourselves so we listed our priorities. We would like to have
-                    a theme that is not over complicated to use, does the job
-                    well, contains must have omponents and looks really nice.
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
                   </p>
                 </div>
               </div>
@@ -548,13 +521,11 @@ const Home = () => {
             <div className="container" id="layouts">
               <div className="row">
                 <div className="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                  <h1>Structures &amp; Layouts</h1>
+                  <h1>SECTION-2</h1>
                   <p>
-                    We did our best to create layouts for various needs that
-                    developers might have and best experience for users.
-                    <br />
-                    They are clean and slick. They function well and look good
-                    at the same time.
+                    The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed to using content
+                    here.
                   </p>
                 </div>
               </div>
@@ -581,17 +552,14 @@ const Home = () => {
             <div className="container" id="components">
               <div className="row mb-5">
                 <div className="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                  <h1>Components</h1>
+                  <h1>SECTION-3</h1>
                   <p>
-                    We used most popular and well managed open source components
-                    with bootstrap components. Combined them into even more
-                    useful ones. Themed them with same design principles and
-                    created a design harmony between components and layouts.
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
                     <br />
                     <br />
-                    From carousels to charts, switches to list we tried to
-                    provide components that we like to use on our development
-                    processes.
+                    Lorem Ipsum has been the industry standard dummy text ever
+                    since the 1500s
                   </p>
                 </div>
               </div>
@@ -607,11 +575,12 @@ const Home = () => {
             <div className="container" id="apps">
               <div className="row">
                 <div className="col-12 offset-0 col-lg-8 offset-lg-2 text-center mb-4">
-                  <h1>Applications</h1>
+                  <h1>SECTION-4</h1>
                   <p className="section-text">
-                    With the help of components and layouts, we created four
-                    different applications. They are a good way to get you
-                    started if you want to build something similar.
+                    It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently
+                    with desktop publishing software like Aldus PageMaker
+                    including versions of Lorem Ipsum.
                   </p>
                 </div>
               </div>
@@ -658,12 +627,12 @@ const Home = () => {
             <div className="container" id="themes">
               <div className="row mb-5">
                 <div className="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                  <h1>Themes</h1>
+                  <h1>SECTION-5</h1>
                   <p>
-                    We carefully choosed colors and created 10 different themes
-                    with dark and light versions. You may also create your own
-                    themes easily since all the theme related styling is managed
-                    by Sass variables.
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard
+                    McClintock.
                   </p>
                 </div>
               </div>
@@ -701,10 +670,8 @@ const Home = () => {
             <div className="container">
               <div className="row">
                 <div className="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                  <h1>Enjoying so Far?</h1>
-                  <p>
-                    Purchase Gogo to get a fresh start with your new project.
-                  </p>
+                  <h1>LOrem ipsum</h1>
+                  <p>The standard chunk of Lorem Ipsum used since the 1500s</p>
                 </div>
                 <div className="col-12 offset-0 col-lg-6 offset-lg-3 newsletter-input-container">
                   <div className="text-center mb-3">
@@ -714,7 +681,7 @@ const Home = () => {
                       rel="noopener noreferrer"
                       href={buyUrl}
                     >
-                      BUY NOW
+                      LOGIN
                     </a>
                   </div>
                 </div>
@@ -753,7 +720,7 @@ const Home = () => {
               <div className="row">
                 <div className="col-12" />
                 <div className="col-12 text-center">
-                  <p className="mb-0">2021 © ColoredStrategies</p>
+                  <p className="mb-0">2021 © EmpleApp</p>
                 </div>
               </div>
             </div>
