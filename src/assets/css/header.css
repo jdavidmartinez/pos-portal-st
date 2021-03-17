@@ -1,16 +1,27 @@
 .header{
     background-image: url("../img/BackG.png");
+    background-position: -y;
     display: flex;
+    
 }
 
 .headerSection{
-   float:center;    
+    
+    background:#ffff;
+    height: 50px;
+    width:80%;
+    margin: 20px 80px 60px 60px;
+    border-radius: 8px;
+    
+    
+
 }
 .Header-logo {
-    width: 200px; height: justify;
+    width: 100px; height: justify;
     pointer-events: none;
     text-align: right;
   }
+
 .creamos{
     float: left;
 }
@@ -23,7 +34,7 @@
     border: 2px solid #760543;
     text-align: left;
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 12px;
     padding: 10px 24px
   }

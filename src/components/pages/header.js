@@ -5,17 +5,21 @@ import "../../assets/css/header.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <header>
+    <section className="header">
       <div className="headerSection">
         <img src={logo} className="Header-logo" alt="logo" />
         <button className="ingressButton">Ingresar</button>
       </div>
-      <div>
-        <p className="creamos">Creamos y Evaluamos tu Hoja de Vida</p>
+      </section>
+
+      <div className ="header2">
+        <h1 className="creamos">Creamos y Evaluamos tu Hoja de Vida</h1>
         <img src={Hero} className="Hero" alt="Hero" />
       </div>
-    </div>
-  );
+      </header>
+      );
+  
 };
 
 export default Header;
