@@ -1,15 +1,17 @@
 import React  from 'react';
 import Header from './header';
-
+import AboutUs from './aboutUs';
 
 
 
 import '../../assets/css/App.css';
 
+
 const App = () => {
   return (
     <div className="App">
       <Header />
+      <AboutUs />
     </div>
   );
 };
