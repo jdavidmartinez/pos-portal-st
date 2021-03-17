@@ -1,15 +1,29 @@
-.BackImage{
+.header{
     background-image: url("../img/BackG.png");
+    display: flex;
+}
+
+.headerSection{
+   float:center;    
 }
 .Header-logo {
-    height: 20vmin;
+    width: 200px; height: justify;
     pointer-events: none;
+    text-align: right;
   }
-
+.creamos{
+    float: left;
+}
   .Hero{
-      align-content: flex-end;
+    float: right;
   }
   .ingressButton{
     background-color: #760543;
     color: #ffff;
+    border: 2px solid #760543;
+    text-align: left;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px 24px
   }
