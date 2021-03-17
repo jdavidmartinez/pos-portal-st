@@ -1,14 +1,15 @@
 import React  from 'react';
 import Header from './header';
 
-//import img from '../../assets/img/home-hero.png';
+
+
 
 import '../../assets/css/App.css';
 
 const App = () => {
   return (
     <div className="App">
-     <Header />
+      <Header />
     </div>
   );
 };
@@ -21,4 +22,6 @@ export default App;
   Edit <code>src/App.js</code> and save to reload.
 </p>
 <img src={img} alt="" />
-</header>*/
+</header>
+
+ <img src={BackImage} className="BackImage" alt="BackImage" />*/

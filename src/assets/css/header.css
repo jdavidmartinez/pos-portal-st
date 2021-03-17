@@ -1,0 +1,15 @@
+.BackImage{
+    background-image: url("../img/BackG.png");
+}
+.Header-logo {
+    height: 20vmin;
+    pointer-events: none;
+  }
+
+  .Hero{
+      align-content: flex-end;
+  }
+  .ingressButton{
+    background-color: #760543;
+    color: #ffff;
+  }
