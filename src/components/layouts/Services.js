@@ -1,14 +1,24 @@
 import Card from "../IU/Cards/Card";
 
-import "../../assets/css/about-us.css";
+import "../../assets/css/services.css";
+import {  Container, Row, Col } from "react-bootstrap";
 
 const Services = () => {
   return (
     <div>
       <h1>Quienes Somos</h1>
-      <Card />
+     <div style={{display:"flex", justifyContent:"space-around" }}>
+       <Card />
+       <Card />
+    </div> 
+    <p>
+      
+    </p>
+    <div style={{display:"flex", justifyContent:"space-around" }}>
+       <Card />
+       <Card />
+    </div> 
     </div>
-
   );
 };
 
