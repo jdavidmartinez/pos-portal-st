@@ -5,6 +5,7 @@ import "../../assets/css/about-us.css";
 const Services = () => {
   return (
     <div>
+      <h1>Quienes Somos</h1>
       <Card />
     </div>
 
