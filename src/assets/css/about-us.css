@@ -13,8 +13,9 @@
 
 }
 
-.imgbackg {
-  display: flex;
+.imgBackg {
+  display: grid;
+  justify-content: center;
   background-image: url("../img/Cajon.png");
   background-repeat: no-repeat;
   background-size: 100%;

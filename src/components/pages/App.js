@@ -1,3 +1,4 @@
+import React from 'react';
 import AboutUs from '../layouts/AboutUs';
 import Header from '../layouts/Header';
 import Features from '../layouts/Features';

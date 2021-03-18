@@ -20,7 +20,7 @@ const Header = () => {
           <p>Creación de hoja de vida, guía para llegar al empleo 
               deseado y capacitación para la entrevista de trabajo.
           </p>
-          <button className="main-button">Evaluar HV  ></button>
+          <button className="main-button">Evaluar HV  </button>
         </div>
         <img src={hero} alt="hero" className="hero" />
       </section>

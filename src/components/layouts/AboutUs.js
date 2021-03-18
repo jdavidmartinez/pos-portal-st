@@ -1,16 +1,17 @@
 import us from "../../assets/img/Cajon.png";
 
 import "../../assets/css/about-us.css";
+import { Container } from "react-bootstrap";
 
 const AboutUs = () => {
   return (
-    <header>
+    <Container >
       <section className="about-us">
         <div>
           <h1>Quienes somos</h1>
         </div>
       </section>
-      <section className="imgbackg">
+      <section className="imgBackg">
         <div className="content-aboutus">
           <p>
             Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
@@ -22,7 +23,7 @@ const AboutUs = () => {
           
         </div>
       </section>
-    </header>
+    </Container>
   );
 };
 
