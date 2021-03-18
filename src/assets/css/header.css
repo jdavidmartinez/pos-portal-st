@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.bar-header{
+  background:#fff;
+  border-radius: 8px;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  margin: 3em 0;
+  width: 80%;
+}
+
+.logo-header {
+  pointer-events: none;
+}
+
+.content-header {
+  display: grid;
+  grid-template-columns: repeat(2, 35%);
+  justify-content: center;
+  width: 80%;
+}
+
+.main-button{
+  background-color: #760543;
+  border: 2px solid #760543;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  max-width: 120px;
+  padding: 10px 24px;
+}
+
+.main-button:hover {
+  background-color: #580a35;
+}
+
+.cv-text{
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 0.8em;
+}
