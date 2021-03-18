@@ -9,23 +9,45 @@ const cardType = () => {
     <Card
       style={{
         width: "31rem",
-        backgroundColor: "#ece6e8",
+        backgroundColor: "#f2f2f2",
         border: "1px solid #eee",
         boxShadow: "0 2px 15px #ccc",
-        borderRadius:"36px"
+        borderRadius: "36px",
       }}
     >
-      <Card.Img variant="top" src={servicio1} style={{width:"100%"}} />
+      <Card.Img variant="top" src={servicio1} style={{ width: "100%" }} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus
-          morbi sollicitudin. Auctor himenaeos fames egestas commodo non ligula
-          tempor class, feugiat cum dignissim arcu bibendum est convallis
-          facilisis
-        </Card.Text>
-        <Card.Img variant="top" src={P_Laboral} style={{width:"50%"}} className="icon-image" />
+        <div
+          style={{
+            padding: "30px 0 0 25px",
+            color: "#760543",
+            fontWeight: "bold",
+          }}
+        >
+          <Card.Title>Card Title</Card.Title>
+        </div>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "space-between",
+            padding: "20px 25px 30px 25px ",
+            boxSizing: "border-box",
+          }}
+        >
+          <Card.Text>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
+            hendrerit orci at penatibus potenti, cursus condimentum porta risus
+            morbi sollicitudin. Auctor himenaeos fames egestas commodo non
+            ligula tempor class, feugiat cum dignissim arcu bibendum est
+            convallis facilisis
+          </Card.Text>
+          <Card.Img
+            src={P_Laboral}
+            style={{ width: "20%", paddingLeft:"40px" }}
+            className="icon-image"
+          />
+        </div>
       </Card.Body>
     </Card>
   );
