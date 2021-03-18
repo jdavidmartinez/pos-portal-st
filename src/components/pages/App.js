@@ -1,11 +1,7 @@
-import React  from 'react';
-import Header from './header';
-import AboutUs from './aboutUs';
-
-
+import AboutUs from '../layouts/AboutUs';
+import Header from '../layouts/Header';
 
 import '../../assets/css/App.css';
-
 
 const App = () => {
   return (
@@ -17,13 +13,3 @@ const App = () => {
 };
 
 export default App;
-
-/*<header className="App-header">
-<img src={logo} className="App-logo" alt="logo" />
-<p>
-  Edit <code>src/App.js</code> and save to reload.
-</p>
-<img src={img} alt="" />
-</header>
-
- <img src={BackImage} className="BackImage" alt="BackImage" />*/
