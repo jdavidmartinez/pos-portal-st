@@ -1,21 +1,22 @@
 import AboutUs from '../layouts/AboutUs';
 import Header from '../layouts/Header';
-import Caracteristicas from '../layouts/Caracteristicas';
-import Servicios from '../layouts/Servicios';
-import Empresas from  '../layouts/Empresas';
-import Boletin from '../layouts/Boletin'
+import Features from '../layouts/Features';
+import Services from '../layouts/Services';
+import Companies from '../layouts/Companies';
+import Bulletin from '../layouts/Bulletin';
 
 import '../../assets/css/App.css';
+
 
 const App = () => {
   return (
     <div className="App">
       <Header />
       <AboutUs />
-      <Caracteristicas />
-      <Servicios />
-      <Empresas />
-      <Boletin />
+      <Features />
+      <Services />
+      <Companies />
+      <Bulletin />
     </div>
   );
 };

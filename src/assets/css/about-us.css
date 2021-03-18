@@ -1,4 +1,26 @@
 .about-us {
   display: flex;
   justify-content: center;
+
+}
+
+.content-aboutus {
+  display: grid;
+  color: #ffff;
+  grid-template-columns: repeat(2, 35%);
+  justify-content: center;
+  width: 80%;
+
+}
+
+.imgbackg {
+  display: flex;
+  background-image: url("../img/Cajon.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 500px;
+  width: 80%;
+  
+  
+ 
 }
