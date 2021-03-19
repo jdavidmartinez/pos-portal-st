@@ -1,8 +1,9 @@
-import "../../../assets/css/features.css";     
+import '../../../assets/css/features.css';
 
-export default function Box ( { imagen, alt, title, description } ) {
-  return(
-    <>
+const Box = ({
+  imagen, alt, title, description
+}) => (
+  <>
     <div className="container">
       <div className="myImage">
         <img src={imagen} alt={alt} />
@@ -12,6 +13,7 @@ export default function Box ( { imagen, alt, title, description } ) {
         {description}
       </p>
     </div>
-    </>
-  );
-}
+  </>
+)
+
+export default Box;
