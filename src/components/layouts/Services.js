@@ -1,27 +1,34 @@
-import Card from "../IU/Cards/Card";
+import { Col, Row } from "react-bootstrap";
 
-import imgServiceCard1 from "../../assets/img/imgServiceCard1.png";
-import imgServiceCard2 from "../../assets/img/Talento_v1.png";
+import Card from "../IU/Cards/Card";
+import profileImg from "../../assets/img/profile-card.png";
+import talentImg from "../../assets/img/talent-card.png";
+
 import "../../assets/css/services.css";
-import {  Container, Row, Col } from "react-bootstrap";
 
 const Services = () => {
   return (
-    <div>
-      <h1>Quienes Somos</h1>
-     <div style={{display:"flex", justifyContent:"space-around" }}>
-       <Card imgServiceCard1={imgServiceCard1} />
-       <Card imgServiceCard2={imgServiceCard2} />
-       
-    </div> 
-    <p>
-
-    </p>
-    <div style={{display:"flex", justifyContent:"space-around" }}>
-       <Card />
-       <Card />
-    </div> 
-    </div>
+    <section>
+      <Row>
+        <Col xs={10}>
+          <h1 className="services-title">Servicios</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={10} md={6}>
+          <Card headerImage={profileImg} title={"Perfil laboral"}/>
+        </Col>
+        <Col xs={10} md={6}>
+          <Card headerImage={profileImg} title={"Perfil de cargo"}/>
+        </Col>
+        <Col xs={10} md={6}>
+          <Card headerImage={talentImg} title={"Descubrimiento de talento"}/>
+        </Col>
+        <Col xs={10} md={6}>
+          <Card headerImage={profileImg} title={"Conexión laboral"}/>
+        </Col>
+      </Row>
+    </section>
   );
 };
 

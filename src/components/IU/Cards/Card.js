@@ -15,7 +15,7 @@ const cardType = (props) => {
         borderRadius: "36px",
       }}
     >
-      <Card.Img variant="top" src={props.imgServiceCard1} style={{ width: "100%" }} />
+      <Card.Img variant="top" src={props.headerImage} style={{ width: "100%" }} />
       <Card.Body>
         <div
           style={{
@@ -24,7 +24,7 @@ const cardType = (props) => {
             fontWeight: "bold",
           }}
         >
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>{props.title}</Card.Title>
         </div>
         <div
           style={{
