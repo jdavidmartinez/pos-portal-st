@@ -11,19 +11,19 @@ export default function Features() {
       <Title title = '¿Por qué nosotros?' />    
     <div className='containerFeature'>
       <Box
-            src = {'https://cadenaser00.epimg.net/ser/imagenes/2014/12/17/television/1418786070_064451_1418786171_noticia_normal.jpg'}
+            src = {identify}
             alt = 'Identify'
             title = 'Identificamos'
             description = 'Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum'
       />
       <Box
-            src = { 'https://cadenaser00.epimg.net/ser/imagenes/2014/12/17/television/1418786070_064451_1418786171_noticia_normal.jpg'}
+            src = {acompañamiento}
             alt = 'Acompañamiento'
             title= 'Acompañamiento'
             description = 'Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum'
       />
       <Box
-            src = {'https://cadenaser00.epimg.net/ser/imagenes/2014/12/17/television/1418786070_064451_1418786171_noticia_normal.jpg'}
+            src = {conexion}
             alt = 'Conexion'
             title = 'Conectamos'
             description = 'Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum'
