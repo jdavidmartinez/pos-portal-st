@@ -2,13 +2,18 @@ import { Col, Row } from 'react-bootstrap';
 
 import Card from '../UI/Cards/Card';
 
-import jobProfile from '../../assets/img/job-profile.svg';
-import profileImg from '../../assets/img/profile-card.png';
+// Icons
+import jobProfileIcon from '../../assets/img/job-profile.svg';
+import talentIcon from '../../assets/img/P_Talento.svg';
+import contectionIcon from '../../assets/img/P_Conexion.svg';
+import chargetIcon from '../../assets/img/P_Cargo.svg';
+
+// Card's header image
+import chargeImg from '../../assets/img/charge-card.png';
+import connectionImg from '../../assets/img/connection-card.png';
+import jobProfileImg from '../../assets/img/profile-card.png';
 import talentImg from '../../assets/img/talent-card.png';
 import '../../assets/css/services.css';
-
-import connectionImg from '../../assets/img/connection-card.png';
-import chargeImg from '../../assets/img/charge-card.png';
 
 const Services = () => (
   <section>
@@ -20,30 +25,30 @@ const Services = () => (
     <Row>
       <Col xs={10} md={6}>
         <Card
-          headerImage={profileImg}
+          headerImage={jobProfileImg}
+          iconImage={jobProfileIcon}
           title="Perfil laboral"
-          jobProfile={jobProfile}
         />
       </Col>
       <Col xs={10} md={6}>
         <Card
           headerImage={chargeImg}
+          iconImage={chargetIcon}
           title="Perfil de cargo"
-          jobProfile={jobProfile}
         />
       </Col>
       <Col xs={10} md={6}>
         <Card
           headerImage={talentImg}
+          iconImage={talentIcon}
           title="Descubrimiento de talento"
-          jobProfile={jobProfile}
         />
       </Col>
       <Col xs={10} md={6}>
         <Card
           headerImage={connectionImg}
+          iconImage={contectionIcon}
           title="Conexión laboral"
-          jobProfile={jobProfile}
         />
       </Col>
     </Row>
