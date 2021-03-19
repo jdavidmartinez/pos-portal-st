@@ -1,10 +1,10 @@
 import { Card } from "react-bootstrap";
 
 import "../../../assets/css/card.css";
-import servicio1 from "../../../assets/img/servicio1.png";
+//import servicio1 from "../../../assets/img/servicio1.png";
 import P_Laboral from "../../../assets/img/P_Laboral.svg";
 
-const cardType = () => {
+const cardType = (props) => {
   return (
     <Card
       style={{
@@ -15,7 +15,7 @@ const cardType = () => {
         borderRadius: "36px",
       }}
     >
-      <Card.Img variant="top" src={servicio1} style={{ width: "100%" }} />
+      <Card.Img variant="top" src={props.imgServiceCard1} style={{ width: "100%" }} />
       <Card.Body>
         <div
           style={{
