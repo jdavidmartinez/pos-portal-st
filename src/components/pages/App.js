@@ -1,4 +1,3 @@
-import React from 'react';
 import AboutUs from '../layouts/AboutUs';
 import Header from '../layouts/Header';
 import Features from '../layouts/Features';
@@ -7,7 +6,7 @@ import Companies from '../layouts/Companies';
 import Bulletin from '../layouts/Bulletin';
 
 import '../../assets/css/App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
