@@ -7,6 +7,9 @@ import profileImg from '../../assets/img/profile-card.png';
 import talentImg from '../../assets/img/talent-card.png';
 import '../../assets/css/services.css';
 
+import connectionImg from '../../assets/img/connection-card.png';
+import chargeImg from '../../assets/img/charge-card.png';
+
 const Services = () => (
   <section>
     <Row>
@@ -24,7 +27,7 @@ const Services = () => (
       </Col>
       <Col xs={10} md={6}>
         <Card
-          headerImage={profileImg}
+          headerImage={chargeImg}
           title="Perfil de cargo"
           jobProfile={jobProfile}
         />
@@ -38,7 +41,7 @@ const Services = () => (
       </Col>
       <Col xs={10} md={6}>
         <Card
-          headerImage={profileImg}
+          headerImage={connectionImg}
           title="Conexión laboral"
           jobProfile={jobProfile}
         />
