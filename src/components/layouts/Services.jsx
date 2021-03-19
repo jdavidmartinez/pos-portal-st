@@ -3,10 +3,10 @@ import { Col, Row } from 'react-bootstrap';
 import Card from '../UI/Cards/Card';
 
 // Icons
-import jobProfileIcon from '../../assets/img/job-profile.svg';
-import talentIcon from '../../assets/img/P_Talento.svg';
-import contectionIcon from '../../assets/img/P_Conexion.svg';
-import chargetIcon from '../../assets/img/P_Cargo.svg';
+import jobProfileIcon from '../../assets/img/job-profile-icon.svg';
+import talentIcon from '../../assets/img/talent-icon.svg';
+import contectionIcon from '../../assets/img/connection-icon.svg';
+import chargetIcon from '../../assets/img/rol-profile-icon.svg';
 
 // Card's header image
 import chargeImg from '../../assets/img/charge-card.png';
