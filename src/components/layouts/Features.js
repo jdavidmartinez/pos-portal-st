@@ -11,21 +11,21 @@ export default function Features() {
       <Title title = '¿Por qué nosotros?' />    
     <div className='containerFeature'>
       <Box
-            src = {identify}
+            src = {'https://cadenaser00.epimg.net/ser/imagenes/2014/12/17/television/1418786070_064451_1418786171_noticia_normal.jpg'}
             alt = 'Identify'
-            titleCard = 'Identificamos'
+            title = 'Identificamos'
             description = 'Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum'
       />
       <Box
-            src = {acompañamiento}
+            src = { 'https://cadenaser00.epimg.net/ser/imagenes/2014/12/17/television/1418786070_064451_1418786171_noticia_normal.jpg'}
             alt = 'Acompañamiento'
-            titleCard = 'Acompañamiento'
+            title= 'Acompañamiento'
             description = 'Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum'
       />
       <Box
-            src = {conexion}
+            src = {'https://cadenaser00.epimg.net/ser/imagenes/2014/12/17/television/1418786070_064451_1418786171_noticia_normal.jpg'}
             alt = 'Conexion'
-            titleCard = 'Conectamos'
+            title = 'Conectamos'
             description = 'Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum'
       />
       </div>       
