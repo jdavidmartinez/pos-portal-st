@@ -1,10 +1,14 @@
-export default function Title({ title }) {
-  return (
-    <>
-      <h2>
-        {title}
-      </h2>
-      <hr />
-    </>
-  );
-}
+import PropTypes from 'prop-types';
+
+const Title = ({ title }) => (
+  <>
+    <h2>{title}</h2>
+    <hr />
+  </>
+)
+
+Title.propTypes = {
+  title: PropTypes.string.isRequired
+};
+
+export default Title;

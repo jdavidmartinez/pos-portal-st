@@ -1,9 +1,11 @@
 import { Col, Row } from 'react-bootstrap';
 
+// Components
 import Card from '../UI/Cards/Card';
+
+// assets
 import profileImg from '../../assets/img/profile-card.png';
 import talentImg from '../../assets/img/talent-card.png';
-
 import '../../assets/css/services.css';
 
 const Services = () => (

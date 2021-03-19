@@ -15,4 +15,4 @@
 
 > ## Juan Pablo Lombana
 
-* Diseñador gráfico
+* UI/UX Designer

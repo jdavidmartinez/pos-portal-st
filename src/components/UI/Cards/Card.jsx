@@ -1,10 +1,9 @@
+import PropTypes from 'prop-types';
 import { Card } from 'react-bootstrap';
 
 import '../../../assets/css/card.css';
-// import servicio1 from "../../../assets/img/servicio1.png";
-import P_Laboral from '../../../assets/img/P_Laboral.svg';
 
-const cardType = (props) => (
+const CardType = ({ headerImage, pLaboral, title }) => (
   <Card
     style={{
       width: '31rem',
@@ -14,7 +13,7 @@ const cardType = (props) => (
       borderRadius: '36px'
     }}
   >
-    <Card.Img variant="top" src={props.headerImage} style={{ width: '100%' }} />
+    <Card.Img variant="top" src={headerImage} style={{ width: '100%' }} />
     <Card.Body>
       <div
         style={{
@@ -23,7 +22,7 @@ const cardType = (props) => (
           fontWeight: 'bold'
         }}
       >
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title>{title}</Card.Title>
       </div>
       <div
         style={{
@@ -42,7 +41,7 @@ const cardType = (props) => (
           convallis facilisis
         </Card.Text>
         <Card.Img
-          src={P_Laboral}
+          src={pLaboral}
           style={{ width: '20%', paddingLeft: '40px' }}
           className="icon-image"
         />
@@ -50,4 +49,11 @@ const cardType = (props) => (
     </Card.Body>
   </Card>
 );
-export default cardType;
+
+CardType.propTypes = {
+  headerImage: PropTypes.string.isRequired,
+  pLaboral: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired
+};
+
+export default CardType;

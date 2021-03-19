@@ -1,12 +1,14 @@
+import PropTypes from 'prop-types';
+
 import '../../../assets/css/features.css';
 
 const Box = ({
-  imagen, alt, title, description
+  alt, description, image, title
 }) => (
   <>
     <div className="container">
       <div className="myImage">
-        <img src={imagen} alt={alt} />
+        <img src={image} alt={alt} />
       </div>
       <h3>{title}</h3>
       <p>
@@ -15,5 +17,12 @@ const Box = ({
     </div>
   </>
 )
+
+Box.propTypes = {
+  alt: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired
+};
 
 export default Box;
