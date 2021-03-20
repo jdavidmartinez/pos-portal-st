@@ -1,5 +1,5 @@
-.header-top-bar{
-  background:#fff;
+.header-top-bar {
+  background: #fff;
   border-radius: 8px;
   display: flex;
   height: 3em;
@@ -13,37 +13,59 @@
   width: 10%;
 }
 
-.header-main-button{
+.header-ingress-button, .header-evaluate-hv-button {
   background-color: #760543;
   border-radius: 0.8em;
   color: #fff;
   cursor: pointer;
   font-family: 'poppinsbold';
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.header-ingress-button {
   font-size: 0.7em;
   margin: 0.85em 1em;
   padding: 0.5em 1.5em;
-  text-align: center;
   width: 10em;
 }
 
-.header-main-button:hover {
-  background-color: #580a35;
+.header-evaluate-hv-button {
+  font-size: 0.9em;
+  margin: 0.85em 0;
+  padding: 1em 1.5em;
+  width: 12.5em;
 }
 
-
-.content-header {
-  display: grid;
-  grid-template-columns: repeat(2, 35%);
-  justify-content: center;
-  width: 80%;
+.header-ingress-button:hover, .header-evaluate-hv-button:hover {
+  background-color: #3d3838;
 }
 
-.cv-text{
+.header-info {
+  padding: 8em 0 0 2em;
+}
+
+.header-content-title {
   font-size: 2.5em;
+  font-weight: 500;
 }
 
-p {
-  font-size: 0.8em;
+.header-content-title:last-child {
+  font-family: 'poppinsbold';
+}
+
+.header-content-text {
+  font-size: 0.7em;
+  margin: 1.5em 0;
+}
+
+.hero {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.hero:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 420px) {
