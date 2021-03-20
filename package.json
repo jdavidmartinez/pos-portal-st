@@ -20,7 +20,8 @@
     "build": "react-scripts build",
     "lint": "eslint .",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test --env=jsdom --watchAll",
+    "test:coverage": "react-scripts test --env=jsdom --watchAll false --coverage --colors --forceExit --detectOpenHandles"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -58,6 +59,21 @@
     "extends": [
       "airbnb",
       "react-app"
+    ]
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 0,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
+    },
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/path/to/dir/"
     ]
   }
 }
