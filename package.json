@@ -21,7 +21,8 @@
     "lint": "eslint .",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom --watchAll",
-    "test:coverage": "react-scripts test --env=jsdom --watchAll false --coverage --colors --forceExit --detectOpenHandles"
+    "test:coverage": "react-scripts test --env=jsdom --watchAll false --coverage --colors --forceExit --detectOpenHandles",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -38,6 +39,7 @@
   "devDependencies": {
     "@typescript-eslint/parser": "^4.18.0",
     "autoprefixer": "^9.8.6",
+    "conventional-changelog-cli": "^2.1.1",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
