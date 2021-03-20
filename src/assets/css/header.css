@@ -46,8 +46,8 @@
 }
 
 .header-content-title {
+  font-family: 'poppinssemibold';
   font-size: 2.5em;
-  font-weight: 500;
 }
 
 .header-content-title:last-child {

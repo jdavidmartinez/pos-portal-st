@@ -33,11 +33,8 @@ const Header = () => (
         </Row>
 
       </Col>
-      <Col md={5}>
+      <Col md={6}>
         <img src={hero} alt="hero" className="hero" />
-      </Col>
-      <Col md={1}>
-        whats
       </Col>
     </Row>
   </header>
