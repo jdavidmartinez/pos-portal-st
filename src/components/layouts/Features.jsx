@@ -1,8 +1,9 @@
-import Title from '../UI/Titles/Title';
 import Box from '../UI/Box/Box';
-import identify from '../../assets/img/Identify.png';
-import acompañamiento from '../../assets/img/Acompañamiento.png';
-import conexion from '../../assets/img/Conexion.png';
+import Title from '../UI/Titles/Title';
+
+import accompany from '../../assets/img/accompany.png';
+import connection from '../../assets/img/connection.png';
+import identify from '../../assets/img/identify.png';
 
 export default function Features() {
   return (
@@ -10,19 +11,19 @@ export default function Features() {
       <Title title="¿Por qué nosotros?" />
       <div className="containerFeature">
         <Box
-          src={identify}
+          image={identify}
           alt="Identify"
           title="Identificamos"
           description="Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
         />
         <Box
-          src={acompañamiento}
+          image={accompany}
           alt="Acompañamiento"
           title="Acompañamiento"
           description="Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
         />
         <Box
-          src={conexion}
+          image={connection}
           alt="Conexion"
           title="Conectamos"
           description="Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"

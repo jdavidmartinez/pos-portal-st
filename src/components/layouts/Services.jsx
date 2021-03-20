@@ -1,9 +1,8 @@
 import { Col, Row } from 'react-bootstrap';
 
-// Components
 import Card from '../UI/Cards/Card';
 
-// assets
+import jobProfile from '../../assets/img/job-profile.svg';
 import profileImg from '../../assets/img/profile-card.png';
 import talentImg from '../../assets/img/talent-card.png';
 import '../../assets/css/services.css';
@@ -17,16 +16,32 @@ const Services = () => (
     </Row>
     <Row>
       <Col xs={10} md={6}>
-        <Card headerImage={profileImg} title="Perfil laboral" />
+        <Card
+          headerImage={profileImg}
+          title="Perfil laboral"
+          jobProfile={jobProfile}
+        />
       </Col>
       <Col xs={10} md={6}>
-        <Card headerImage={profileImg} title="Perfil de cargo" />
+        <Card
+          headerImage={profileImg}
+          title="Perfil de cargo"
+          jobProfile={jobProfile}
+        />
       </Col>
       <Col xs={10} md={6}>
-        <Card headerImage={talentImg} title="Descubrimiento de talento" />
+        <Card
+          headerImage={talentImg}
+          title="Descubrimiento de talento"
+          jobProfile={jobProfile}
+        />
       </Col>
       <Col xs={10} md={6}>
-        <Card headerImage={profileImg} title="Conexión laboral" />
+        <Card
+          headerImage={profileImg}
+          title="Conexión laboral"
+          jobProfile={jobProfile}
+        />
       </Col>
     </Row>
   </section>
