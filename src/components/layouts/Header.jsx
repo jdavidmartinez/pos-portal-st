@@ -1,7 +1,7 @@
 import { Col, Row } from 'react-bootstrap';
 
 import hero from '../../assets/img/header-girl.png';
-import logo from '../../assets/logos/P1-10.png';
+import logo from '../../assets/logos/logo.png';
 
 import '../../assets/css/header.css';
 
