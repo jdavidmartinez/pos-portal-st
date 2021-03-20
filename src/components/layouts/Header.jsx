@@ -1,9 +1,15 @@
 import { Col, Row } from 'react-bootstrap';
 
+// Images and styles assets
 import hero from '../../assets/img/header-girl.png';
 import logo from '../../assets/logos/logo.png';
-
 import '../../assets/css/header.css';
+
+// Icon assets
+import facebookIcon from '../../assets/icons/facebook-icon.svg';
+import instagramIcon from '../../assets/icons/instagram-icon.svg';
+import linkedinIcon from '../../assets/icons/linkedin-icon.svg';
+import whatsAppIcon from '../../assets/icons/whatsapp-icon.svg';
 
 const Header = () => (
   <header>
@@ -31,10 +37,17 @@ const Header = () => (
             <div className="header-evaluate-hv-button">Evaluar HV </div>
           </Col>
         </Row>
-
       </Col>
       <Col md={6}>
         <img src={hero} alt="hero" className="hero" />
+      </Col>
+    </Row>
+    <Row className="justify-content-end">
+      <Col md={2} className="header-bottom-bar">
+        <img src={facebookIcon} alt="logo" className="icons" />
+        <img src={instagramIcon} alt="logo" className="icons" />
+        <img src={linkedinIcon} alt="logo" className="icons" />
+        <img src={whatsAppIcon} alt="logo" className="icons" />
       </Col>
     </Row>
   </header>

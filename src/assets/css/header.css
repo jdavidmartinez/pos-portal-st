@@ -1,5 +1,5 @@
 .header-top-bar {
-  background: #fff;
+  background-color: #fff;
   border-radius: 8px;
   display: flex;
   height: 3em;
@@ -66,6 +66,18 @@
 
 .hero:hover {
   opacity: 0.8;
+}
+
+.header-bottom-bar {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  height: 1em;
+  justify-content: space-between;
+}
+
+.icons {
+  width: 5%;
 }
 
 @media (max-width: 420px) {
