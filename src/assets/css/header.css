@@ -1,38 +1,41 @@
-.bar-header{
+.header-top-bar{
   background:#fff;
   border-radius: 8px;
   display: flex;
-  height: 50px;
+  height: 3em;
   justify-content: space-between;
-  margin: 3em 0;
-  width: 80%;
+  margin: 1.8em 1.3em;
 }
 
-.logo-header {
+.header-logo {
+  margin: 0.7em;
   pointer-events: none;
+  width: 10%;
 }
+
+.header-main-button{
+  background-color: #760543;
+  border-radius: 0.8em;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'poppinsbold';
+  font-size: 0.7em;
+  margin: 0.85em 1em;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  width: 10em;
+}
+
+.header-main-button:hover {
+  background-color: #580a35;
+}
+
 
 .content-header {
   display: grid;
   grid-template-columns: repeat(2, 35%);
   justify-content: center;
   width: 80%;
-}
-
-.main-button{
-  background-color: #760543;
-  border: 2px solid #760543;
-  border-radius: 8px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 14px;
-  margin: 0.5em 1em;
-  max-width: 140px;
-  padding: 0.4em 1.5em;
-}
-
-.main-button:hover {
-  background-color: #580a35;
 }
 
 .cv-text{

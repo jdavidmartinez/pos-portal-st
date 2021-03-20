@@ -8,10 +8,10 @@ import '../../assets/css/header.css';
 const Header = () => (
   <header>
     <Row className="justify-content-center">
-      <div className="bar-header">
-        <img src={logo} alt="logo" className="logo-header" />
-        <div className="main-button">Ingresar</div>
-      </div>
+      <Col md={10} className="header-top-bar">
+        <img src={logo} alt="logo" className="header-logo" />
+        <div className="header-main-button">Ingresar</div>
+      </Col>
     </Row>
     <Row className="justify-content-center">
       <Col xs={10} md={5}>
@@ -20,7 +20,7 @@ const Header = () => (
           Creación de hoja de vida, guía para llegar al empleo
           deseado y capacitación para la entrevista de trabajo.
         </p>
-        <div className="main-button">Evaluar HV</div>
+        <div className="header-main-button">Evaluar HV</div>
       </Col>
       <Col xs={10} md={5}>
         <img src={hero} alt="hero" className="hero" />
