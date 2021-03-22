@@ -2,7 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 10px 10px;
+  gap: 6em 6em;
+  padding-left: 6em;
+  margin-right: 6em;
+  
+  
 }
 
 .container {
@@ -15,6 +19,8 @@
   border-radius: 10%;
   padding-left: 1em;
   margin-top: 3em;
+  margin-right: 30em;
+  
 }
 
 .myImage {
@@ -32,35 +38,6 @@
   object-fit: contain;
 }
 
-.container {
-  width: 270px;
-  height: 200px;
-  background-color: rgb(176, 190, 190);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  border-radius: 10%;
-  padding-left: 1em;
-  margin-top: 3em;
-}
-
-.myImage {
-  background-color: black;
-  width: 4.37em;
-  height: 4.37em;
-  margin-top: -2.18em;
-  margin-left: 1.25em;
-  border-radius: 10%;
-  align-self: flex-end;
-}
-
-.myImage img {
-  width: 100%;
-  object-fit: contain;
-}
-
-title {
-  color: #760543;
-  text-align: center;
-  font-size: medium;
+.title{
+  text-align:  center;
 }
