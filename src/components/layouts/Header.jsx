@@ -71,7 +71,14 @@ const Header = () => (
         </a>
       </Col>
       <Col md={1}>
-        <img src={whatsAppIcon} alt="empleapp whatsapp link" className="whatsapp-button" />
+        <a
+        // eslint-disable-next-line max-len
+          href="https://api.whatsapp.com/send?phone=573002507458&text=Hola%20Quiero%20Saber%20M%c3%a1s&source=&data=&app_absent="
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={whatsAppIcon} alt="empleapp whatsapp link" className="whatsapp-button" />
+        </a>
       </Col>
     </Row>
   </header>
