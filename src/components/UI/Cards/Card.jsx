@@ -6,11 +6,15 @@ import '../../../assets/css/card.css';
 const CardType = ({ headerImage, iconImage, title }) => (
   <Card
     style={{
-      width: '31rem',
+      width: '28rem',
+      height: '20rem',
       backgroundColor: '#f2f2f2',
       border: '1px solid #eee',
       boxShadow: '0 2px 15px #ccc',
-      borderRadius: '36px'
+      borderRadius: '36px',
+      margin: '3em',
+      padding: '80px',
+      float: 'left'
     }}
   >
     <Card.Img variant="top" src={headerImage} style={{ width: '100%' }} />
@@ -33,13 +37,13 @@ const CardType = ({ headerImage, iconImage, title }) => (
           boxSizing: 'border-box'
         }}
       >
-        <Card.Text>
+        {/* <Card.Text>
           Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
           hendrerit orci at penatibus potenti, cursus condimentum porta risus
           morbi sollicitudin. Auctor himenaeos fames egestas commodo non
           ligula tempor class, feugiat cum dignissim arcu bibendum est
           convallis facilisis
-        </Card.Text>
+        </Card.Text> */}
         <Card.Img
           src={iconImage}
           style={{ width: '20%', paddingLeft: '40px' }}
