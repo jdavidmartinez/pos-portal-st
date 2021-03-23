@@ -55,8 +55,3 @@ const Services = () => (
 );
 
 export default Services;
-
-/* profileText = 'text about Profile Card';
-talentText = 'text avout Talent Card';
-connectionText = 'Text about Connection Card';
-chargeText = 'Text about Charge Card'; */
