@@ -8,8 +8,8 @@
   flex-direction: row-reverse;
   justify-content: center;
   
+  
 }
-.CardType{
-  margin-left: 30em;
-
+.title{
+  font-size: small;
 }

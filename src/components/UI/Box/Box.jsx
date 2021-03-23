@@ -10,7 +10,7 @@ const Box = ({
       <div className="myImage">
         <img src={image} alt={alt} />
       </div>
-      <h3>{title}</h3>
+      <h3 className="titleCard">{title}</h3>
       <p>
         {description}
       </p>

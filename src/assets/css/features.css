@@ -20,7 +20,8 @@
   padding-left: 1em;
   margin-top: 3em;
   margin-right: 30em;
-  
+  margin-block-end: 6em;
+
 }
 
 .myImage {
@@ -37,7 +38,14 @@
   width: 100%;
   object-fit: contain;
 }
-
-.title{
-  text-align:  center;
+.divTitle{
+  display:flex;
+  justify-content: center;
+  margin-block-end: 6em;
+  font-size: smaller;
 }
+.titleCard{
+  color:#760543;
+  font-size: 1em;
+}
+ 

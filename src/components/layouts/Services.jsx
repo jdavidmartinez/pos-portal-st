@@ -13,15 +13,14 @@ import chargeImg from '../../assets/img/charge-card.png';
 import connectionImg from '../../assets/img/connection-card.png';
 import jobProfileImg from '../../assets/img/profile-card.png';
 import talentImg from '../../assets/img/talent-card.png';
+import Title from '../UI/Titles/Title'
 import '../../assets/css/services.css';
 
 const Services = () => (
   <section>
-    <Row>
-      <Col xs={10}>
-        <h1 className="services-title">Servicios</h1>
-      </Col>
-    </Row>
+    <div className="divTitle">
+      <Title className="divTitle" title="Servicios" />
+    </div>
     <Row>
       <Col xs={10} md={6}>
         <Card
