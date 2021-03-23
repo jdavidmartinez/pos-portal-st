@@ -13,7 +13,10 @@ const Companies = () => (
       </Col>
     </Row>
     <Row className="cardStyle">
-      <Col xs={10} md={6} className="profileCard">
+      <Col xs={10} md={4} className="profileCard py-5">
+        <CardCompanies headerImage={companiesImg} title="Perfil laboral" />
+      </Col>
+      <Col xs={10} md={4} className="profileCard py-5">
         <CardCompanies headerImage={companiesImg} title="Perfil laboral" />
       </Col>
     </Row>
