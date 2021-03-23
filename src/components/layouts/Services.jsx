@@ -22,28 +22,28 @@ const Services = () => (
       <Title className="divTitle" title="Servicios" />
     </div>
     <Row>
-      <Col xs={10} md={6}>
+      <Col xs={10} md={6} className="py-5">
         <Card
           headerImage={jobProfileImg}
           iconImage={jobProfileIcon}
           title="Perfil laboral"
         />
       </Col>
-      <Col xs={10} md={6}>
+      <Col xs={10} md={6} className="py-5">
         <Card
           headerImage={chargeImg}
           iconImage={chargetIcon}
           title="Perfil de cargo"
         />
       </Col>
-      <Col xs={10} md={6}>
+      <Col xs={10} md={6} className="py-5">
         <Card
           headerImage={talentImg}
           iconImage={talentIcon}
           title="Descubrimiento de talento"
         />
       </Col>
-      <Col xs={10} md={6}>
+      <Col xs={10} md={6} className="py-5">
         <Card
           headerImage={connectionImg}
           iconImage={contectionIcon}
@@ -55,3 +55,8 @@ const Services = () => (
 );
 
 export default Services;
+
+/* profileText = 'text about Profile Card';
+talentText = 'text avout Talent Card';
+connectionText = 'Text about Connection Card';
+chargeText = 'Text about Charge Card'; */

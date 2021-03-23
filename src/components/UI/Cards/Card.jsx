@@ -11,7 +11,8 @@ const CardType = ({ headerImage, iconImage, title }) => (
       backgroundColor: '#f2f2f2',
       border: '1px solid #eee',
       boxShadow: '0 2px 15px #ccc',
-      borderRadius: '36px'
+      borderRadius: '36px',
+      margin: 'auto'
     }}
   >
     <Card.Img variant="top" src={headerImage} style={{ width: '100%' }} />
@@ -30,13 +31,20 @@ const CardType = ({ headerImage, iconImage, title }) => (
           display: 'flex'
         }}
       >
-        <Card.Text>
+        <Card.Text style={{ paddingRight: '20px' }}>
           Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
           hendrerit orci at penatibus potenti, cursus condimentum porta risus
         </Card.Text>
         <Card.Img
           src={iconImage}
-          style={{ width: '20%' }}
+          style={{
+            width: '20%',
+            backgroundColor: '#760543',
+            padding: '10px',
+            margin: 'auto',
+            position: 'relative',
+            top: '-20px'
+          }}
           className="icon-image"
         />
       </div>
