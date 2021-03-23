@@ -11,17 +11,13 @@ const CardType = ({ headerImage, iconImage, title }) => (
       backgroundColor: '#f2f2f2',
       border: '1px solid #eee',
       boxShadow: '0 2px 15px #ccc',
-      borderRadius: '36px',
-      margin: '3em',
-      padding: '80px',
-      float: 'left'
+      borderRadius: '36px'
     }}
   >
     <Card.Img variant="top" src={headerImage} style={{ width: '100%' }} />
     <Card.Body>
       <div
         style={{
-          padding: '30px 0 0 25px',
           color: '#760543',
           fontWeight: 'bold'
         }}
@@ -31,22 +27,16 @@ const CardType = ({ headerImage, iconImage, title }) => (
       <div
         style={{
           width: '100%',
-          display: 'flex',
-          justifyContent: 'space-between',
-          padding: '20px 25px 30px 25px ',
-          boxSizing: 'border-box'
+          display: 'flex'
         }}
       >
-        {/* <Card.Text>
+        <Card.Text>
           Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
           hendrerit orci at penatibus potenti, cursus condimentum porta risus
-          morbi sollicitudin. Auctor himenaeos fames egestas commodo non
-          ligula tempor class, feugiat cum dignissim arcu bibendum est
-          convallis facilisis
-        </Card.Text> */}
+        </Card.Text>
         <Card.Img
           src={iconImage}
-          style={{ width: '20%', paddingLeft: '40px' }}
+          style={{ width: '20%' }}
           className="icon-image"
         />
       </div>
