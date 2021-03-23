@@ -16,6 +16,9 @@ const Companies = () => (
       <Col xs={10} md={6} className="profileCard">
         <CardCompanies headerImage={companiesImg} title="Perfil laboral" />
       </Col>
+      <Col xs={10} md={6} className="profileCard">
+        <CardCompanies headerImage={companiesImg} title="Perfil laboral" />
+      </Col>
     </Row>
   </section>
 );
