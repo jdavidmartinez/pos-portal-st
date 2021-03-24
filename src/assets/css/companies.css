@@ -1,6 +1,6 @@
 .CompanieCard{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: center;
     
 }

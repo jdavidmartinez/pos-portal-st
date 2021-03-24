@@ -21,7 +21,7 @@ const CardBrandsCompanies = ({
     }}
   >
     <Card.Title>Empresas aliadas</Card.Title>
-    <div style={{ display: 'flex' }}>
+    <div>
       <Card.Img
         src={allyImage}
         style={{ width: '10%' }}
@@ -40,7 +40,7 @@ const CardBrandsCompanies = ({
       />
     </div>
     <Card.Title>Empresas con las que hemos trabajado</Card.Title>
-    <div style={{ display: 'flex' }}>
+    <div>
       <Card.Img
         src={customImg}
         style={{ width: '10%' }}

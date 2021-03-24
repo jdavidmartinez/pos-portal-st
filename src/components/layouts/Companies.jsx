@@ -1,6 +1,7 @@
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 
 import CardCompanies from '../UI/Cards/CardCompanies';
+
 import CardBrandsCompanies from '../UI/Cards/CardBrandsCompanies';
 import companiesImg from '../../assets/img/companies.png';
 import avtImg from '../../assets/img/avt_Ingenieria.png';
@@ -15,9 +16,9 @@ import '../../assets/css/companies.css';
 
 const Companies = () => (
   <section>
-    <div style={{ display: 'block' }}>
-      <Row className="CompanieCard">
-        <Col xs={10} md={9} className="">
+    <Container style={{ display: 'flex' }}>
+      <Row>
+        <Col md={6}>
           <CardBrandsCompanies
             allyImage={camaraComercioImg}
             allyImageTwo={fondeEmprenderImg}
@@ -27,10 +28,12 @@ const Companies = () => (
             customImgtwo={mesonImg}
             customImgThird={marquezImg}
           />
+        </Col>
+        <Col md={6}>
           <CardCompanies headerImage={companiesImg} />
         </Col>
       </Row>
-    </div>
+    </Container>
   </section>
 );
 
