@@ -27,6 +27,8 @@ const Services = () => (
           headerImage={jobProfileImg}
           iconImage={jobProfileIcon}
           title="Perfil laboral"
+          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
+          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
         />
       </Col>
       <Col xs={10} md={6} className="py-5">
@@ -34,6 +36,8 @@ const Services = () => (
           headerImage={chargeImg}
           iconImage={chargetIcon}
           title="Perfil de cargo"
+          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
+          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
         />
       </Col>
       <Col xs={10} md={6} className="py-5">
@@ -41,6 +45,8 @@ const Services = () => (
           headerImage={talentImg}
           iconImage={talentIcon}
           title="Descubrimiento de talento"
+          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
+          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
         />
       </Col>
       <Col xs={10} md={6} className="py-5">
@@ -48,6 +54,8 @@ const Services = () => (
           headerImage={connectionImg}
           iconImage={contectionIcon}
           title="Conexión laboral"
+          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
+          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
         />
       </Col>
     </Row>
@@ -55,8 +63,3 @@ const Services = () => (
 );
 
 export default Services;
-
-/* profileText = 'text about Profile Card';
-talentText = 'text avout Talent Card';
-connectionText = 'Text about Connection Card';
-chargeText = 'Text about Charge Card'; */

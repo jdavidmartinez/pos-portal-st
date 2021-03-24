@@ -3,7 +3,12 @@ import { Card } from 'react-bootstrap';
 
 import '../../../assets/css/card.css';
 
-const CardType = ({ headerImage, iconImage, title }) => (
+const CardType = ({
+  headerImage,
+  iconImage,
+  title,
+  text
+}) => (
   <Card
     style={{
       width: '28rem',
@@ -32,8 +37,7 @@ const CardType = ({ headerImage, iconImage, title }) => (
         }}
       >
         <Card.Text style={{ paddingRight: '20px' }}>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus
+          {text}
         </Card.Text>
         <Card.Img
           src={iconImage}
@@ -55,7 +59,8 @@ const CardType = ({ headerImage, iconImage, title }) => (
 CardType.propTypes = {
   headerImage: PropTypes.string.isRequired,
   iconImage: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 };
 
 export default CardType;
