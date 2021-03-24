@@ -1,0 +1,29 @@
+stages:
+  - build
+  - release
+
+build:
+  image: node:latest
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+    - build
+  only:
+    - master
+
+deploy to s3:
+  image: "python:3.6.6"
+  stage: release
+  tags:
+    - deploy
+  only:
+    - master
+  dependencies:
+    - build
+  before_script:
+    - pip install awscli
+  script:
+    - aws s3 cp build s3://empleapp.co --recursive
