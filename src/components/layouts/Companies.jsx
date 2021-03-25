@@ -11,6 +11,7 @@ import camaraComercioImg from '../../assets/img/camara_comercio_armenia.png';
 import fondeEmprenderImg from '../../assets/img/fondo_emprender.png';
 import mirusImg from '../../assets/img/miruss_mart_solutions.png';
 import parqueSoftImg from '../../assets/img/PS_Corp.png';
+import atlanticsoftImg from '../../assets/img/Atlanticsoft.png';
 
 import '../../assets/css/companies.css';
 
@@ -27,6 +28,7 @@ const Companies = () => (
             customImg={avtImg}
             customImgtwo={mesonImg}
             customImgThird={marquezImg}
+            customImgFour={atlanticsoftImg}
           />
         </Col>
         <Col md={3}>
