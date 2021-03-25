@@ -3,10 +3,10 @@ import { Col, Row } from 'react-bootstrap';
 import Card from '../UI/Cards/Card';
 
 // Icons
-import jobProfileIcon from '../../assets/icons/job-profile-icon.svg';
-import talentIcon from '../../assets/icons/talent-icon.svg';
-import contectionIcon from '../../assets/icons/connection-icon.svg';
-import chargetIcon from '../../assets/icons/rol-profile-icon.svg';
+import whiteJobProfileIcon from '../../assets/icons/whiteProfile.svg';
+import whiteTalentIcon from '../../assets/icons/whiteTalent.svg';
+import whiteConnectionIcon from '../../assets/icons/whiteConnection.svg';
+import whiteChargeIcon from '../../assets/icons/whiteCharge.svg';
 
 // Card's header image
 import chargeImg from '../../assets/img/charge-card.png';
@@ -25,37 +25,40 @@ const Services = () => (
       <Col xs={10} md={6} className="py-5">
         <Card
           headerImage={jobProfileImg}
-          iconImage={jobProfileIcon}
+          iconImage={whiteJobProfileIcon}
           title="Perfil laboral"
-          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
+          text="asesoramos y potencializamos su hoja de via enfocándonos en
+          sus competencias y ofreciendo recomendaciones para que su perfil
+          se adapte al mercado laboral actual."
         />
       </Col>
       <Col xs={10} md={6} className="py-5">
         <Card
           headerImage={chargeImg}
-          iconImage={chargetIcon}
+          iconImage={whiteChargeIcon}
           title="Perfil de cargo"
-          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
+          text="En compañía de las empresas se perfila y crea el puesto de trabajo
+          de manera eficiente y precisa."
         />
       </Col>
       <Col xs={10} md={6} className="py-5">
         <Card
           headerImage={talentImg}
-          iconImage={talentIcon}
+          iconImage={whiteTalentIcon}
           title="Descubrimiento de talento"
-          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
+          text="Entregamos a la empresa 5 perfiles, los cuales se adaptan a las
+          especificaciones del cargo en el menor tiempo."
         />
       </Col>
       <Col xs={10} md={6} className="py-5">
         <Card
           headerImage={connectionImg}
-          iconImage={contectionIcon}
+          iconImage={whiteConnectionIcon}
           title="Conexión laboral"
-          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
+          text="Te acompañamos en todo el proceso de búsqueda de empleo
+          mediante un proceso completo de aplicación a vacantes,
+          preparación para entrevista y capacitación en temas de valor para
+          potencializar tu perfil."
         />
       </Col>
     </Row>

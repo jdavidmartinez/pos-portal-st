@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const CardCompanies = ({ headerImage }) => (
   <Card
     style={{
-      width: '31rem',
+      width: '30rem',
       margin: 'auto',
       backgroundColor: '#f2f2f2',
       border: '1px solid #eee',

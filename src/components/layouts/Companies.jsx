@@ -11,14 +11,15 @@ import camaraComercioImg from '../../assets/img/camara_comercio_armenia.png';
 import fondeEmprenderImg from '../../assets/img/fondo_emprender.png';
 import mirusImg from '../../assets/img/miruss_mart_solutions.png';
 import parqueSoftImg from '../../assets/img/PS_Corp.png';
+import atlanticsoftImg from '../../assets/img/Atlanticsoft.png';
 
 import '../../assets/css/companies.css';
 
 const Companies = () => (
   <section>
-    <Container style={{ display: 'flex' }}>
+    <Container>
       <Row>
-        <Col md={6}>
+        <Col md={9} className="py-5">
           <CardBrandsCompanies
             allyImage={camaraComercioImg}
             allyImageTwo={fondeEmprenderImg}
@@ -27,9 +28,10 @@ const Companies = () => (
             customImg={avtImg}
             customImgtwo={mesonImg}
             customImgThird={marquezImg}
+            customImgFour={atlanticsoftImg}
           />
         </Col>
-        <Col md={6}>
+        <Col md={3} className="py-5">
           <CardCompanies headerImage={companiesImg} />
         </Col>
       </Row>
