@@ -27,8 +27,9 @@ const Services = () => (
           headerImage={jobProfileImg}
           iconImage={jobProfileIcon}
           title="Perfil laboral"
-          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
+          text="asesoramos y potencializamos su hoja de via enfocándonos en
+          sus competencias y ofreciendo recomendaciones para que su perfil
+          se adapte al mercado laboral actual."
         />
       </Col>
       <Col xs={10} md={6} className="py-5">
@@ -36,8 +37,8 @@ const Services = () => (
           headerImage={chargeImg}
           iconImage={chargetIcon}
           title="Perfil de cargo"
-          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
+          text="En compañía de las empresas se perfila y crea el puesto de trabajo
+          de manera eficiente y precisa."
         />
       </Col>
       <Col xs={10} md={6} className="py-5">
@@ -45,8 +46,8 @@ const Services = () => (
           headerImage={talentImg}
           iconImage={talentIcon}
           title="Descubrimiento de talento"
-          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
+          text="Entregamos a la empresa 5 perfiles, los cuales se adaptan a las
+          especificaciones del cargo en el menor tiempo."
         />
       </Col>
       <Col xs={10} md={6} className="py-5">
@@ -54,8 +55,10 @@ const Services = () => (
           headerImage={connectionImg}
           iconImage={contectionIcon}
           title="Conexión laboral"
-          text="Lorem ipsum dolor sit amet consectetur adipiscing elit, quis nullam
-          hendrerit orci at penatibus potenti, cursus condimentum porta risus"
+          text="Te acompañamos en todo el proceso de búsqueda de empleo
+          mediante un proceso completo de aplicación a vacantes,
+          preparación para entrevista y capacitación en temas de valor para
+          potencializar tu perfil."
         />
       </Col>
     </Row>

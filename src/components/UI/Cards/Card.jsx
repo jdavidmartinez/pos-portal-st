@@ -11,8 +11,8 @@ const CardType = ({
 }) => (
   <Card
     style={{
-      width: '28rem',
-      height: '20rem',
+      width: '35rem',
+      height: '21rem',
       backgroundColor: '#f2f2f2',
       border: '1px solid #eee',
       boxShadow: '0 2px 15px #ccc',

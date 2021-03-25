@@ -18,7 +18,7 @@ const Companies = () => (
   <section>
     <Container style={{ display: 'flex' }}>
       <Row>
-        <Col md={6}>
+        <Col md={9}>
           <CardBrandsCompanies
             allyImage={camaraComercioImg}
             allyImageTwo={fondeEmprenderImg}
@@ -29,7 +29,7 @@ const Companies = () => (
             customImgThird={marquezImg}
           />
         </Col>
-        <Col md={6}>
+        <Col md={3}>
           <CardCompanies headerImage={companiesImg} />
         </Col>
       </Row>
