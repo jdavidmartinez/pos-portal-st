@@ -17,9 +17,9 @@ import '../../assets/css/companies.css';
 
 const Companies = () => (
   <section>
-    <Container style={{ display: 'flex' }}>
+    <Container>
       <Row>
-        <Col md={9}>
+        <Col md={9} className="py-5">
           <CardBrandsCompanies
             allyImage={camaraComercioImg}
             allyImageTwo={fondeEmprenderImg}
@@ -31,7 +31,7 @@ const Companies = () => (
             customImgFour={atlanticsoftImg}
           />
         </Col>
-        <Col md={3}>
+        <Col md={3} className="py-5">
           <CardCompanies headerImage={companiesImg} />
         </Col>
       </Row>

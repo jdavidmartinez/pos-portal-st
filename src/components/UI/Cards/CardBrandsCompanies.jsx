@@ -13,9 +13,9 @@ const CardBrandsCompanies = ({
 }) => (
   <Card
     style={{
-      width: '35rem',
-      height: '28rem',
-      margin: 'auto',
+      width: '40rem',
+      height: '33rem',
+      margin: '10px 10px 10px 10px',
       backgroundColor: '#f2f2f2',
       border: '1px solid #eee',
       boxShadow: '0 2px 15px #ccc',
@@ -34,7 +34,7 @@ const CardBrandsCompanies = ({
         borderRadius: '5px',
         position: 'relative',
         top: '20px',
-        left: '350px'
+        left: '63%'
       }}
     >
       Empresas aliadas
@@ -69,12 +69,12 @@ const CardBrandsCompanies = ({
         borderRadius: '5px',
         position: 'relative',
         top: '20px',
-        left: '127px'
+        left: '23%'
       }}
     >
       Empresas con las que hemos trabajado
     </Card.Title>
-    <div>
+    <div style={{ paddingTop: '50px' }}>
       <Card.Img
         src={customImg}
         style={{ width: '20%', padding: '10px', margin: '10px' }}
