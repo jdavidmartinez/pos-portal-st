@@ -4,13 +4,11 @@ import './about-us.css';
 
 const AboutUs = () => (
   <>
-    <section>
-      <div className="row">
-        <h1 className="col-xs-12 about-us-title">¿Quiénes somos?</h1>
-      </div>
-      <div className="row about-us">
-        <div className="">
-          <p className="">
+    <section className="row">
+      <h1 className="col-xs-12 about-us-title">¿Quiénes somos?</h1>
+      <div className="col-xs-12 about-us">
+        <div className="col-xs-4">
+          <p className="about-us-text">
             EmpleApp es una empresa que Conecta perfiles potenciales de una manera rapida,
             ágil y efectiva, enfocando su metodología en las personas, potencializando el
             perfil laboral e incrementando la visibilidad ante los reclutadores y buscadores
