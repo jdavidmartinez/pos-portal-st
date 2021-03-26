@@ -24,7 +24,7 @@ const Services = () => (
         headerImage={jobProfileImg}
         iconImage={whiteJobProfileIcon}
         title="Perfil laboral"
-        text="asesoramos y potencializamos su hoja de via enfocándonos en
+        text="Asesoramos y potencializamos su hoja de via enfocándonos en
           sus competencias y ofreciendo recomendaciones para que su perfil
           se adapte al mercado laboral actual."
         className="col-xs-6"

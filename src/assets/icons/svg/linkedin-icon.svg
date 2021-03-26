@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="100" height="100" viewBox="0 5 518 495"
+  version="1.1" id="svg4" sodipodi:docname="linkedin-icon.svg" inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata id="metadata10">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs8" />
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10"
+    gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920"
+    inkscape:window-height="1016" id="namedview6" showgrid="false" inkscape:zoom="1.18" inkscape:cx="129.66102"
+    inkscape:cy="98.305085" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1"
+    inkscape:current-layer="svg4" />
+  <path
+    d="M 0,60.22 C 0,43.553 5.8335,29.803 17.5,18.97 29.1665,8.1365 44.3335,2.72 63,2.72 c 18.3335,0 33.1665,5.333 44.5,16 11.6665,11 17.5,25.333 17.5,43 0,16 -5.6665,29.333 -17,40 -11.6665,11 -27,16.5 -46,16.5 h -0.5 c -18.3335,0 -33.1665,-5.5 -44.5,-16.5 C 5.6665,90.72 0,76.8865 0,60.22 Z m 6.5,437.5 v -334 h 111 v 334 z m 172.5,0 h 111 v -186.5 c 0,-11.667 1.3335,-20.667 4,-27 4.6665,-11.3335 11.75,-20.917 21.25,-28.75 9.5,-7.8335 21.4165,-11.75 35.75,-11.75 37.3335,0 56,25.1665 56,75.5 v 178.5 h 111 v -191.5 c 0,-49.3335 -11.6665,-86.75 -35,-112.25 -23.3335,-25.5 -54.1665,-38.25 -92.5,-38.25 -43,0 -76.5,18.5 -100.5,55.5 v 1 h -0.5 l 0.5,-1 v -47.5 H 179 c 0.6665,10.6665 1,43.833 1,99.5 0,55.6665 -0.3335,133.833 -1,234.5 z"
+    id="path2" inkscape:connector-curvature="0" style="stroke-width:0.5" />
+</svg>

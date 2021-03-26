@@ -19,23 +19,26 @@ const Features = () => (
           image={identify}
           alt="Identify"
           title="Identificamos"
-          description="Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+          description="Nos importa lo que deseas para tu futuro, en una entrevista inicial
+            entendemos las necesidades e inconvenientes que han surgido a lo largo del proceso
+            de búsqueda de empleo."
         />
         <Box
           image={accompany}
           alt="Acompañamiento"
           title="Perfilamos"
-          description="Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+          description="En un acompañamiento de 3 días encontramos habilidades y fortalezas del
+            perfil y lo plasmamos en un documento digital potencializado."
         />
         <Box
           image={connection}
           alt="Conexion"
           title="Conectamos"
-          description="Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+          description="Pasamos a la acción !! conociendo tu perfil y tus requerimientos continuamos
+            conectando con las empresas a nivel nacional e internacional."
         />
       </div>
     </section>
-
   </>
 );
 

@@ -5,9 +5,9 @@ import './header.css';
 import logo from '../../../assets/logos/empleapp-header-logo.png';
 import woman from '../../../assets/img/woman.png';
 
-import facebookIcon from '../../../assets/icons/facebook-icon.svg';
-import instagramIcon from '../../../assets/icons/instagram-icon.svg';
-import linkedinIcon from '../../../assets/icons/linkedin-icon.svg';
+import facebookIcon from '../../../assets/icons/svg/facebook-icon.svg';
+import instagramIcon from '../../../assets/icons/svg/instagram-icon.svg';
+import linkedinIcon from '../../../assets/icons/svg/linkedin-icon.svg';
 
 const Header = () => (
   <>
@@ -25,11 +25,17 @@ const Header = () => (
       </div>
 
       <div className="row between-xs header-info">
-        <div className="col-xs-4">
-          <h1 className="header-content-title">
-            Creamos y evaluamos tu
+        <div className="col-xs-4 header-content">
+          <p className="header-content-title">
+            Creamos
+          </p>
+          <p className="header-content-title">
+            y Evaluamos
+          </p>
+          <p className="header-content-title">
+            tu
             <strong className="header-content-title-strong"> Hoja de Vida</strong>
-          </h1>
+          </p>
           <p className="header-content-text">
             Envía tu CV, nuestros especialistas te entregarán sin costo una calificación
             inicial con retroalimentación del estado en el que se encuentra tu formato frente
@@ -41,11 +47,11 @@ const Header = () => (
             rel="noopener noreferrer"
             className="header-hv-button"
           >
-            !Empieza Ahora¡
+            ¡Empieza Ahora!
           </a>
         </div>
         <div className="col-xs-5">
-          <img src={woman} alt="empleapp woman" />
+          <img src={woman} alt="empleapp woman" className="header-woman" />
         </div>
       </div>
 
