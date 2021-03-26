@@ -4,17 +4,17 @@ import './features.css';
 
 import Box from '../../UI/Box/Box';
 
-import accompany from '../../../assets/icons-img/accompany-icon.png';
-import connection from '../../../assets/icons-img/connection-icon.png';
-import identify from '../../../assets/icons-img/identify-icon.png';
+import accompany from '../../../assets/icons/img/accompany-icon.png';
+import connection from '../../../assets/icons/img/connection-icon.png';
+import identify from '../../../assets/icons/img/identify-icon.png';
 
 const Features = () => (
   <>
     <section className="features">
       <div className="row center-xs">
-        <h2 className="col-xs-12 h2-titles features-title">¿Por que nosotros?</h2>
+        <h2 className="col-xs-12 h2-titles features-title">¿Por qué Nosotros?</h2>
       </div>
-      <div className="row">
+      <div className="row between-xs">
         <Box
           image={identify}
           alt="Identify"
@@ -34,7 +34,7 @@ const Features = () => (
           image={connection}
           alt="Conexion"
           title="Conectamos"
-          description="Pasamos a la acción !! conociendo tu perfil y tus requerimientos continuamos
+          description="¡Pasamos a la acción! conociendo tu perfil y tus requerimientos continuamos
             conectando con las empresas a nivel nacional e internacional."
         />
       </div>
