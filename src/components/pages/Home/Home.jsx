@@ -5,7 +5,7 @@ import AboutUs from '../../layouts/AboutUs/AboutUs';
 // import Companies from '../layouts/Companies';
 import Features from '../../layouts/Features/Features';
 import Header from '../../layouts/Header/Header';
-// import Services from '../layouts/Services';
+import Services from '../../layouts/Services/Services';
 //
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
@@ -15,8 +15,8 @@ const Home = () => (
     <Header />
     <AboutUs />
     <Features />
-    {/* <Services />
-    <Companies />
+    <Services />
+    {/* <Companies />
     <Bulletin /> */}
   </div>
 );
