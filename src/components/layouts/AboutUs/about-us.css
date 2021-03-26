@@ -1,10 +1,7 @@
-/* styles AboutUs layout-component */
+/* styles from AboutUs layout-component */
 
 .about-us-title {
-  font-family: 'medium';
-  font-size: var(--titles);
   margin: 140px 0;
-  text-align: center;
 }
 
 .about-us-text {

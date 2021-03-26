@@ -1,14 +1,10 @@
-/* styles Header layout-component */
+/* styles from Header layout-component */
 
 .header {
   height: 120vh;
   margin: auto;
   padding: 45px 0;
   width: 80%;
-}
-
-.header-arrow-right-icon {
-  margin-left: 0.5em;
 }
 
 .header-socials-icons-row {
@@ -18,7 +14,7 @@
 
 .header-content-text {
   font-size: 1em;
-  margin: 40px 0;
+  margin: 60px 0;
 }
 
 .header-content-title {
@@ -74,16 +70,6 @@
 }
 
 .header-social-icons {
-  margin: 5px;
-  width: 15%;
+  margin: 20px 10px;
+  width: 10%;
 }
-
-.header-whatsapp-button {
-  width: 50%;
-}
-
-/* @media (max-width: 420px) {
-  .header-woman {
-    width: 100%;
-  }
-} */

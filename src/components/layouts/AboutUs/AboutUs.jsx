@@ -5,7 +5,7 @@ import './about-us.css';
 const AboutUs = () => (
   <>
     <section className="row">
-      <h1 className="col-xs-12 about-us-title">¿Quiénes somos?</h1>
+      <h2 className="col-xs-12 h2-titles about-us-title">¿Quiénes somos?</h2>
       <div className="col-xs-12 about-us">
         <div className="col-xs-4">
           <p className="about-us-text">

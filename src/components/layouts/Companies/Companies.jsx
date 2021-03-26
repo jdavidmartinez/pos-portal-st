@@ -1,8 +1,10 @@
 /* Companies layout-component */
 
-import CardCompanies from '../../UI/Cards/CardCompanies';
+import './companies.css';
 
+import CardCompanies from '../../UI/Cards/CardCompanies';
 import CardBrandsCompanies from '../../UI/Cards/CardBrandsCompanies';
+
 import companiesImg from '../../../assets/img/companies.png';
 import avtImg from '../../../assets/img/avt_Ingenieria.png';
 import mesonImg from '../../../assets/img/hotel_meson.png';
@@ -12,8 +14,6 @@ import fondeEmprenderImg from '../../../assets/img/fondo_emprender.png';
 import mirusImg from '../../../assets/img/miruss_mart_solutions.png';
 import parqueSoftImg from '../../../assets/img/PS_Corp.png';
 import atlanticsoftImg from '../../../assets/img/Atlanticsoft.png';
-
-import './companies.css';
 
 const Companies = () => (
   <section className="row">

@@ -1,5 +1,7 @@
 /* Services layout-component */
 
+import './services.css';
+
 import Card from '../../UI/Cards/Card';
 
 import whiteJobProfileIcon from '../../../assets/icons/whiteProfile.svg';
@@ -12,12 +14,10 @@ import connectionImg from '../../../assets/img/connection-card.png';
 import jobProfileImg from '../../../assets/img/profile-card.png';
 import talentImg from '../../../assets/img/talent-card.png';
 
-import './services.css';
-
 const Services = () => (
   <section>
     <div className="row">
-      <h1 className="col-xs-12">Servicios</h1>
+      <h2 className="col-xs-12 h2-titles">Servicios</h2>
     </div>
     <div className="row">
       <Card

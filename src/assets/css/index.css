@@ -9,3 +9,9 @@
   padding: 0;
   text-decoration: none;
 }
+
+.h2-titles {
+  font-family: 'medium';
+  font-size: var(--titles);
+  text-align: center;
+}
