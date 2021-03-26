@@ -1,12 +1,17 @@
+@import url('./flexboxgrid.css');
+@import url('./variables.css');
 @import url('../fonts/fonts.css');
 * {
   box-sizing: border-box;
+  font-family: 'regular';
+  font-size: 16px;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
-body {
-  font-family: 'poppinsregular';
-  font-size: 16px;
-  max-width: 100vw;
+.h2-titles {
+  font-family: 'medium';
+  font-size: var(--titles);
+  text-align: center;
 }

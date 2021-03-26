@@ -1,0 +1,29 @@
+/* styles from AboutUs layout-component */
+
+.about-us-title {
+  margin: 140px 0;
+}
+
+.about-us-text {
+  color: var(--white);
+  font-size: 1em;
+  margin: 1em;
+  text-align: left;
+}
+
+.about-us {
+  background-image: url("../../../assets/img/drawer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  /* margin: auto; */
+  /* width: 80%; */
+}
+
+/* @media (max-width: 420px) {
+  .about-us-content {
+    font-size: 0.8em;
+    margin: 0.5em;
+    width: 100%;
+  }
+} */

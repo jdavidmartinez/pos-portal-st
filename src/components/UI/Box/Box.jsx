@@ -1,19 +1,17 @@
 import PropTypes from 'prop-types';
 
-import '../../../assets/css/features.css';
+import '../../layouts/Features/features.css';
 
 const Box = ({
   alt, description, image, title
 }) => (
   <>
-    <div className="container">
-      <div className="myImage">
+    <div className="features-card">
+      <div className="features-card-top-image">
         <img src={image} alt={alt} />
       </div>
-      <h3 className="titleCard">{title}</h3>
-      <p>
-        {description}
-      </p>
+      <h3 className="features-card-title">{title}</h3>
+      <p>{description}</p>
     </div>
   </>
 )
