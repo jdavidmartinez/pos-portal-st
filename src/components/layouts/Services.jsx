@@ -22,7 +22,7 @@ const Services = () => (
       <Title className="divTitle" title="Servicios" />
     </div>
     <Row>
-      <Col xs={10} md={6} className="py-5">
+      <Col>
         <Card
           headerImage={jobProfileImg}
           iconImage={whiteJobProfileIcon}
@@ -32,7 +32,7 @@ const Services = () => (
           se adapte al mercado laboral actual."
         />
       </Col>
-      <Col xs={10} md={6} className="py-5">
+      <Col>
         <Card
           headerImage={chargeImg}
           iconImage={whiteChargeIcon}
@@ -41,7 +41,7 @@ const Services = () => (
           de manera eficiente y precisa."
         />
       </Col>
-      <Col xs={10} md={6} className="py-5">
+      <Col>
         <Card
           headerImage={talentImg}
           iconImage={whiteTalentIcon}
@@ -50,7 +50,7 @@ const Services = () => (
           especificaciones del cargo en el menor tiempo."
         />
       </Col>
-      <Col xs={10} md={6} className="py-5">
+      <Col>
         <Card
           headerImage={connectionImg}
           iconImage={whiteConnectionIcon}

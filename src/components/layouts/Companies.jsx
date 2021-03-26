@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 import CardCompanies from '../UI/Cards/CardCompanies';
 
@@ -17,25 +17,23 @@ import '../../assets/css/companies.css';
 
 const Companies = () => (
   <section>
-    <Container>
-      <Row>
-        <Col md={9} className="py-5">
-          <CardBrandsCompanies
-            allyImage={camaraComercioImg}
-            allyImageTwo={fondeEmprenderImg}
-            allyImageThird={mirusImg}
-            allyImageFour={parqueSoftImg}
-            customImg={avtImg}
-            customImgtwo={mesonImg}
-            customImgThird={marquezImg}
-            customImgFour={atlanticsoftImg}
-          />
-        </Col>
-        <Col md={3} className="py-5">
-          <CardCompanies headerImage={companiesImg} />
-        </Col>
-      </Row>
-    </Container>
+    <Row>
+      <Col>
+        <CardBrandsCompanies
+          allyImage={camaraComercioImg}
+          allyImageTwo={fondeEmprenderImg}
+          allyImageThird={mirusImg}
+          allyImageFour={parqueSoftImg}
+          customImg={avtImg}
+          customImgtwo={mesonImg}
+          customImgThird={marquezImg}
+          customImgFour={atlanticsoftImg}
+        />
+      </Col>
+      <Col>
+        <CardCompanies headerImage={companiesImg} />
+      </Col>
+    </Row>
   </section>
 );
 

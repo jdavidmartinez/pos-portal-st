@@ -1,15 +1,11 @@
-.profileCard{
+.profileCard {
   margin: 20px;
-  
+}
+
+.cardStyle {
 
 }
-.cardStyle{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  
-  
-}
-.title{
+
+.title {
   font-size: small;
 }

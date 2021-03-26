@@ -1,0 +1,10 @@
+:root {
+  /* colors */
+  --primary: #760543;
+  --secondary: #3d3838;
+  --white: #ffffff;
+
+  /* properties */
+  --border-radius: 10px;
+  --titles: 2em;
+}
