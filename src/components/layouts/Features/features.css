@@ -1,0 +1,38 @@
+/* styles Features layout-component */
+
+.features {
+  margin: 340px 0;
+}
+
+.features-title {
+  font-family: 'medium';
+  font-size: var(--titles);
+  margin: 140px 0;
+}
+
+.features-card {
+  width: 400px;
+  height: 300px;
+  background-color: var(--secondary);
+  border-radius: var(--border-radius);
+  /* padding-left: 1em;
+  margin-top: 3em;
+  margin-right: 30em;
+  margin-block-end: 6em; */
+}
+
+.features-card-top-image {
+  right: 1em;
+  top: 2em;
+  width: 20%;
+}
+
+/* .divTitle {
+  margin-block-end: 6em;
+  font-size: smaller;
+} */
+
+.features-card-title {
+  color: #760543;
+  font-size: 1em;
+}

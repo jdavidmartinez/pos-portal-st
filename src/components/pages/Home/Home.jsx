@@ -3,7 +3,7 @@
 import AboutUs from '../../layouts/AboutUs/AboutUs';
 // import Bulletin from '../layouts/Bulletin';
 // import Companies from '../layouts/Companies';
-// import Features from '../layouts/Features';
+import Features from '../../layouts/Features/Features';
 import Header from '../../layouts/Header/Header';
 // import Services from '../layouts/Services';
 //
@@ -11,11 +11,11 @@ import Header from '../../layouts/Header/Header';
 import './home.css';
 
 const Home = () => (
-  <div className="home container-fluid">
+  <div className="container-fluid home">
     <Header />
     <AboutUs />
-    {/* <Features />
-    <Services />
+    <Features />
+    {/* <Services />
     <Companies />
     <Bulletin /> */}
   </div>

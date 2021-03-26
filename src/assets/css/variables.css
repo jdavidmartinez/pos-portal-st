@@ -1,7 +1,9 @@
 :root {
-  /* colors */
+  /* main colors */
   --primary: #760543;
-  --secondary: #3d3838;
+  --secondary: #e8e8e8;
+  --button-hover: #3d3838;
+  --black: #000000;
   --white: #ffffff;
 
   /* properties */
