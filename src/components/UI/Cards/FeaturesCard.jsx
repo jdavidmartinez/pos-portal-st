@@ -1,4 +1,4 @@
-/* Box UI-component */
+/* FeaturesCard UI-component */
 
 import PropTypes from 'prop-types';
 
