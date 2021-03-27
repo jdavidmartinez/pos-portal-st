@@ -9,7 +9,7 @@
   margin: 300px 0 150px 0;
 }
 
-/* styles from Box UI-component */
+/* styles from FeaturesCard UI-component */
 
 .features-card {
   background-color: var(--secondary);
@@ -20,6 +20,7 @@
 
 .features-card-text {
   line-height: 20px;
+  margin: 2em 0;
 }
 
 .features-card-title {
@@ -29,7 +30,8 @@
 }
 
 .features-card-top-image {
-  left: 280px;
+  box-sizing: border-box;
+  right: -208px;
   position: relative;
   top: -30px;
 }

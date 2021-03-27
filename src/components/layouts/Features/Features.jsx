@@ -2,7 +2,7 @@
 
 import './features.css';
 
-import Box from '../../UI/Box/Box';
+import Box from '../../UI/Cards/FeaturesCard';
 
 import accompany from '../../../assets/icons/img/accompany-icon.png';
 import connection from '../../../assets/icons/img/connection-icon.png';
