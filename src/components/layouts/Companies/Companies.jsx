@@ -2,35 +2,35 @@
 
 import './companies.css';
 
-import CardCompanies from '../../UI/Cards/CardCompanies';
-import CardBrandsCompanies from '../../UI/Cards/CardBrandsCompanies';
+import CompaniesBrandsCard from '../../UI/Cards/CompaniesBrandsCard';
+import CompaniesCard from '../../UI/Cards/CompaniesCard';
 
+import atlanticsoftLogo from '../../../assets/img/companies/atlanticsoft.png';
+import avtIngenieriaLogo from '../../../assets/img/companies/avt-ingenieria.png';
+import camaraComercioLogo from '../../../assets/img/companies/camara-comercio.png';
 import companiesImg from '../../../assets/img/companies.png';
-import avtImg from '../../../assets/img/avt_Ingenieria.png';
-import mesonImg from '../../../assets/img/hotel_meson.png';
-import marquezImg from '../../../assets/img/marquez_Fajardo.png';
-import camaraComercioImg from '../../../assets/img/camara_comercio_armenia.png';
-import fondeEmprenderImg from '../../../assets/img/fondo_emprender.png';
-import mirusImg from '../../../assets/img/miruss_mart_solutions.png';
-import parqueSoftImg from '../../../assets/img/PS_Corp.png';
-import atlanticsoftImg from '../../../assets/img/Atlanticsoft.png';
+import fondoEmprenderLogo from '../../../assets/img/companies/fondo-emprender.png';
+import marquezFajardoLogo from '../../../assets/img/companies/marquez-fajardo.png';
+import hotelMesonLogo from '../../../assets/img/companies/hotel-meson.png';
+import mirusSmartLogo from '../../../assets/img/companies/mirus-smart.png';
+import parqueSoftLogo from '../../../assets/img/companies/parquesoft.png';
 
 const Companies = () => (
-  <section className="row">
-    <div className="col-xs-6">
-      <CardBrandsCompanies
-        allyImage={camaraComercioImg}
-        allyImageTwo={fondeEmprenderImg}
-        allyImageThird={mirusImg}
-        allyImageFour={parqueSoftImg}
-        customImg={avtImg}
-        customImgtwo={mesonImg}
-        customImgThird={marquezImg}
-        customImgFour={atlanticsoftImg}
+  <section className="row around-xs companies">
+    <div className="col-xs-5">
+      <CompaniesBrandsCard
+        fondoEmprender={fondoEmprenderLogo}
+        camaraComercio={camaraComercioLogo}
+        mirusSmart={mirusSmartLogo}
+        parqueSoft={parqueSoftLogo}
+        avtIngenieria={avtIngenieriaLogo}
+        hotelMeson={hotelMesonLogo}
+        marquezFajardo={marquezFajardoLogo}
+        atlanticsoft={atlanticsoftLogo}
       />
     </div>
-    <div className="col-xs-6">
-      <CardCompanies headerImage={companiesImg} />
+    <div className="col-xs-5">
+      <CompaniesCard headerImage={companiesImg} />
     </div>
   </section>
 );

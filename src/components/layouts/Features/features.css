@@ -1,28 +1,37 @@
 /* styles from Features layout-component */
 
 .features {
-  margin: 340px 0;
+  margin: auto;
+  width: 80%;
 }
 
 .features-title {
-  margin: 140px 0;
+  margin: 300px 0 150px 0;
 }
+
+/* styles from FeaturesCard UI-component */
 
 .features-card {
-  width: 400px;
-  height: 300px;
   background-color: var(--secondary);
   border-radius: var(--border-radius);
+  padding: 0 1em 1em 1em;
+  width: 25%;
 }
 
-.features-card-top-image {
-  right: 1em;
-  top: 2em;
-  width: 20%;
+.features-card-text {
+  line-height: 20px;
+  margin: 2em 0;
 }
-
 
 .features-card-title {
   color: var(--primary);
   font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.features-card-top-image {
+  box-sizing: border-box;
+  right: -208px;
+  position: relative;
+  top: -30px;
 }

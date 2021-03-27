@@ -6,6 +6,7 @@ import AboutUs from '../../layouts/AboutUs/AboutUs';
 import Bulletin from '../../layouts/Bulletin/Bulletin';
 import Companies from '../../layouts/Companies/Companies';
 import Features from '../../layouts/Features/Features';
+import Footer from '../../layouts/Footer/Footer';
 import Header from '../../layouts/Header/Header';
 import Services from '../../layouts/Services/Services';
 
@@ -17,6 +18,7 @@ const Home = () => (
     <Services />
     <Companies />
     <Bulletin />
+    <Footer />
   </div>
 );
 

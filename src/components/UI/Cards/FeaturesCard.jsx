@@ -1,3 +1,5 @@
+/* FeaturesCard UI-component */
+
 import PropTypes from 'prop-types';
 
 import '../../layouts/Features/features.css';
@@ -11,7 +13,7 @@ const Box = ({
         <img src={image} alt={alt} />
       </div>
       <h3 className="features-card-title">{title}</h3>
-      <p>{description}</p>
+      <p className="features-card-text">{description}</p>
     </div>
   </>
 )
