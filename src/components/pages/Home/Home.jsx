@@ -3,7 +3,7 @@
 import './home.css';
 
 import AboutUs from '../../layouts/AboutUs/AboutUs';
-// import Bulletin from '../../layouts/Bulletin/Bulletin';
+import Bulletin from '../../layouts/Bulletin/Bulletin';
 import Companies from '../../layouts/Companies/Companies';
 import Features from '../../layouts/Features/Features';
 import Header from '../../layouts/Header/Header';
@@ -16,7 +16,7 @@ const Home = () => (
     <Features />
     <Services />
     <Companies />
-    {/* <Bulletin /> */}
+    <Bulletin />
   </div>
 );
 

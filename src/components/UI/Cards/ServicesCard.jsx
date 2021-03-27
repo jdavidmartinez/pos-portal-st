@@ -3,8 +3,6 @@
 import PropTypes from 'prop-types';
 import { Card } from 'react-bootstrap';
 
-import '../../../assets/css/card.css';
-
 const CardType = ({
   headerImage,
   iconImage,
