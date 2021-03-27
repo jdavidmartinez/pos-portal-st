@@ -9,7 +9,7 @@ import Features from '../../layouts/Features/Features';
 import Footer from '../../layouts/Footer/Footer';
 import Header from '../../layouts/Header/Header';
 import Services from '../../layouts/Services/Services';
-import WhatsAppButton from '../../UI/WhatsAppButton';
+import WhatsAppButton from '../../UI/WhatsAppButton/WhatsAppButton';
 
 const Home = () => (
   <div className="container-fluid home">
