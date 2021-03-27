@@ -60,23 +60,12 @@
   width: 15%;
 }
 
-.header-social-icons {
-  margin: 20px 10px;
-  width: 10%;
+.header-social-networks {
+  position: relative;
+  top: -450px;
 }
 
-.header-social-icons:hover {
-  background-color: var(--primary);
-  border-radius: var(--border-radius);
-  padding: 4px;
-}
-
-.header-socials-icons-row {
-  margin-top: -450px;
-  z-index: 1;
-}
-
-.header-socials-icons-bar, .header-top-bar {
+.header-top-bar {
   background-color: var(--white);
   border-radius: var(--border-radius);
 }

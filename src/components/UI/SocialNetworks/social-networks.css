@@ -1,0 +1,17 @@
+/* styles from SocialNetworks UI-component */
+
+.social {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+}
+
+.social-icons {
+  margin: 20px 0;
+  width: 20%;
+}
+
+.social-icons:hover {
+  background-color: var(--primary);
+  border-radius: var(--border-radius);
+  padding: 4px;
+}
