@@ -11,14 +11,13 @@ const AboutUs = () => (
 
       <div className="row center-xs">
         <div className="row about-us">
-          <div className="col-xs-5">
+          <div className="col-xs-12 col-md-5">
             <p className="about-us-text">
               EmpleApp es una empresa que Conecta perfiles potenciales de una manera rapida,
               ágil y efectiva, enfocando su metodología en las personas, potencializando el
               perfil laboral e incrementando la visibilidad ante los reclutadores/buscadores
               de empleo y facilita para las empresas la consecución de personal idóneo en menor
-              tiempo, mediante una plataforma web la cual permite agilizar y optimizar los procesos
-              de perfilación y reclutamiento impactando a mayor número de personas y empresas.
+              tiempo.
             </p>
             <p className="about-us-text">
               Dicha metodología se realiza mediante un ecosistema que potencializa el perfil laboral
