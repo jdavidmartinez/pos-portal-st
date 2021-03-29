@@ -16,7 +16,7 @@ const Bulletin = () => (
           <div className="col-xs-12">
             <div className="row middle-xs">
               <input type="email" placeholder="Escribe tu correo" className="col-xs-12 col-md-8 bulletin-input" />
-              <div className="col-xs-offset-4 col-xs-8 col-md-3 bulletin-button">Enviar</div>
+              <div className="col-xs-offset-4 col-xs-8 col-md-offset-0 col-md-3 bulletin-button">Enviar</div>
             </div>
           </div>
         </div>
