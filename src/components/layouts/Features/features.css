@@ -35,3 +35,16 @@
   position: relative;
   top: -30px;
 }
+
+@media (max-width: 450px) {
+  .features-card {
+    border-radius: 25px;
+    margin-bottom: 4em;
+    padding: 0 1em 1em 1em;
+    width: 100%;
+  }
+  .features-card-top-image {
+    right: -158px;
+    top: -20px;
+  }
+}

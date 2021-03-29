@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import '../../layouts/Features/features.css';
 
-const Box = ({
+const FeaturesCard = ({
   alt, description, image, title
 }) => (
   <>
@@ -18,11 +18,11 @@ const Box = ({
   </>
 )
 
-Box.propTypes = {
+FeaturesCard.propTypes = {
   alt: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired
 };
 
-export default Box;
+export default FeaturesCard;
