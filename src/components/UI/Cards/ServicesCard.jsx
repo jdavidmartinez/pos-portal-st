@@ -3,60 +3,33 @@
 import PropTypes from 'prop-types';
 import { Card } from 'react-bootstrap';
 
+import '../../layouts/Services/services.css';
+
 const CardType = ({
   headerImage,
   iconImage,
   text,
   title
 }) => (
-  <Card
-    style={{
-      backgroundColor: '#f2f2f2',
-      border: '1px solid #eee',
-      borderRadius: '36px',
-      boxShadow: '0 2px 15px #ccc',
-      height: '30em',
-      margin: 'auto',
-      marginBottom: '50px',
-      width: '40%'
-    }}
-  >
-    <Card.Img src={headerImage} variant="top" style={{ width: '100%' }} />
-    <Card.Body>
-      <Card.Title style={{
-        color: '#760543',
-        fontSize: '1.2em',
-        fontWeight: 'bold',
-        padding: '2em'
-      }}
-      >
-        {title}
-      </Card.Title>
-      <div
-        style={{
-          display: 'flex'
-        }}
-      >
-        <Card.Text style={{
-          lineHeight: '25px',
-          padding: '0 4em 3em 2em'
-        }}
-        >
-          {text}
-        </Card.Text>
-        <Card.Img
-          src={iconImage}
-          style={{
-            margin: 'auto',
-            padding: '30px',
-            position: 'relative',
-            top: '-20px',
-            width: '20%'
-          }}
-        />
-      </div>
-    </Card.Body>
-  </Card>
+  <>
+    <Card className="col-xs-12 col-md-5 card">
+      <Card.Img src={headerImage} variant="top" className="card-top-img" />
+      <Card.Body>
+        <Card.Title className="card-title">
+          {title}
+        </Card.Title>
+        <article className="row around-xs middle-xs">
+          <Card.Text className="col-xs-7 col-md-9 card-text">
+            {text}
+          </Card.Text>
+          <Card.Img
+            src={iconImage}
+            className="col-xs-3 col-md-2"
+          />
+        </article>
+      </Card.Body>
+    </Card>
+  </>
 );
 
 CardType.propTypes = {
