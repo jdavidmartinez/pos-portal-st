@@ -3,7 +3,6 @@
 import './companies.css';
 
 import CompaniesBrandsCard from '../../UI/Cards/CompaniesBrandsCard';
-import CompaniesCard from '../../UI/Cards/CompaniesCard';
 
 import atlanticsoftLogo from '../../../assets/img/companies/atlanticsoft.png';
 import avtIngenieriaLogo from '../../../assets/img/companies/avt-ingenieria.png';
@@ -17,8 +16,9 @@ import parqueSoftLogo from '../../../assets/img/companies/parquesoft.png';
 
 const Companies = () => (
   <section className="row around-xs companies">
-    <div className="col-xs-5">
+    <div className="col-xs-12 col-md-5">
       <CompaniesBrandsCard
+        alt="company logo"
         fondoEmprender={fondoEmprenderLogo}
         camaraComercio={camaraComercioLogo}
         mirusSmart={mirusSmartLogo}
@@ -29,9 +29,11 @@ const Companies = () => (
         atlanticsoft={atlanticsoftLogo}
       />
     </div>
-    <div className="col-xs-5">
-      <CompaniesCard headerImage={companiesImg} />
-    </div>
+    <img
+      src={companiesImg}
+      alt="EmpleApp companies"
+      className="col-xs col-md-4 first-xs last-md companies-card"
+    />
   </section>
 );
 
