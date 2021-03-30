@@ -57,6 +57,48 @@ const Header = () => (
         <SocialNetworks className="col-xs-2" />
       </div>
     </header>
+
+    <header className="header-mobile">
+      <div className="row between-xs header-top-bar">
+        <img src={logo} alt="empleapp logo" className="header-logo" />
+        <a
+          href="https://"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="header-ingress-button"
+        >
+          Ingresar
+        </a>
+      </div>
+
+      <div className="row between-xs header-info">
+        <div className="col-xs-12 header-content">
+          <p className="header-content-title">
+            Creamos y Evaluamos
+          </p>
+          <p className="header-content-title">
+            tu
+            <strong className="header-content-title-strong"> Hoja de Vida</strong>
+          </p>
+        </div>
+        <img src={woman} alt="empleapp woman" className="header-woman" />
+        <div className="row">
+          <p className="col-xs-12 header-content-text">
+            Envía tu CV, nuestros especialistas te entregarán sin costo una calificación
+            inicial con retroalimentación del estado en el que se encuentra tu formato frente
+            a las empresas y que tanta visibilidad tendrá para la elección de un cargo.
+          </p>
+          <a
+            href="https://"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="col-xs-offset-2 col-xs-6 header-hv-button"
+          >
+            ¡Empieza Ahora!
+          </a>
+        </div>
+      </div>
+    </header>
   </>
 );
 
