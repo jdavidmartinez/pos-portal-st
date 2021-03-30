@@ -16,3 +16,9 @@
 .footer-logo {
   margin: 1em 0;
 }
+
+@media (max-width: 450px) {
+  .footer {
+    height: auto;
+  }
+}

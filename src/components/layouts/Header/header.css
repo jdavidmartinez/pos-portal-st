@@ -94,7 +94,7 @@
   }
   .header-content-text {
     font-size: 1em;
-    margin: -8em 0.5em 0.5em 0.5em;
+    margin: -8em 0.5em 2em 0.5em;
   }
   .header-content-title {
     font-size: 2em;
@@ -108,10 +108,11 @@
     margin: 15px;
   }
   .header-logo {
-    margin: 1.5em;
-    width: 25%;
+    margin: 1.8em;
+    width: 30%;
   }
   .header-woman {
     height: 500px;
+    margin-top: 2em;
   }
 }

@@ -47,4 +47,7 @@
     right: -158px;
     top: -20px;
   }
+  .features-title {
+    margin: 50px 0 150px 0;
+  }
 }
