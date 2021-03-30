@@ -1,5 +1,41 @@
 /* styles from Services layout-component */
 
+.services {
+  padding: 0 8vw;
+}
+
 .services-title {
   margin: 280px 0 150px 0;
+}
+
+/* styles from ServicesCard UI-component */
+
+.card {
+  background-color: var(--gray1);
+  border: 1px solid var(--gray2);
+  border-radius: 40px;
+  box-shadow: 0 2px 15px #ccc;
+  margin-bottom: 3em;
+}
+
+.card-text {
+  line-height: 25px;
+  padding: 2em 0;
+}
+
+.card-title {
+  color: var(--primary);
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 2em 0.5em 1em 0.5em;
+}
+
+.card-top-img {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .services-title {
+    margin: 100px 0;
+  }
 }
