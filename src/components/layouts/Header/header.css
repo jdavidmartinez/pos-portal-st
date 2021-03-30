@@ -73,3 +73,45 @@
 .header-woman {
   height: 1000px;
 }
+
+/* Mobile resolution */
+
+.header-mobile {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .header {
+    display: none;
+  }
+  .header-mobile {
+    display: block;
+    padding-top: 45px;
+    width: 100%;
+  }
+  .header-content {
+    margin: 1em 0;
+  }
+  .header-content-text {
+    font-size: 1em;
+    margin: -8em 0.5em 0.5em 0.5em;
+  }
+  .header-content-title {
+    font-size: 2em;
+    text-align: center;
+  }
+  .header-info {
+    margin: 1.2em 0;
+    width: 100%;
+  }
+  .header-ingress-button {
+    margin: 15px;
+  }
+  .header-logo {
+    margin: 1.5em;
+    width: 25%;
+  }
+  .header-woman {
+    height: 500px;
+  }
+}
