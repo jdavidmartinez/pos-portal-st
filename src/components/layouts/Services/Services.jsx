@@ -2,7 +2,7 @@
 
 import './services.css';
 
-import Card from '../../UI/Cards/ServicesCard';
+import ServicesCard from '../../UI/Cards/ServicesCard';
 
 import connectionIcon from '../../../assets/icons/svg/connection-icon.svg';
 import jobProfileIcon from '../../../assets/icons/svg/job-profile-icon.svg';
@@ -21,7 +21,7 @@ const Services = () => (
         <h2 className="col-xs-12 h2-titles services-title">Servicios</h2>
       </div>
       <div className="row around-xs">
-        <Card
+        <ServicesCard
           headerImage={jobProfileImg}
           iconImage={jobProfileIcon}
           title="Perfilación laboral"
@@ -29,21 +29,21 @@ const Services = () => (
           sus competencias y ofreciendo recomendaciones para que su perfil
           se adapte al mercado laboral actual."
         />
-        <Card
+        <ServicesCard
           headerImage={roleImg}
           iconImage={roleIcon}
           title="Perfilación de cargo"
           text="En compañía de las empresas se perfila y crea el puesto de trabajo
           de manera eficiente y precisa."
         />
-        <Card
+        <ServicesCard
           headerImage={talentImg}
           iconImage={talentIcon}
           title="Descubrimiento de talento"
           text="Entregamos a la empresa 5 perfiles, los cuales se adaptan a las
           especificaciones del cargo en el menor tiempo."
         />
-        <Card
+        <ServicesCard
           headerImage={connectionImg}
           iconImage={connectionIcon}
           title="Conexión"

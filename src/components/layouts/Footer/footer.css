@@ -19,6 +19,24 @@
 
 @media (max-width: 48em) {
   .footer {
-    height: auto;
+    height: 70vh;
+  }
+  .footer-logo {
+    margin-bottom: -7em;
+  }
+  .footer-h3 {
+    margin-top: -7em;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 100em) {
+  .footer {
+    height: 60vh;
+  }
+  .footer-logo {
+    margin-bottom: -7em;
+  }
+  .footer-h3 {
+    margin-top: -7em;
   }
 }

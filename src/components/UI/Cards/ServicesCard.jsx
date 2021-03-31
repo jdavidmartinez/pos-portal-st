@@ -12,19 +12,19 @@ const CardType = ({
   title
 }) => (
   <>
-    <Card className="col-xs-12 col-md-5 card">
+    <Card className="col-xs-12 col-sm-5 card">
       <Card.Img src={headerImage} variant="top" className="card-top-img" />
       <Card.Body>
         <Card.Title className="card-title">
           {title}
         </Card.Title>
         <article className="row around-xs middle-xs">
-          <Card.Text className="col-xs-7 col-md-9 card-text">
+          <Card.Text className="col-xs-7 col-sm-9 card-text">
             {text}
           </Card.Text>
           <Card.Img
             src={iconImage}
-            className="col-xs-3 col-md-2"
+            className="col-xs-3 col-sm-2"
           />
         </article>
       </Card.Body>
