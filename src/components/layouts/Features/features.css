@@ -6,7 +6,7 @@
 }
 
 .features-title {
-  margin: 300px 0 150px 0;
+  margin: 9em 0 5em 0;
 }
 
 /* styles from FeaturesCard UI-component */
@@ -19,7 +19,7 @@
 }
 
 .features-card-text {
-  line-height: 20px;
+  line-height: 1.25em;
   margin: 2em 0;
 }
 
@@ -31,23 +31,23 @@
 
 .features-card-top-image {
   box-sizing: border-box;
-  right: -208px;
+  right: -13em;
   position: relative;
-  top: -30px;
+  top: -1.875em;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 48em) {
   .features-card {
-    border-radius: 25px;
+    border-radius: 1.56em;
     margin-bottom: 4em;
     padding: 0 1em 1em 1em;
     width: 100%;
   }
   .features-card-top-image {
-    right: -158px;
-    top: -20px;
+    right: -9.88em;
+    top: -1.25em;
   }
   .features-title {
-    margin: 50px 0 150px 0;
+    margin: 3em 0 7em 0;
   }
 }

@@ -10,6 +10,6 @@
   --input: #404040;
 
   /* properties */
-  --border-radius: 10px;
+  --border-radius: 0.625em;
   --titles: 2em;
 }

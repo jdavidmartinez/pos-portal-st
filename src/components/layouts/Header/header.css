@@ -3,17 +3,17 @@
 .header {
   height: 120vh;
   margin: auto;
-  padding-top: 45px;
+  padding-top: 2.8em;
   width: 80%;
 }
 
 .header-content {
-  margin-top: 100px;
+  margin-top: 6.25em;
 }
 
 .header-content-text {
   font-size: 1em;
-  margin: 60px 0;
+  margin: 3.75em 0;
 }
 
 .header-content-title {
@@ -28,7 +28,7 @@
 }
 
 .header-info {
-  margin: 80px 0;
+  margin: 5em 0;
   width: 80%;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .header-ingress-button {
-  margin: 15px 30px;
+  margin: 0.94em 1.875em;
   padding: 1em 2em;
 }
 
@@ -56,13 +56,13 @@
 }
 
 .header-logo {
-  margin: 15px 35px;
+  margin: 0.94em 2.2em;
   width: 15%;
 }
 
 .header-social-networks {
   position: relative;
-  top: -450px;
+  top: -28.12em;
 }
 
 .header-top-bar {
@@ -71,7 +71,7 @@
 }
 
 .header-woman {
-  height: 1000px;
+  height: 62.5em;
 }
 
 /* Mobile resolution */
@@ -80,13 +80,13 @@
   display: none;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 48em) {
   .header {
     display: none;
   }
   .header-mobile {
     display: block;
-    padding-top: 45px;
+    padding-top: 2.8em;
     width: 100%;
   }
   .header-content {
@@ -105,14 +105,14 @@
     width: 100%;
   }
   .header-ingress-button {
-    margin: 15px;
+    margin: 0.94em;
   }
   .header-logo {
     margin: 1.8em;
     width: 30%;
   }
   .header-woman {
-    height: 500px;
+    height: 31.25em;
     margin-top: 2em;
   }
 }

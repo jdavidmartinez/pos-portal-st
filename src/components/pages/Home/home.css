@@ -6,7 +6,7 @@
   background-size: 100%;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 48em) {
   .home {
     background-image: url("../../../assets/img/background-mobile.png");
     background-repeat: no-repeat;
