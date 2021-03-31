@@ -14,7 +14,7 @@ const WhatsAppButton = () => (
         rel="noopener noreferrer"
         className="whatsapp-button"
       >
-        <img src={whatsAppIcon} alt="" />
+        <img src={whatsAppIcon} alt="Empleapp whatsapp info" />
       </a>
     </nav>
   </>
