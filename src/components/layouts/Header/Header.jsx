@@ -23,7 +23,7 @@ const Header = () => (
       </div>
 
       <div className="row between-xs header-info">
-        <div className="col-xs-4 header-content">
+        <div className="col-xs-4 col-sm-6 col-lg-4 header-content">
           <p className="header-content-title">
             Creamos
           </p>

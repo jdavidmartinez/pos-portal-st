@@ -5,7 +5,7 @@
 }
 
 .services-title {
-  margin: 8em 0 5em 0;
+  margin: 10em 0 5em 0;
 }
 
 /* styles from ServicesCard UI-component */
@@ -37,5 +37,17 @@
 @media (max-width: 48em) {
   .services-title {
     margin: 5em 0;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 100em) {
+  .services-title {
+    margin: 2em 0;
+  }
+  .card-text {
+    font-size: 0.9em;
+  }
+  .card {
+    margin-bottom: 2em;
   }
 }

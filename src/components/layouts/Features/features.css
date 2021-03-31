@@ -6,7 +6,7 @@
 }
 
 .features-title {
-  margin: 9em 0 5em 0;
+  margin: 10em 0 5em 0;
 }
 
 /* styles from FeaturesCard UI-component */
@@ -49,5 +49,18 @@
   }
   .features-title {
     margin: 3em 0 7em 0;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 100em) {
+  .features-card {
+    width: 30%;
+  }
+  .features-card-top-image {
+    right: -9em;
+    top: -1.5em;
+  }
+  .features-title {
+    margin: 2em 0 3em 0;
   }
 }

@@ -18,7 +18,7 @@
   cursor: pointer;
   font-family: 'bold';
   font-size: 1.5em;
-  height: 4.4em;
+  height: 3em;
   margin: 0.94em 0;
   padding: 1em 2em;
   text-align: center;
@@ -72,5 +72,17 @@
   .bulletin-input {
     border-radius: var(--border-radius);
     margin-top: -8em;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 100em) {
+  .bulletin-title {
+    margin: -3em 0 3em 0;
+  }
+  .bulletin-h2 {
+    font-size: 2em;
+  }
+  .bulletin {
+    height: 28em;
   }
 }

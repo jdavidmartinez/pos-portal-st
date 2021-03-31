@@ -11,7 +11,7 @@ const AboutUs = () => (
 
       <div className="row center-xs">
         <div className="row about-us">
-          <div className="col-xs-12 col-sm-4 col-lg-5">
+          <div className="col-xs-12 col-sm-6 col-lg-5">
             <p className="about-us-text">
               EmpleApp es una empresa que Conecta perfiles potenciales de una manera rapida,
               ágil y efectiva, enfocando su metodología en las personas, potencializando el

@@ -15,54 +15,54 @@ const CompaniesBrandsCard = ({
 }) => (
   <>
     <section className="row companies-brands-card">
-      <div className="col-xs-12 col-md-offset-8 col-md-5 companies-brands-card-title">
+      <div className="col-xs-12 col-sm-offset-8 col-sm-5 companies-brands-card-title">
         <p>Empresas aliadas</p>
       </div>
       <div className="row around-xs middle-xs">
         <img
           src={fondoEmprender}
           alt={alt}
-          className="col-xs-6 col-md-3"
+          className="col-xs-6 col-sm-3"
         />
         <img
           src={camaraComercio}
           alt={alt}
-          className="col-xs-6 col-md-3"
+          className="col-xs-6 col-sm-3"
         />
         <img
           src={mirusSmart}
           alt={alt}
-          className="col-xs-6 col-md-3"
+          className="col-xs-6 col-sm-3"
         />
         <img
           src={parqueSoft}
           alt={alt}
-          className="col-xs-6 col-md-3"
+          className="col-xs-6 col-sm-3"
         />
       </div>
-      <div className="col-xs-12 col-md-offset-5 col-md-8 companies-brands-card-title">
+      <div className="col-xs-12 col-sm-offset-5 col-sm-8 companies-brands-card-title">
         <p>Empresas con las que hemos trabajado</p>
       </div>
       <div className="row around-xs middle-xs">
         <img
           src={avtIngenieria}
           alt={alt}
-          className="col-xs-6 col-md-3"
+          className="col-xs-6 col-sm-3"
         />
         <img
           src={hotelMeson}
           alt={alt}
-          className="col-xs-6 col-md-3"
+          className="col-xs-6 col-sm-3"
         />
         <img
           src={marquezFajardo}
           alt={alt}
-          className="col-xs-6 col-md-3"
+          className="col-xs-6 col-sm-3"
         />
         <img
           src={atlanticsoft}
           alt={alt}
-          className="col-xs-6 col-md-3"
+          className="col-xs-6 col-sm-3"
         />
       </div>
     </section>

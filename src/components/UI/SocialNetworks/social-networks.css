@@ -3,6 +3,7 @@
 .social {
   background-color: var(--white);
   border-radius: var(--border-radius);
+  max-height: 3.5em;
 }
 
 .social-icons {

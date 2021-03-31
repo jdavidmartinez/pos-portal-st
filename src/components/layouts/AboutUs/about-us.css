@@ -37,3 +37,12 @@
     margin: 8em 0 5em 0;
   }
 }
+
+@media (min-width: 48em) and (max-width: 100em) {
+  .about-us-text {
+    font-size: 0.9em;
+  }
+  .about-us-title {
+    margin: -4em 0 3em 0;
+  }
+}
