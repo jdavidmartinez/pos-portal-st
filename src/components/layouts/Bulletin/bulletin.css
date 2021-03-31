@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   color: var(--white);
-  height: 550px;
+  height: 34.4em;
   padding: 4em 0 4em 4em;
   text-align: left;
   width: 80%;
@@ -13,13 +13,13 @@
 
 .bulletin-button {
   background-color: var(--primary);
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 0.625em 0.625em 0;
   color: var(--white);
   cursor: pointer;
   font-family: 'bold';
   font-size: 1.5em;
-  height: 70px;
-  margin: 15px 0;
+  height: 4.4em;
+  margin: 0.94em 0;
   padding: 1em 2em;
   text-align: center;
   transition: background-color 0.3s;
@@ -38,8 +38,8 @@
 .bulletin-input {
   background-color: var(--input);
   border: none;
-  border-radius: 10px 0 0 10px;
-  height: 70px;
+  border-radius: 0.625em 0 0 0.625em;
+  height: 4.4em;
 }
 
 .bulletin-input::placeholder {
@@ -48,10 +48,10 @@
 }
 
 .bulletin-title {
-  margin: 50px 0 100px 0;
+  margin: 3em 0 5em 0;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 48em) {
   .bulletin {
     background-image: url("../../../assets/img/bulletin-mobile-drawer.png");
     padding: 1em;
