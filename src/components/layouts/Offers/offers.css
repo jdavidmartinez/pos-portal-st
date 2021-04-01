@@ -1,9 +1,24 @@
 .offers {
-    width: 100%;
-    height: 1000px;
-    padding: auto;
-    margin: auto;
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+    border: 10px solid #000;
 }
+
+.offers-title {
+    margin: 3em 0 5em 0;
+  }
+
+.offers-h2 {
+    font-family: 'regular';
+    font-size: 2.8em;
+    padding-bottom: 0.5em;
+  }
+
+.offers-carousel-box{
+    border: 10px solid #000;
+}
+
 .carousel{
     height: 500px;
 }
