@@ -16,19 +16,27 @@
     padding-bottom: 0.5em;
   }
 
+.cardOffer{
+    width: 32rem;
+    border-radius: 1.5em;
+}
+
 .offer-card-rigth-icon{
     background-color:var(--primary);
+    border-bottom-right-radius:1.5em;
+    border-top-right-radius:1.5em;
 }
 .offer-card-portfolio-img{
-    width: 20px;
+    width: 100%;
     height: auto;
-    position: relative;
-    left: -8rem;
-    top: -14rem;
-    margin: 0%;
+    left: 0;
     padding: 0%;
 }
 
+.offer-card-title{
+    margin: 0%;
+    padding: auto;
+}
 .offers-carousel-box{
     border: 1px solid #000;
 }

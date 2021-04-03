@@ -21,6 +21,9 @@ const Offers = () => (
               tittleOffer="Desarrollador"
               description="!BUSCAMOS¡ Profesor especializado en GO"
               salary="$5.000.000"
+              offerVactNumber="Vact#52"
+              companie="Perfiltic"
+              offerNumber="45"
             />
           </div>
         </div>
