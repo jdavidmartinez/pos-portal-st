@@ -1,24 +1,27 @@
 // import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import OffersCardJob from '../../UI/Cards/OffersCardJob';
+
 import './offers.css';
 
-// import image1 from '../../../assets/img/companies/parquesoft.png';
-// import image2 from '../../../assets/img/companies/camara-comercio.png';
+import offerIconImg from '../../../assets/icons/svg/offer-programmer-icon.svg'
 
 const Offers = () => (
   <>
     <section>
       <div className="row center-xs offers">
         <div className="row center-xs offers-title">
-          <h2 className="col-xs-12 offers-h2">Boletín</h2>
+          <h2 className="col-xs-12 offers-h2">Ofertas</h2>
         </div>
-        <div className="row center-xs offers-carousel-box">
-          <div className="col-xs-6">
-            <h2>carrusel</h2>
-          </div>
-          <div className="col-xs-6">
-            <h2>emergente</h2>
+        <div className="row center-xs ">
+          <div className="col-xs-12">
+            <OffersCardJob
+              offerIcon={offerIconImg}
+              tittleOffer="Desarrollador"
+              description="!BUSCAMOS¡ Profesor especializado en GO"
+              salary="$5.000.000"
+            />
           </div>
         </div>
       </div>
