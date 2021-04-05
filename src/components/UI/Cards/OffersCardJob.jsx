@@ -6,13 +6,13 @@ import portfolioImg from '../../../assets/icons/img/offer-job.png';
 
 const OffersCardJob = (
   {
-    offerIcon,
-    tittleOffer,
-    description,
-    salary,
-    offerVactNumber,
     companie,
-    offerNumber
+    description,
+    offerIcon,
+    offerNumber,
+    offerVactNumber,
+    salary,
+    tittleOffer
   }
 ) => (
   <>

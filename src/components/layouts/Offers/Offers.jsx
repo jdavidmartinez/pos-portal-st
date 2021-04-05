@@ -1,4 +1,4 @@
-// import { Carousel } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import OffersCardJob from '../../UI/Cards/OffersCardJob';
@@ -16,15 +16,30 @@ const Offers = () => (
         </div>
         <div className="row center-xs ">
           <div className="col-xs-12">
-            <OffersCardJob
-              offerIcon={offerIconImg}
-              tittleOffer="Desarrollador"
-              description="!BUSCAMOS¡ Profesor especializado en GO"
-              salary="$5.000.000"
-              offerVactNumber="Vact#52"
-              companie="Perfiltic"
-              offerNumber="45"
-            />
+            <Carousel className="carousel vert slide">
+              <Carousel.Item className="carousel-item">
+                <OffersCardJob
+                  companie="Perfiltic"
+                  description="!BUSCAMOS¡ Profesor especializado en GO"
+                  offerIcon={offerIconImg}
+                  offerNumber="45"
+                  offerVactNumber="Vact#52"
+                  salary="$5.000.000"
+                  tittleOffer="Desarrollador"
+                />
+              </Carousel.Item>
+              <Carousel.Item className="carousel-item">
+                <OffersCardJob
+                  offerIcon={offerIconImg}
+                  tittleOffer="Diseñador"
+                  description="!BUSCAMOS¡ Diseñador especializado en React"
+                  salary="$7.000.000"
+                  offerVactNumber="Vact#52"
+                  companie="Perfiltic"
+                  offerNumber="46"
+                />
+              </Carousel.Item>
+            </Carousel>
           </div>
         </div>
       </div>
