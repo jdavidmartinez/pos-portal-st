@@ -37,7 +37,7 @@
   }
   
   .outer-container .carousel-wrapper {
-    background: var(--orange);
+    background: var(--primary);
     display: flex;
     flex-direction: column;
   }

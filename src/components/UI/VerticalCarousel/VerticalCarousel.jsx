@@ -1,9 +1,13 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
+
+import OffersCardJob from '../Cards/OffersCardJob';
+
 import { ReactComponent as Next } from '../../../assets/icons/svg/chevronDown.svg';
 import { ReactComponent as Prev } from '../../../assets/icons/svg/chevronUp.svg';
-import './style.css';
+
+import './vertical-carousel.css';
 
 /*
  * Read the blog post here:
@@ -16,7 +20,7 @@ const VerticalCarousel = ({ data, leadingText }) => {
   // Used to determine which items appear above the active item
   const halfwayIndex = Math.ceil(data.length / 2);
 
-  // Usd to determine the height/spacing of each item
+  // Used to determine the height/spacing of each item
   const itemHeight = 52;
 
   // Used to determine at what point an item is moved from the top to the bottom
@@ -97,7 +101,7 @@ const VerticalCarousel = ({ data, leadingText }) => {
                       transform: `translateY(${determinePlacement(i)}px)`
                     }}
                   >
-                    {item.introline}
+                    <OffersCardJob tittleOffer={item.title} />
                   </button>
                 ))}
               </div>
@@ -115,7 +119,7 @@ const VerticalCarousel = ({ data, leadingText }) => {
         <div className="content">
           <img
             src={data[activeIndex].content.image}
-            alt={data[activeIndex].content.introline}
+            alt={data[activeIndex].content.title}
           />
           <p>{data[activeIndex].content.copy}</p>
         </div>

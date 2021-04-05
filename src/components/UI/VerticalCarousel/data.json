@@ -2,7 +2,7 @@
     "leadingText": "All about",
     "slides": [
       {
-        "introline": "dogs",
+        "title": "dogs",
         "id": "dogs",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Dogs",
@@ -10,7 +10,7 @@
         }
       },
       {
-        "introline": "elephants",
+        "title": "elephants",
         "id": "elephants",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Elephants",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "introline": "bears",
+        "title": "bears",
         "id": "bears",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Bears",
@@ -26,7 +26,7 @@
         }
       },
       {
-        "introline": "lizards",
+        "title": "lizards",
         "id": "lizards",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Lizards",
@@ -34,7 +34,7 @@
         }
       },
       {
-        "introline": "snakes",
+        "title": "snakes",
         "id": "snakes",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Snakes",
@@ -42,7 +42,7 @@
         }
       },
       {
-        "introline": "cats",
+        "title": "cats",
         "id": "cats",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Cats",
@@ -50,7 +50,7 @@
         }
       },
       {
-        "introline": "giraffes",
+        "title": "giraffes",
         "id": "giraffes",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Giraffes",
@@ -58,7 +58,7 @@
         }
       },
       {
-        "introline": "owls",
+        "title": "owls",
         "id": "owls",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Owls",
@@ -66,7 +66,7 @@
         }
       },
       {
-        "introline": "horses",
+        "title": "horses",
         "id": "horses",
         "content": {
           "image": "https://via.placeholder.com/400x200?text=horses",
