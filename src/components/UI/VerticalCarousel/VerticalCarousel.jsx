@@ -1,3 +1,4 @@
+/* Offers UI-Component */
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
@@ -19,10 +20,10 @@ const VerticalCarousel = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   // Used to determine which items appear above the active item
-  const halfwayIndex = Math.ceil(data.length / 2);
+  const halfwayIndex = Math.ceil(data.length / 4);
 
   // Used to determine the height/spacing of each item
-  const itemHeight = 52;
+  const itemHeight = 350;
 
   // Used to determine at what point an item is moved from the top to the bottom
   const shuffleThreshold = halfwayIndex * itemHeight;
@@ -104,7 +105,9 @@ const VerticalCarousel = ({ data }) => {
                       companie={item.companie}
                       salary={item.salary}
                       description={item.description}
-                      offerIcon={offerIcon}
+                      offerIcon={offerIcon} // identify how call from data file
+                      offerVactNumber={item.offerVactNumber}
+                      offerNumber={item.offerNumber}
                     />
                   </button>
                 ))}

@@ -1,13 +1,8 @@
-// import { Carousel } from 'react-bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-// import OffersCardJob from '../../UI/Cards/OffersCardJob';
+/* Offers Layaout-component */
 import VerticalCarousel from '../../UI/VerticalCarousel/VerticalCarousel'
 import data from '../../UI/VerticalCarousel/data.json';
 
 import './offers.css';
-
-// import offerIconImg from '../../../assets/icons/svg/offer-programmer-icon.svg'
 
 const Offers = () => (
   <>

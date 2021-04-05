@@ -56,5 +56,4 @@ OffersCardJob.propTypes = {
   companie: PropTypes.string.isRequired,
   offerNumber: PropTypes.string.isRequired
 }
-/* tittleOffer, comapanyOffer, salaryOffer, descriptionOffer, */
 export default OffersCardJob;
