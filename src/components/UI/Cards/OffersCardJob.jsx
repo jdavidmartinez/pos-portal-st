@@ -23,21 +23,21 @@ const OffersCardJob = (
           <Card.Title className="col-xs-7 offer-card-title">
             {tittleOffer}
           </Card.Title>
-          <Card.Text className="col-xs-3">{offerVactNumber}</Card.Text>
+          <Card.Text className="col-xs-3 offer-card-tex">{offerVactNumber}</Card.Text>
         </div>
         <div className="row">
-          <Card.Text className="col-xs-9">
+          <Card.Text className="col-xs-9 offer-card-tex">
             {companie}
           </Card.Text>
-          <Card.Text className="col-xs-3">
+          <Card.Text className="col-xs-3 offer-card-tex">
             {salary}
           </Card.Text>
         </div>
         <div className="row">
-          <Card.Text className="col-xs-9">
+          <Card.Text className="col-xs-9 offer-card-tex">
             {description}
           </Card.Text>
-          <Card.Text className="col-xs-3">
+          <Card.Text className="col-xs-3 offer-card-tex">
             {offerNumber}
           </Card.Text>
         </div>

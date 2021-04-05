@@ -2,74 +2,110 @@
     "leadingText": "All about",
     "slides": [
       {
-        "title": "dogs",
-        "id": "dogs",
+        "title": "Desarrollador",
+        "id": "desarrollador",
+        "companie": "Perfiltic",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=Dogs",
+          "image": "https://via.placeholder.com/400x200?text=Desarrollador",
           "copy": "Dog ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },
       {
-        "title": "elephants",
-        "id": "elephants",
+        "title": "Diseñador",
+        "id": "diseñador",
+        "companie": "Atlantisoft",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=Elephants",
+          "image": "https://via.placeholder.com/400x200?text=Diseñador",
           "copy": "Elephant ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },
       {
-        "title": "bears",
-        "id": "bears",
+        "title": "UI disigner",
+        "id": "ui-disigner",
+        "companie": "Perfiltic",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=Bears",
+          "image": "https://via.placeholder.com/400x200?text=UI disigner",
           "copy": "Bears ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },
       {
-        "title": "lizards",
-        "id": "lizards",
+        "title": "React Frontend Dev",
+        "id": "react-frontend-dev",
+        "companie": "Atlantisoft",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=Lizards",
+          "image": "https://via.placeholder.com/400x200?text=React Frontend Dev",
           "copy": "Lizards ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },
       {
-        "title": "snakes",
-        "id": "snakes",
+        "title": "Full Stack Java Dev",
+        "id": "full-stack-java-dev",
+        "companie": "Atlantisoft",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=Snakes",
+          "image": "https://via.placeholder.com/400x200?text=Full Stack Java Dev",
           "copy": "Snakes ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },
       {
-        "title": "cats",
-        "id": "cats",
+        "title": "Scrum Manager",
+        "id": "scrum-manager",
+        "companie": "Carvajal",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=Cats",
+          "image": "https://via.placeholder.com/400x200?text=Scrum Manager",
           "copy": "Cats ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },
       {
-        "title": "giraffes",
-        "id": "giraffes",
+        "title": "Product Owner",
+        "id": "product-owner",
+        "companie": "Bancolombia",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=Giraffes",
+          "image": "https://via.placeholder.com/400x200?text=Product Owner",
           "copy": "Giraffes ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },
       {
-        "title": "owls",
-        "id": "owls",
+        "title": "Asesor Comercial",
+        "id": "asesor-comercial",
+        "companie": "Perfiltic",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=Owls",
+          "image": "https://via.placeholder.com/400x200?text=Asesor Comercial",
           "copy": "Owls ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },
       {
-        "title": "horses",
-        "id": "horses",
+        "title": "AWS Dev Op",
+        "id": "aws-dev-op",
+        "companie": "Av Villas",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=horses",
+          "image": "https://via.placeholder.com/400x200?text=AWS Dev Op",
           "copy": "Horses ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       }

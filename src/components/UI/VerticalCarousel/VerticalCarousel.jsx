@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import cn from 'classnames';
 
 import OffersCardJob from '../Cards/OffersCardJob';
+import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg'
 
 import { ReactComponent as Next } from '../../../assets/icons/svg/chevronDown.svg';
 import { ReactComponent as Prev } from '../../../assets/icons/svg/chevronUp.svg';
@@ -98,7 +99,13 @@ const VerticalCarousel = ({ data }) => {
                       transform: `translateY(${determinePlacement(i)}px)`
                     }}
                   >
-                    <OffersCardJob tittleOffer={item.title} />
+                    <OffersCardJob
+                      tittleOffer={item.title}
+                      companie={item.companie}
+                      salary={item.salary}
+                      description={item.description}
+                      offerIcon={offerIcon}
+                    />
                   </button>
                 ))}
               </div>
