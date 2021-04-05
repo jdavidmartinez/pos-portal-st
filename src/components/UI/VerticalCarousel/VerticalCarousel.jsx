@@ -14,7 +14,7 @@ import './vertical-carousel.css';
  * https://letsbuildui.dev/articles/building-a-vertical-carousel-component-in-react
  */
 
-const VerticalCarousel = ({ data, leadingText }) => {
+const VerticalCarousel = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   // Used to determine which items appear above the active item
@@ -82,9 +82,6 @@ const VerticalCarousel = ({ data, leadingText }) => {
           </button>
 
           <div className="carousel">
-            <div className="leading-text">
-              <p>{leadingText}</p>
-            </div>
             <div className="slides">
               <div className="carousel-inner">
                 {data.map((item, i) => (
@@ -130,7 +127,6 @@ const VerticalCarousel = ({ data, leadingText }) => {
 
 VerticalCarousel.propTypes = {
   data:PropTypes.array.isRequired, // eslint-disable-line
-  leadingText: PropTypes.string.isRequired
 };
 
 export default VerticalCarousel;
