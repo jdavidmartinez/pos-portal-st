@@ -35,9 +35,9 @@ const Header = () => (
             <strong className="header-content-title-strong"> Hoja de Vida</strong>
           </p>
           <p className="header-content-text">
-            Envía tu CV, nuestros especialistas te entregarán sin costo una calificación
-            inicial con retroalimentación del estado en el que se encuentra tu formato frente
-            a las empresas y que tanta visibilidad tendrá para la elección de un cargo.
+            Comienza calificando tu HV, nuestros especialistas
+            te entregarán un informe sin costo con el porcentaje de
+            visibilidad de este, frente a las empresas.
           </p>
           <a
             href="https://"

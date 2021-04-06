@@ -13,6 +13,10 @@
   margin: 1em 0;
 }
 
+.footer-h4 {
+  margin: 1em 0;
+}
+
 .footer-logo {
   margin: 1em 0;
 }
@@ -27,6 +31,9 @@
   .footer-h3 {
     margin-top: -7em;
   }
+  .footer-h4 {
+    margin-top:-7em;
+  }
 }
 
 @media (min-width: 48em) and (max-width: 100em) {
@@ -37,6 +44,9 @@
     margin-bottom: -7em;
   }
   .footer-h3 {
+    margin-top: -7em;
+  }
+  .footer-h4 {
     margin-top: -7em;
   }
 }
