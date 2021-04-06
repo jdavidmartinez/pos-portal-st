@@ -19,7 +19,7 @@ const OffersCardJob = (
 ) => (
   <>
     <Card className="row cardOffer">
-      <Card.Body className="col-xs-9">
+      <Card.Body className="col-xs-10">
         <div className="row">
           <Card.Img src={portfolioImg} className="col-xs-2 offer-card-portfolio-img" />
           <Card.Title className="col-xs-7 offer-card-title">
@@ -30,8 +30,7 @@ const OffersCardJob = (
         <div className="row">
           <Card.Text className="col-xs-9 offer-card-tex">
             {companie}
-          </Card.Text>
-          <Card.Text className="col-xs-3 offer-card-tex">
+            -
             {salary}
           </Card.Text>
         </div>
@@ -44,7 +43,7 @@ const OffersCardJob = (
           </Card.Text>
         </div>
       </Card.Body>
-      <Card.Img src={offerIcon} className="col-xs-3 offer-card-rigth-icon" />
+      <Card.Img src={offerIcon} className="col-xs-2 offer-card-rigth-icon" />
     </Card>
   </>
 );

@@ -9,7 +9,7 @@
     border-top-right-radius:1.5em;
 }
 .offer-card-portfolio-img{
-    height: 80%;
+    height: 40%;
     left: 0;
     padding: 0%;
     width: auto;
@@ -17,9 +17,11 @@
 
 .offer-card-title{
     margin: 0%;
-    padding: auto;
+    padding: 0;
 }
 
 .offer-card-tex{
+    margin: 0%;
+    padding: 0;
     color: #000;
 }
