@@ -1,0 +1,25 @@
+.cardOffer{
+    border-radius: 1.5em;
+    width: 36rem;
+}
+
+.offer-card-rigth-icon{
+    background-color:var(--primary);
+    border-bottom-right-radius:1.5em;
+    border-top-right-radius:1.5em;
+}
+.offer-card-portfolio-img{
+    height: 80%;
+    left: 0;
+    padding: 0%;
+    width: auto;
+}
+
+.offer-card-title{
+    margin: 0%;
+    padding: auto;
+}
+
+.offer-card-tex{
+    color: #000;
+}

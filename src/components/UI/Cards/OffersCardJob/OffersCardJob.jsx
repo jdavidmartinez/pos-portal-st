@@ -2,7 +2,9 @@
 import { Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
-import portfolioImg from '../../../assets/icons/img/offer-job.png';
+import portfolioImg from '../../../../assets/icons/img/offer-job.png';
+
+import './offer-card-job.css';
 
 const OffersCardJob = (
   {

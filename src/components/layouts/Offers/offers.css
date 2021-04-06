@@ -4,6 +4,7 @@
     box-shadow: 0 2px 0.94em #ccc;
     margin: 0px;
     padding: 0px;
+    height: 1000px;
 }
 
 .offers-title {
@@ -17,36 +18,5 @@
     padding-bottom: 0.5em;
   }
 
-.cardOffer{
-    border-radius: 1.5em;
-    width: 32rem;
-}
 
-.offer-card-rigth-icon{
-    background-color:var(--primary);
-    border-bottom-right-radius:1.5em;
-    border-top-right-radius:1.5em;
-}
-.offer-card-portfolio-img{
-    height: auto;
-    left: 0;
-    padding: 0%;
-    width: 100%;
-}
 
-.offer-card-title{
-    margin: 0%;
-    padding: auto;
-}
-
-.offer-card-tex{
-    color: #000;
-}
-
-.offers-carousel-box{
-    border: 1px solid #000;
-}
-
-.carousel{
-    height: 500px;
-}

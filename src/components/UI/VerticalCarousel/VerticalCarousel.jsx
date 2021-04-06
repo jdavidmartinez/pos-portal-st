@@ -3,7 +3,7 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 
-import OffersCardJob from '../Cards/OffersCardJob';
+import OffersCardJob from '../Cards/OffersCardJob/OffersCardJob';
 import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg'
 
 import { ReactComponent as Next } from '../../../assets/icons/svg/chevronDown.svg';
