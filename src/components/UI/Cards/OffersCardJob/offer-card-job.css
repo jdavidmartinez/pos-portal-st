@@ -1,6 +1,8 @@
 .cardOffer{
     border-radius: 1.5em;
     width: 36rem;
+    position: relative;
+    
 }
 
 .offer-card-rigth-icon{
@@ -9,19 +11,21 @@
     border-top-right-radius:1.5em;
 }
 .offer-card-portfolio-img{
-    height: 40%;
     left: 0;
-    padding: 0%;
-    width: auto;
+    padding-top: 20px;
+    width: 10px;
 }
 
 .offer-card-title{
-    margin: 0%;
-    padding: 0;
+    margin: auto;
+    padding-top: 20px;
+    text-align: start;
 }
 
 .offer-card-tex{
-    margin: 0%;
-    padding: 0;
+    margin: auto;
+    padding: 0 0 20px 10px;
     color: #000;
+    text-align: start;
+    
 }
