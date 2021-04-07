@@ -20,7 +20,7 @@ const VerticalCarousel = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   // Used to determine which items appear above the active item
-  const halfwayIndex = Math.ceil(data.length / 4);
+  const halfwayIndex = Math.ceil(data.length / 3);
 
   // Used to determine the height/spacing of each item
   const itemHeight = 180;
@@ -105,7 +105,7 @@ const VerticalCarousel = ({ data }) => {
                       companie={item.companie}
                       salary={item.salary}
                       description={item.description}
-                      offerIcon={offerIcon} // identify how call from data file
+                      offerIcon={offerIcon} // ERROR: identify how to call from data file
                       offerVactNumber={item.offerVactNumber}
                       offerNumber={item.offerNumber}
                     />
