@@ -7,7 +7,7 @@ import './offers.css';
 const Offers = () => (
   <>
     <section>
-      <div className="center-xs offers">
+      <div className="offers">
         <div className="row center-xs offers-title">
           <h2 className="col-xs-12 offers-h2">Ofertas de Empleo</h2>
         </div>

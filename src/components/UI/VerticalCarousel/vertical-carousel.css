@@ -8,7 +8,7 @@
   }
   
   body {
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -27,9 +27,11 @@
     box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
     display: flex;
     height: 700px; /* Increase container size */
-    max-width: 100%;
+    max-width: 1700px;
     margin: auto;
     overflow: hidden;
+    border-radius: 1.5em;
+    box-shadow: 0 2px 0.94em #ccc;
   }
   
   .outer-container > div {
