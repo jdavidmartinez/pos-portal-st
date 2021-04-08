@@ -1,0 +1,19 @@
+.offers {
+  /* background-color: #f2f2f2;
+    border-radius: 1.5em;
+    box-shadow: 0 2px 0.94em #ccc; */
+  margin: 0 10% 0 10%;
+  padding: 0px;
+  width: 80%;
+  height: 1000px;
+}
+
+.offers-title {
+  margin: 3em 0 5em 0;
+}
+
+.offers-h2 {
+  /* font-family: 'regular'; */
+  font-size: 2.8em;
+  padding-bottom: 0.5em;
+}
