@@ -128,6 +128,8 @@ const VerticalCarousel = ({ data }) => {
           <OfferRigthCardJob
             tittleOffer={data[activeIndex].title}
             skillOffer={data[activeIndex].skills}
+            whishedSkill={data[activeIndex].whishedSkill}
+            backGround={data[activeIndex].backGround}
           />
         </div>
       </section>

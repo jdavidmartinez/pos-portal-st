@@ -7,7 +7,9 @@ import './offer-rigth-card-job.css'
 const OfferRigthCardJob = (
   {
     tittleOffer,
-    skillOffer
+    skillOffer,
+    whishedSkill,
+    backGround
   }
 ) => (
   <>
@@ -36,10 +38,10 @@ const OfferRigthCardJob = (
           <div>
             <div className="row offer-rigth-card-skills">
               <Card.Text className="col-xs-6">
-                Skils desables:
+                Skills deseables:
               </Card.Text>
               <Card.Text className="col-xs-6">
-                Java(Springboot),Python
+                {whishedSkill}
               </Card.Text>
             </div>
             <div className="row offer-rigth-card-skills">
@@ -47,7 +49,7 @@ const OfferRigthCardJob = (
                 Experiencia:
               </Card.Text>
               <Card.Text className="col-xs-6">
-                3 años
+                {backGround}
               </Card.Text>
             </div>
           </div>
@@ -68,8 +70,9 @@ const OfferRigthCardJob = (
 
 OfferRigthCardJob.propTypes = {
   tittleOffer: PropTypes.string.isRequired,
-  skillOffer: PropTypes.string.isRequired
-
+  skillOffer: PropTypes.string.isRequired,
+  whishedSkill: PropTypes.string.isRequired,
+  backGround: PropTypes.string.isRequired
 };
 
 export default OfferRigthCardJob;
