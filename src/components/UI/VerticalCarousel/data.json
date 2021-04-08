@@ -14,8 +14,8 @@
         "whishedSkill": "React Senior - Java SpringBoot",
         "backGround":"4 años",
         "cities": "Bogota, Armenia, Medellin, Cali",
+        "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob",
         "content": {
-          "image": "https://via.placeholder.com/400x200?text=Desarrollador",
           "copy": "Dog ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },

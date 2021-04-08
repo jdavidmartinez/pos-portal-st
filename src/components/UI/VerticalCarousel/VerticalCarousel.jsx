@@ -4,8 +4,9 @@ import PropTypes from 'prop-types';
 import cn from 'classnames';
 
 import OffersCardJob from '../Cards/OffersCardJob/OffersCardJob';
-import OfferRigthCardJob from '../Cards/OfferRigthCardJob/OfferRigthCardJob';
+// import OfferRigthCardJob from '../Cards/OfferRigthCardJob/OfferRigthCardJob';
 import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg'
+import offerRigthImg from '../../../assets/img/offers/offerImage1.jpg'
 
 import { ReactComponent as Next } from '../../../assets/icons/svg/chevronDown.svg';
 import { ReactComponent as Prev } from '../../../assets/icons/svg/chevronUp.svg';
@@ -125,11 +126,9 @@ const VerticalCarousel = ({ data }) => {
           </button>
         </div>
         <div className="content">
-          <OfferRigthCardJob
-            tittleOffer={data[activeIndex].title}
-            skillOffer={data[activeIndex].skills}
-            whishedSkill={data[activeIndex].whishedSkill}
-            backGround={data[activeIndex].backGround}
+          <img
+            src={offerRigthImg}
+            alt={data[activeIndex].content.title}
           />
         </div>
       </section>
@@ -149,4 +148,10 @@ export default VerticalCarousel;
           />
           <OfferRigthCardJob />
           <p>{data[activeIndex].content.copy}</p>
-        </div> */
+        </div>
+         <OfferRigthCardJob
+            tittleOffer={data[activeIndex].title}
+            skillOffer={data[activeIndex].skills}
+            whishedSkill={data[activeIndex].whishedSkill}
+            backGround={data[activeIndex].backGround}
+          /> */
