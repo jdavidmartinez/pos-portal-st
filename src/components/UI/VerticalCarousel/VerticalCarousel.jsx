@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import cn from 'classnames';
 
 import OffersCardJob from '../Cards/OffersCardJob/OffersCardJob';
+import OfferRigthCardJob from '../Cards/OfferRigthCardJob/OfferRigthCardJob';
 import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg'
 
 import { ReactComponent as Next } from '../../../assets/icons/svg/chevronDown.svg';
@@ -124,11 +125,10 @@ const VerticalCarousel = ({ data }) => {
           </button>
         </div>
         <div className="content">
-          <img
-            src={data[activeIndex].content.image}
-            alt={data[activeIndex].content.title}
+          <OfferRigthCardJob
+            tittleOffer={data[activeIndex].title}
+            skillOffer={data[activeIndex].skills}
           />
-          <p>{data[activeIndex].content.copy}</p>
         </div>
       </section>
     </div>
@@ -140,3 +140,11 @@ VerticalCarousel.propTypes = {
 };
 
 export default VerticalCarousel;
+/* <div className="content">
+          <img
+            src={data[activeIndex].content.image}
+            alt={data[activeIndex].content.title}
+          />
+          <OfferRigthCardJob />
+          <p>{data[activeIndex].content.copy}</p>
+        </div> */

@@ -49,7 +49,7 @@
     margin-right: 0;
   }
   
-  .outer-container .content {
+  .outer-container {
     background: var(--white);
   }
   
@@ -133,5 +133,9 @@
   
   .carousel-item.visible {
     opacity: 1;
+  }
+
+  .content{
+    height: auto;
   }
   
