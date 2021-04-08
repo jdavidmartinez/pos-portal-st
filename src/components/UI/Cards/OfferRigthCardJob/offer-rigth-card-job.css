@@ -1,42 +1,42 @@
-.offer-righ-card-job{
-    height: 650px;
-    background-color: #000;
+.offer-righ-card-job {
+  height: 650px;
+  background-color: #000;
 }
 
-.offer-rigth-card-text{
-    color: #fff;
+.offer-rigth-card-text {
+  color: #fff;
 }
 
-.offer-righ-card-top-title{
-    color: #fff;
-    background-color: var(--primary);
-    width: 50%;
-    height: 30px;
-    margin: 0 25% 0 25%;
-    padding: 10px 0 50px 0;
-    text-align: center;
-    border-bottom-right-radius:1em;
-    border-bottom-left-radius:1em;
-    position: relative;
-    top:-38px;
+.offer-righ-card-top-title {
+  color: #fff;
+  background-color: var(--primary);
+  width: 50%;
+  height: 30px;
+  margin: 0 25% 0 25%;
+  padding: 10px 0 50px 0;
+  text-align: center;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  position: relative;
+  top: -38px;
 }
 
-.offer-righ-card-body{
-    border: 3px solid var(--primary);
-    margin: 35px;
+.offer-righ-card-body {
+  border: 3px solid var(--primary);
+  margin: 35px;
 }
 
-.offer-rigth-card-main-info{
-    background-color: rgb(37, 36, 36);
-    margin: 10px;
+.offer-rigth-card-main-info {
+  background-color: rgb(37, 36, 36);
+  margin: 10px;
 }
 
-.offer-rigth-card-skills{
-    color: #fff;
+.offer-rigth-card-skills {
+  color: #fff;
 }
 
-.ubication{
-    background-color: #000;
-    color: #fff;
-    margin: 10px;
+.ubication {
+  background-color: #000;
+  color: #fff;
+  margin: 10px;
 }
