@@ -48,7 +48,7 @@ const Header = () => (
             ¡Empieza Ahora!
           </a>
         </div>
-        <div className="col-xs-5">
+        <div className="col-xs-9 col-sm-6 col-lg-8">
           <img src={woman} alt="empleapp woman" className="header-woman" />
         </div>
       </div>

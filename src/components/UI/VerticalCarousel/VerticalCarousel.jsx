@@ -74,7 +74,7 @@ const VerticalCarousel = ({ data }) => {
 
   return (
     <div className="container">
-      <section className="outer-container">
+      <section className="outer-container center">
         <div className="carousel-wrapper">
           <button
             type="button"
@@ -106,7 +106,7 @@ const VerticalCarousel = ({ data }) => {
                       companie={item.companie}
                       salary={item.salary}
                       description={item.description}
-                      offerIcon={offerIcon} // ERROR: identify how to call from data file
+                      offerIcon={offerIcon}
                       offerVactNumber={item.offerVactNumber}
                       offerNumber={item.offerNumber}
                     />

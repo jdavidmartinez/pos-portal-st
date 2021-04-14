@@ -1,8 +1,3 @@
-:root {
-  --white: #fff;
-  --orange: #f36c00;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -18,20 +13,19 @@ button {
 
 img {
   max-width: 100%;
+  border-radius: 1.5rem;
 }
 
 .outer-container {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3); */
   display: flex;
+  justify-content: center;
   height: 700px;
   /* Increase container size */
-  max-width: 1700px;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   overflow: hidden;
-  border-radius: 1.5em;
-  box-shadow: 0 2px 0.94em #ccc;
+  
 }
 
 .outer-container>div {
@@ -40,7 +34,6 @@ img {
 }
 
 .outer-container .carousel-wrapper {
-  background: var(--secundary);
   display: flex;
   flex-direction: column;
 }
@@ -49,9 +42,9 @@ img {
   margin-right: 0;
 }
 
-.outer-container {
+/* .outer-container {
   background: var(--white);
-}
+} */
 
 .carousel {
   height: 100%;
