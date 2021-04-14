@@ -20,11 +20,11 @@ import './vertical-carousel.css';
 const VerticalCarousel = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Used to determine which items appear above the active item
-  const halfwayIndex = Math.ceil(data.length / 3);
+  // Used to determine which items appear above the active item ** Math.ceil(data.length / 3)**
+  const halfwayIndex = 3;
 
   // Used to determine the height/spacing of each item
-  const itemHeight = 180;
+  const itemHeight = 170;
 
   // Used to determine at what point an item is moved from the top to the bottom
   const shuffleThreshold = halfwayIndex * itemHeight;
