@@ -36,6 +36,42 @@
   top: -1.875em;
 }
 
+@media (min-width: 700px) and (max-width: 1200px) {
+  .features-card {
+    background-color: var(--secondary);
+    border-radius: var(--border-radius);
+    padding: 0 1em 1em 1em;
+    width: 25%;
+ }
+
+ .features-title {
+  margin: 2em 0 3em 0;
+}
+ 
+ .features-card-top-image {
+  box-sizing: border-box;
+  left: 40%;
+  position: relative;
+  top: -1.875em;
+ }
+}
+
+@media (min-width: 320px) and (max-width: 699px) {
+  .features-card {
+    border-radius: 1.56em;
+    margin-bottom: 4em;
+    padding: 0 1em 1em 1em;
+    width: 100%;
+  }
+  .features-card-top-image {
+    box-sizing: border-box;
+    left: 60%;
+    position: relative;
+    top: -1.875em;
+   }
+}
+
+/*
 @media (max-width: 48em) {
   .features-card {
     border-radius: 1.56em;
@@ -64,3 +100,4 @@
     margin: 2em 0 3em 0;
   }
 }
+*/
