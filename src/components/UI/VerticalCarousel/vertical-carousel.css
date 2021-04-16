@@ -18,7 +18,7 @@ button {
 
 img {
   max-width: 100%;
-  border-radius: 1.5rem;
+  border-radius: --border-radius;
 }
 
 .outer-container {
