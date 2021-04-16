@@ -7,7 +7,7 @@
 
 .offer-carousel{
   background-color: var(--secondary);
-  width: 180px;
+  width: auto;
   border-radius: 1.5rem;
 }
 

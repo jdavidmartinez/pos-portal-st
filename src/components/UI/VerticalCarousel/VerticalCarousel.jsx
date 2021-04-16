@@ -73,9 +73,9 @@ const VerticalCarousel = ({ data }) => {
   };
 
   return (
-    <div className="container">
+    <div className="row container">
       <section className="outer-container center">
-        <div className="carousel-wrapper">
+        <div className="col-xs-12 col-md-12 col-lg-6 carousel-wrapper">
           <button
             type="button"
             className="carousel-button prev"
@@ -124,7 +124,7 @@ const VerticalCarousel = ({ data }) => {
             <Next />
           </button>
         </div>
-        <div className="content">
+        <div className="col-xs-12 col-md-12 col-lg-6 content">
           <img
             src={offerRigthImg}
             alt={data[activeIndex].content.title}
