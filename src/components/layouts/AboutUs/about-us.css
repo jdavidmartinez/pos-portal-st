@@ -38,15 +38,22 @@
 @media (min-width: 320px) and (max-width: 699px) {
   .about-us {
     background-image: url("../../../assets/img/about-us-mobile-drawer.png");
-    height: 700px;
-    border-radius: 1.5rem;
+    height: 290px;
+    border-radius: 1.5rem; 
+    margin-bottom: 2rem;   
   }
+  .about-us-title {
+    margin: 2em 0;
+  }
+
   .about-us-text {
     color: var(--white);
     font-size: 1em;
-    margin: 3em 2em;
+    margin: 1em 2em;
     text-align: center;
-    margin-top: 4em;
+  }
+  .second-text{
+    display: none;
   }
 }
 

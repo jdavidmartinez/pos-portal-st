@@ -60,12 +60,17 @@
 }
 
 @media (min-width: 320px) and (max-width: 699px) {
+  .features-title {
+    margin: 1em 0 2em 0;
+  }
+
   .features-card {
     border-radius: 1.56em;
     margin-bottom: 4em;
     padding: 0 1em 1em 1em;
     width: 100%;
   }
+
   .features-card-text {
     line-height: 1.25em;
     margin: 0;
