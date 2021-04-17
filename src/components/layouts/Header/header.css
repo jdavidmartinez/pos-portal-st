@@ -14,16 +14,22 @@
 .header-content-text {
   font-size: 1em;
   margin: 3.75em 0;
+  font-family: 'medium';
+  z-index: 1;
+}
+
+.header-content-mobile-text{
+  display: none;
 }
 
 .header-content-title {
-  font-family: 'regular';
+  font-family: 'medium';
   font-size: 2.8em;
   padding-top: 0.5em;
 }
 
 .header-content-title-strong {
-  font-family: 'bold';
+  font-family: 'medium';
   font-size: 1em;
 }
 
@@ -82,7 +88,59 @@
 .header-mobile {
   display: none;
 }
+@media (min-width: 700px) and (max-width: 1200px) {
 
+}
+
+@media (min-width: 320px) and (max-width: 699px) {
+  .header {
+    display: none;
+  }
+  .header-mobile {
+    display: block;
+    padding-top: 1.3em;
+    width: 100%;
+  }
+  .header-content {
+    margin: 1em 0;
+  }
+  .header-content-text {
+    font-size: 1em;
+    margin: -8em 0.5em 2em 0.5em;
+    z-index: 1;
+  }
+  .header-content-title {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .header-info {
+    margin: 1.2em 0;
+    width: 100%;
+  }
+  .header-ingress-button {
+    margin: 0.94em;
+    width: 40%;
+    text-align: center;
+  }
+  .header-logo {
+    margin: 1.8em;
+    width: 30%;
+  }
+  .header-woman {
+    height: 20em;
+    /* Require a new woman image for this size */
+    margin-top: 0.5em;
+    position: relative;
+    left: 00px;
+    width: auto;
+  }
+
+  .header-hv-button {
+    padding: 1.5em 2.5em;
+    width: 50px;
+  }
+}
+/*
 @media (max-width: 48em) {
   .header {
     display: none;
@@ -148,3 +206,4 @@
     margin-top: 0;
   }
 }
+*/
