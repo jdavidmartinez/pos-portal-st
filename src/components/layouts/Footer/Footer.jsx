@@ -14,7 +14,6 @@ const Footer = () => (
       </div>
       <SocialNetworks className="col-xs-2 col-md-3" />
       <h3 className="col-xs-12 footer-h3">contacto@empleapp.com</h3>
-      <h4 className="col-xs-12 footer-h4">cel 3002507458 - Armenia - Quindio</h4>
     </footer>
   </>
 );
