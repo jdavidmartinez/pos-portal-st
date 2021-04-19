@@ -22,9 +22,10 @@
   margin: 1em 0;
 }
 
-@media (min-width: 320px) and (max-width: 410px) {
+@media (min-width: 320px) and (max-width: 699px) {
   .footer {
     height: 50vh;
+    
   }
 
   .footer-logo {
