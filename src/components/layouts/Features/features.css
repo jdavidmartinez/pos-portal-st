@@ -19,6 +19,7 @@
 }
 
 .features-card-text {
+  font-family: 'medium';
   line-height: 1.25em;
   margin: 2em 0;
 }
@@ -26,6 +27,7 @@
 .features-card-title {
   color: var(--primary);
   font-size: 1em;
+  font-family: 'medium';
   margin-bottom: 1em;
 }
 
@@ -36,31 +38,59 @@
   top: -1.875em;
 }
 
-@media (max-width: 48em) {
+@media (min-width: 700px) and (max-width: 1200px) {
+  .features-card {
+    background-color: var(--secondary);
+    border-radius: var(--border-radius);
+    padding: 0 1em 1em 1em;
+    width: 30%;
+ }
+
+ .features-title {
+    margin: 2em 0 3em 0;
+}
+ 
+ .features-card-top-image {
+  border-radius: --border-radius;
+  box-sizing: border-box;
+  left: 14%;
+  position: relative;
+  top: -1.2em;
+ }
+}
+
+@media (min-width: 320px) and (max-width: 699px) {
+  .features-title {
+    font-size: 1.3em;
+    margin: 1em 0 2em 0;
+  }
+  .features-card-title {
+    color: var(--primary);
+    font-family: 'medium';
+    font-size: 1.3em;
+    margin-bottom: 1em;
+  }
+
   .features-card {
     border-radius: 1.56em;
     margin-bottom: 4em;
     padding: 0 1em 1em 1em;
     width: 100%;
   }
-  .features-card-top-image {
-    right: -9.88em;
-    top: -1.25em;
-  }
-  .features-title {
-    margin: 3em 0 7em 0;
-  }
-}
 
-@media (min-width: 48em) and (max-width: 100em) {
-  .features-card {
-    width: 30%;
+  .features-card-text {
+    line-height: 1.25em;
+    margin: 0;
   }
+
   .features-card-top-image {
-    right: -9em;
-    top: -1.5em;
-  }
-  .features-title {
-    margin: 2em 0 3em 0;
-  }
+    border-radius: --border-radius;
+    box-sizing: border-box;
+    left: 39%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: -1.4em;
+    width: 200px;
+   }
 }

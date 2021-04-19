@@ -1,19 +1,28 @@
-.offers {
-  /* background-color: #f2f2f2;
-    border-radius: 1.5em;
-    box-shadow: 0 2px 0.94em #ccc; */
-  margin: 0 10% 0 10%;
-  padding: 0px;
+.offers{
+  margin: auto;
+  padding: 0;
   width: 80%;
-  height: 1000px;
+  
 }
 
-.offers-title {
-  margin: 3em 0 5em 0;
+.offer-carousel{
+  background-color: var(--secondary);
+  width: auto;
+  border-radius: 1.5rem;
 }
 
-.offers-h2 {
-  /* font-family: 'regular'; */
-  font-size: 2.8em;
-  padding-bottom: 0.5em;
+.offers-title{
+  padding-bottom: 40px;
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  .offers{
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 699px) {
+  .offers{
+    display: none;
+  }
 }

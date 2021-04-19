@@ -20,11 +20,11 @@ import './vertical-carousel.css';
 const VerticalCarousel = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Used to determine which items appear above the active item
-  const halfwayIndex = Math.ceil(data.length / 3);
+  // Used to determine which items appear above the active item ** Math.ceil(data.length / 3)**
+  const halfwayIndex = 3;
 
   // Used to determine the height/spacing of each item
-  const itemHeight = 180;
+  const itemHeight = 170;
 
   // Used to determine at what point an item is moved from the top to the bottom
   const shuffleThreshold = halfwayIndex * itemHeight;
@@ -73,9 +73,9 @@ const VerticalCarousel = ({ data }) => {
   };
 
   return (
-    <div className="container">
-      <section className="outer-container">
-        <div className="carousel-wrapper">
+    <div className="row container">
+      <section className="outer-container center">
+        <div className="col-xs-12 col-md-12 col-lg-6 carousel-wrapper">
           <button
             type="button"
             className="carousel-button prev"
@@ -106,7 +106,7 @@ const VerticalCarousel = ({ data }) => {
                       companie={item.companie}
                       salary={item.salary}
                       description={item.description}
-                      offerIcon={offerIcon} // ERROR: identify how to call from data file
+                      offerIcon={offerIcon}
                       offerVactNumber={item.offerVactNumber}
                       offerNumber={item.offerNumber}
                     />
@@ -124,7 +124,7 @@ const VerticalCarousel = ({ data }) => {
             <Next />
           </button>
         </div>
-        <div className="content">
+        <div className="col-xs-12 col-md-12 col-lg-6 content">
           <img
             src={offerRigthImg}
             alt={data[activeIndex].content.title}

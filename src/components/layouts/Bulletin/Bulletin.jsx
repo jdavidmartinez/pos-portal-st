@@ -11,7 +11,7 @@ const Bulletin = () => (
           <div className="col-xs-12 col-lg-4">
             <h2 className="bulletin-h2">Ingresa</h2>
             <h2 className="bulletin-h2">Tu correo:</h2>
-            <p>Para estar informado sobre todos nuestros servicios.</p>
+            <p className="bulletin-p">Para estar informado sobre todos nuestros servicios.</p>
           </div>
           <div className="col-xs-12">
             <div className="row middle-xs">

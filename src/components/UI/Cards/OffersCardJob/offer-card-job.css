@@ -1,19 +1,23 @@
 .cardOffer {
   border-radius: 1.5em;
+  position: absolute;
   width: 30rem;
-  position: relative;
 }
 
 .offer-card-rigth-icon {
   background-color: var(--primary);
   border-bottom-right-radius: 1.5em;
+  border-bottom-left-radius: 0em;
   border-top-right-radius: 1.5em;
+  border-top-left-radius: 0em;
 }
 
 .offer-card-portfolio-img {
+  bottom: -10px;
+  height: 60px;
   left: 0;
-  padding-top: 20px;
-  width: 10px;
+  position: relative;
+  width: 0px;
 }
 
 .offer-card-title {
@@ -23,8 +27,47 @@
 }
 
 .offer-card-tex {
+  color: #000;
   margin: auto;
   padding: 0 0 20px 10px;
-  color: #000;
   text-align: start;
 }
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  .offer-card-rigth-icon {
+    visibility: hidden;
+  }
+  .cardOffer {
+    border-radius: 1.5em;
+    height: 10rem;
+    position: relative;
+    width: 18rem;
+  }
+  .offer-card-portfolio-img {
+    bottom: -15px;
+    height: 30px;
+    left: 0;
+    position: relative;
+    width: auto;
+}
+}
+@media (min-width: 320px) and (max-width: 699px) {
+  .offer-card-rigth-icon {
+    visibility: hidden;
+  }
+  .cardOffer {
+    border-radius: 1.5em;
+    height: 12rem;
+    position: relative;
+    width: 16rem;
+  }
+  .offer-card-portfolio-img {
+    bottom: -15px;
+    height: 30px;
+    left: 0;
+    position: relative;
+    width: auto;
+}
+}
+
+

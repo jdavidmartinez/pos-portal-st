@@ -9,10 +9,10 @@ const Offers = () => (
     <section>
       <div className="offers">
         <div className="row center-xs offers-title">
-          <h2 className="col-xs-12 offers-h2">Ofertas de Empleo</h2>
+          <h2 className="col-xs-12 col-lg-12 h2-titles">Ofertas de Empleo</h2>
         </div>
-        <div className="row center-xs ">
-          <div className="col-xs-12">
+        <div className="row">
+          <div className="col-xs-12 col-lg-12 center-xs offer-carousel">
             <VerticalCarousel data={data.slides} leadingText={data.leadingText} />
           </div>
         </div>
@@ -21,3 +21,4 @@ const Offers = () => (
   </>
 );
 export default Offers;
+/* <VerticalCarousel data={data.slides} leadingText={data.leadingText} /> */

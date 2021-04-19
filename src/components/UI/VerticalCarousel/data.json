@@ -10,13 +10,9 @@
         "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
         "offerVactNumber": "Vact#52",
         "offerNumber": "01",
-        "skills": "React, Gim, Photoshop",
-        "whishedSkill": "React Senior - Java SpringBoot",
-        "backGround":"4 años",
-        "cities": "Bogota, Armenia, Medellin, Cali",
         "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob",
         "content": {
-          "copy": "Dog ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+         
         }
       },
       {
@@ -143,6 +139,60 @@
         "content": {
           "image": "https://via.placeholder.com/400x200?text=Asesor Comercial",
           "copy": "Owls ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+        }
+      },
+      {
+        "title": "AWS Dev Op",
+        "id": "aws-dev-op",
+        "companie": "Av Villas",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
+        "offerVactNumber": "Vact#70",
+        "offerNumber": "09",
+        "skills": "React, Gim, Photoshop",
+        "whishedSkill": "React Senior - Java SpringBoot",
+        "backGround":"4 años",
+        "cities": "Bogota, Armenia, Medellin, Cali",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=AWS Dev Op",
+          "copy": "Horses ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+        }
+      },
+      {
+        "title": "AWS Dev Op",
+        "id": "aws-dev-op",
+        "companie": "Av Villas",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
+        "offerVactNumber": "Vact#70",
+        "offerNumber": "09",
+        "skills": "React, Gim, Photoshop",
+        "whishedSkill": "React Senior - Java SpringBoot",
+        "backGround":"4 años",
+        "cities": "Bogota, Armenia, Medellin, Cali",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=AWS Dev Op",
+          "copy": "Horses ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+        }
+      },
+      {
+        "title": "AWS Dev Op",
+        "id": "aws-dev-op",
+        "companie": "Av Villas",
+        "salary": "$5.000.000",
+        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
+        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
+        "offerVactNumber": "Vact#70",
+        "offerNumber": "09",
+        "skills": "React, Gim, Photoshop",
+        "whishedSkill": "React Senior - Java SpringBoot",
+        "backGround":"4 años",
+        "cities": "Bogota, Armenia, Medellin, Cali",
+        "content": {
+          "image": "https://via.placeholder.com/400x200?text=AWS Dev Op",
+          "copy": "Horses ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
         }
       },
       {

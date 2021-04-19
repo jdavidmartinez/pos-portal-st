@@ -10,6 +10,7 @@
 }
 
 .footer-h3 {
+  font-family: 'medium';
   margin: 1em 0;
 }
 
@@ -21,6 +22,19 @@
   margin: 1em 0;
 }
 
+@media (min-width: 320px) and (max-width: 699px) {
+  .footer {
+    height: 50vh;
+    
+  }
+
+  .footer-logo {
+    height: 80px;
+    margin-top: 0;
+    padding: 0;
+  }
+}
+/*
 @media (max-width: 48em) {
   .footer {
     height: 70vh;
@@ -50,3 +64,4 @@
     margin-top: -7em;
   }
 }
+*/
