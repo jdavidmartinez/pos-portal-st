@@ -19,16 +19,16 @@
 }
 
 .features-card-text {
+  font-family: 'medium';
   line-height: 1.25em;
   margin: 2em 0;
-  font-family: 'medium';
 }
 
 .features-card-title {
   color: var(--primary);
   font-size: 1em;
-  margin-bottom: 1em;
   font-family: 'medium';
+  margin-bottom: 1em;
 }
 
 .features-card-top-image {
@@ -51,24 +51,24 @@
 }
  
  .features-card-top-image {
+  border-radius: --border-radius;
   box-sizing: border-box;
   left: 14%;
   position: relative;
   top: -1.2em;
-  border-radius: --border-radius;
  }
 }
 
 @media (min-width: 320px) and (max-width: 699px) {
   .features-title {
-    margin: 1em 0 2em 0;
     font-size: 1.3em;
+    margin: 1em 0 2em 0;
   }
   .features-card-title {
     color: var(--primary);
+    font-family: 'medium';
     font-size: 1.3em;
     margin-bottom: 1em;
-    font-family: 'medium';
   }
 
   .features-card {
@@ -84,13 +84,13 @@
   }
 
   .features-card-top-image {
+    border-radius: --border-radius;
     box-sizing: border-box;
     left: 39%;
     position: relative;
-    top: -1.4em;
-    border-radius: --border-radius;
     padding: 0;
     margin: 0;
+    top: -1.4em;
     width: 200px;
    }
 }

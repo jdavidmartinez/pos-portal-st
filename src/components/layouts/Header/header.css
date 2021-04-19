@@ -13,8 +13,8 @@
 
 .header-content-text {
   font-size: 1em;
-  margin: 3.75em 0;
   font-family: 'medium';
+  margin: 3.75em 0;
   z-index: 1;
 }
 
@@ -78,9 +78,9 @@
 
 .header-woman {
   height: 62.5em;
-  width: 100%;
-  position: relative;
   left: 400px;
+  position: relative;
+  width: 100%;
 }
 
 /* Mobile resolution */
@@ -140,70 +140,3 @@
     width: 50px;
   }
 }
-/*
-@media (max-width: 48em) {
-  .header {
-    display: none;
-  }
-  .header-mobile {
-    display: block;
-    padding-top: 2.8em;
-    width: 100%;
-  }
-  .header-content {
-    margin: 1em 0;
-  }
-  .header-content-text {
-    font-size: 1em;
-    margin: -8em 0.5em 2em 0.5em;
-  }
-  .header-content-title {
-    font-size: 2em;
-    text-align: center;
-  }
-  .header-info {
-    margin: 1.2em 0;
-    width: 100%;
-  }
-  .header-ingress-button {
-    margin: 0.94em;
-  }
-  .header-logo {
-    margin: 1.8em;
-    width: 30%;
-  }
-  .header-woman {
-    height: 31.25em;
-    margin-top: 2em;
-    position: relative;
-    left: 00px;
-  }
-}
-
-@media (min-width: 64em) and (max-width: 100em) {
-  .header-content {
-    margin-top: 3em;
-  }
-  .header-content-text {
-    font-size: 0.9em;
-    margin: 3em 0;
-  }
-  .header-content-title {
-    font-size: 2em;
-  }
-  .header-info {
-    margin: 2em 0 0 0;
-  }
-  .header-logo {
-    width: 20%;
-  }
-  .header-social-networks {
-    position: relative;
-    top: -15em;
-  }
-  .header-woman {
-    height: 40em;
-    margin-top: 0;
-  }
-}
-*/
