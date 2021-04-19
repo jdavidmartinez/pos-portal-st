@@ -1,0 +1,14 @@
+.offers-carousel-horizontal{
+    visibility:visible;
+}
+
+@media (min-width: 320px) and (max-width: 699px) {
+    .offers-carousel-horizonta{
+        visibility:visible;
+    }
+    .carousel-item{
+        background-color: aquamarine;
+        height: 100px;
+        width: 100px;
+    }
+  }
