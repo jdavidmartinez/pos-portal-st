@@ -1,6 +1,6 @@
 /* Offers Layaout-component */
 import VerticalCarousel from '../../UI/VerticalCarousel/VerticalCarousel'
-import data from '../../UI/VerticalCarousel/data.json';
+import data from '../../Data/data.json';
 
 import './offers.css';
 
