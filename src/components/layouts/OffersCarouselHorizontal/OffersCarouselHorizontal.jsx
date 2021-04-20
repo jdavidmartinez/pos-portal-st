@@ -8,7 +8,8 @@ class OffersCarouselHorizontal extends Component {
       { id: 2, title: 'item #2' },
       { id: 3, title: 'item #3' },
       { id: 4, title: 'item #4' },
-      { id: 5, title: 'item #5' }
+      { id: 5, title: 'item #5' },
+      { id: 6, title: 'item #6' }
     ]
   }
 
