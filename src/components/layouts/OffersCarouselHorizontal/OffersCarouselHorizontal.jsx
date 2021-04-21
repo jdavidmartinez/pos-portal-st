@@ -1,9 +1,11 @@
+/* OffersCarouselHorizontal /layout compimonent */
 import { Component } from 'react';
 import Carousel from 'react-elastic-carousel';
 
 import OffersCardJob from '../../UI/Cards/OffersCardJob/OffersCardJob';
 import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg';
 import data from '../../Data/data.json';
+import './offers-carousel-horizontal.css'
 
 class OffersCarouselHorizontal extends Component {
     state = { // eslint-disable-line
@@ -13,7 +15,7 @@ class OffersCarouselHorizontal extends Component {
     render() {
       const { items } = this.state;
       return (
-        <Carousel enableAutoPlay autoPlaySpeed={1500}>
+        <Carousel enableAutoPlay autoPlaySpeed={2000}>
           {items.map((item) => (
             <div key={item.id}>
               <OffersCardJob

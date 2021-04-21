@@ -133,13 +133,8 @@ img {
 }
 
 @media (min-width: 700px) and (max-width: 1200px) {
-  .content{
-    display: none;
-  }
 
 }
 @media (min-width: 320px) and (max-width: 699px) {
-  .content{
-    display: none;
-}
+
 }

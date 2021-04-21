@@ -10,17 +10,17 @@ import Footer from '../../layouts/Footer/Footer';
 import Header from '../../layouts/Header/Header';
 import Services from '../../layouts/Services/Services';
 import WhatsAppButton from '../../UI/WhatsAppButton/WhatsAppButton';
-// import Offers from '../../layouts/Offers/Offers';
-// import OffersCarouselHorizontal from '../../layouts/OffersCarouselHorizontal/OffersCarouselHorizontal';
+import Offers from '../../layouts/Offers/Offers';
+import OffersCarouselHorizontal from '../../layouts/OffersCarouselHorizontal/OffersCarouselHorizontal';
 
 const Home = () => (
   <div className="container-fluid home">
     <Header />
-    { /* <Offers /> */ }
+    <Offers />
     <AboutUs />
     <Features />
     <Services />
-    { /* <OffersCarouselHorizontal /> */ }
+    <OffersCarouselHorizontal />
     <Companies />
     <Bulletin />
     <Footer />
