@@ -152,16 +152,19 @@
     text-align: center;
     top: -55px
   }
+
   .bulletin-h2 {
     font-family: 'medium';
     font-size: 1.8em;
     padding-bottom: 0.5em;
   }
+
   .bulletin-p{
     font-family: 'medium';
     font-size: 1em;
     margin-top: 1rem;
   }
+  
   .bulletin-input {
     border-radius: var(--border-radius);
     position: relative;
@@ -191,16 +194,19 @@
     position: relative;
     top: -100px
   }
+
   .bulletin-h2 {
     font-family: 'medium';
     font-size: 1.8em;
     padding-bottom: 0.5em;
   }
+
   .bulletin-p{
     font-family: 'medium';
     font-size: 1em;
     margin-top: 1rem;
   }
+
   .bulletin-input {
     border-radius: var(--border-radius);
     position: relative;

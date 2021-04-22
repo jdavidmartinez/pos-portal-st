@@ -21,4 +21,3 @@ const Offers = () => (
   </>
 );
 export default Offers;
-/* <VerticalCarousel data={data.slides} leadingText={data.leadingText} /> */

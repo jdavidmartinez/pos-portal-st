@@ -25,7 +25,6 @@
 @media (min-width: 320px) and (max-width: 699px) {
   .footer {
     height: 50vh;
-    
   }
 
   .footer-logo {
@@ -34,34 +33,3 @@
     padding: 0;
   }
 }
-/*
-@media (max-width: 48em) {
-  .footer {
-    height: 70vh;
-  }
-  .footer-logo {
-    margin-bottom: -7em;
-  }
-  .footer-h3 {
-    margin-top: -7em;
-  }
-  .footer-h4 {
-    margin-top:-7em;
-  }
-}
-
-@media (min-width: 48em) and (max-width: 100em) {
-  .footer {
-    height: 60vh;
-  }
-  .footer-logo {
-    margin-bottom: -7em;
-  }
-  .footer-h3 {
-    margin-top: -7em;
-  }
-  .footer-h4 {
-    margin-top: -7em;
-  }
-}
-*/

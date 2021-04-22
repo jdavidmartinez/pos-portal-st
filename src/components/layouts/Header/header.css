@@ -126,9 +126,9 @@
   .header-woman {
     height: 40em;
     /* Require a new woman image for this size */
+    left:10%;
     margin-top: 0.5em;
     position: relative;
-    left:10%;
     width: auto;
   }
 
@@ -181,9 +181,9 @@
   .header-woman {
     height: 20em;
     /* Require a new woman image for this size */
+    left: 00px;
     margin-top: 0.5em;
     position: relative;
-    left: 00px;
     width: auto;
   }
 

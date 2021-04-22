@@ -32,8 +32,8 @@
 }
 
 .card-top-img {
-  width: 550px;
   padding-left: 0;
+  width: 550px;
 }
 
 @media (min-width: 700px) and (max-width: 1200px) {
@@ -42,10 +42,10 @@
   }
 
   .card-top-img {
-    width: 248px;
+    left: -10px;
     padding: 0;
     position: relative;
-    left: -10px
+    width: 248px;
   }
 
   .card-title {
@@ -67,10 +67,10 @@
   }
   
   .card-top-img {
-    width: 254px;
+    left: -9px;
     padding: 0;
     position: relative;
-    left: -9px
+    width: 254px;
   }
 
   .card-title {

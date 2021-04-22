@@ -5,7 +5,7 @@ import Carousel from 'react-elastic-carousel';
 import OffersCardJob from '../../UI/Cards/OffersCardJob/OffersCardJob';
 import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg';
 import data from '../../Data/data.json';
-import './offers-carousel-horizontal.css'
+import './offers-carousel-horizontal.css';
 
 class OffersCarouselHorizontal extends Component {
     state = { // eslint-disable-line
@@ -34,25 +34,3 @@ class OffersCarouselHorizontal extends Component {
     }
 }
 export default OffersCarouselHorizontal;
-/*
- class Archive extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      products: data,
-      category: ""
-    };
-    this.filterHandler = this.filterHandler.bind(this);
-  }
-  {
-        "title": "Desarrollador",
-        "id": "desarrollador",
-        "companie": "Perfiltic",
-        "salary": "$5.000.000",
-        "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
-        "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
-        "offerVactNumber": "Vact#52",
-        "offerNumber": "01",
-        "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob",
-      },
-*/

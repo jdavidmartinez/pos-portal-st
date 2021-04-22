@@ -8,13 +8,13 @@
 
 @media (min-width: 700px) and (max-width: 1200px) {
     .rec.rec-arrow {
-        visibility: visible;
-        display: flex;
         align-items: flex-start;
-        position: relative;
-        top:500;        
         background-color: var(--primary);
         border-radius: var(--border-radius);
+        display: flex;
+        position: relative;
+        top:500;        
+        visibility: visible;
     }
     
     .rec.rec-arrow:hover {
@@ -23,8 +23,8 @@
     }
     
     .rec.rec-pagination{
-        visibility: visible;
         background-color: var(--secondary);
+        visibility: visible;
     }
     
     .rec.rec-pagination:hover {
@@ -33,9 +33,9 @@
 }
 @media (min-width: 320px) and (max-width: 699px) {
 .rec.rec-arrow {
-    visibility: visible;
     background-color: var(--primary);
     border-radius: var(--border-radius);
+    visibility: visible;
 }
 
 .rec.rec-arrow:hover {
@@ -44,8 +44,8 @@
 }
 
 .rec.rec-pagination{
-    visibility: visible;
     background-color: var(--secondary);
+    visibility: visible;
 }
 
 .rec.rec-pagination:hover {
