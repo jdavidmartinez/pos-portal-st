@@ -106,18 +106,18 @@ img {
 }
 
 .carousel-inner::after {
-  bottom: 0;
   background: linear-gradient( 0deg, hsla(27, 100%, 48%, 1) 0%, hsla(0, 0%, 100%, 0) 100%);
+  bottom: 0;
 }
 
 .carousel-item {
-  position: absolute;
   background: none;
   border: none;
-  padding: 75px 25px 25px 25px;
   /* to vertical align carousel between buttoms */
   margin: 0;
   opacity: 0;
+  padding: 75px 25px 25px 25px;
+  position: absolute;
   top: 112px;
   transition: transform 0.4s ease, opacity 0.4s ease;
 
@@ -128,18 +128,13 @@ img {
 }
 
 .content {
-  margin-top: 40px;
   height: auto;
+  margin-top: 40px;
 }
 
 @media (min-width: 700px) and (max-width: 1200px) {
-  .content{
-    display: none;
-  }
 
 }
 @media (min-width: 320px) and (max-width: 699px) {
-  .content{
-    display: none;
-}
+
 }

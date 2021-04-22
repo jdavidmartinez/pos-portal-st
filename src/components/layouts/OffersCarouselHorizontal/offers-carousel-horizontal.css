@@ -1,0 +1,54 @@
+.rec.rec-arrow {
+    visibility: hidden;
+}
+
+.rec.rec-pagination{
+    visibility: hidden;
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    .rec.rec-arrow {
+        align-items: flex-start;
+        background-color: var(--primary);
+        border-radius: var(--border-radius);
+        display: flex;
+        position: relative;
+        top:500;        
+        visibility: visible;
+    }
+    
+    .rec.rec-arrow:hover {
+        background-color: var(--primary);
+        border-radius: var(--border-radius);
+    }
+    
+    .rec.rec-pagination{
+        background-color: var(--secondary);
+        visibility: visible;
+    }
+    
+    .rec.rec-pagination:hover {
+        border-radius: var(--border-radius);
+    }
+}
+@media (min-width: 320px) and (max-width: 699px) {
+.rec.rec-arrow {
+    background-color: var(--primary);
+    border-radius: var(--border-radius);
+    visibility: visible;
+}
+
+.rec.rec-arrow:hover {
+    background-color: var(--primary);
+    border-radius: var(--border-radius);
+}
+
+.rec.rec-pagination{
+    background-color: var(--secondary);
+    visibility: visible;
+}
+
+.rec.rec-pagination:hover {
+    border-radius: var(--border-radius);
+}
+}
