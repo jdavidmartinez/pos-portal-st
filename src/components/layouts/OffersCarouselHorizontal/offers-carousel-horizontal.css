@@ -8,12 +8,8 @@
 
 @media (min-width: 700px) and (max-width: 1200px) {
     .rec.rec-arrow {
-        align-items: flex-start;
         background-color: var(--primary);
         border-radius: var(--border-radius);
-        display: flex;
-        position: relative;
-        top:500;        
         visibility: visible;
     }
     
@@ -21,6 +17,14 @@
         background-color: var(--primary);
         border-radius: var(--border-radius);
     }
+
+    .rec-arrow-left{
+        align-self: flex-start;
+    } 
+
+    .rec-arrow-right{
+        align-self: flex-start;
+    } 
     
     .rec.rec-pagination{
         background-color: var(--secondary);
@@ -36,6 +40,8 @@
     background-color: var(--primary);
     border-radius: var(--border-radius);
     visibility: visible;
+    display: flexbox;
+    position: relative;
 }
 
 .rec.rec-arrow:hover {
@@ -43,9 +49,34 @@
     border-radius: var(--border-radius);
 }
 
+.rec.rec-arrow-left{
+    align-self: flex-start;
+    position: relative;
+    top: -40px;
+} 
+
+.rec.rec-arrow-right{
+    align-self: flex-start;
+    position: relative;
+    top: -40px;
+} 
+
+.rec.rec-carousel{
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cardOffer{
+    width: 300px;
+    overflow: visible;
+    top: 30px;
+}
+
 .rec.rec-pagination{
     background-color: var(--secondary);
     visibility: visible;
+    align-self: flex-start;
 }
 
 .rec.rec-pagination:hover {

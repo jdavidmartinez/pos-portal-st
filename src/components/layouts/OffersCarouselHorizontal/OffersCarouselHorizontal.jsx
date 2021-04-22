@@ -1,6 +1,7 @@
 /* OffersCarouselHorizontal /layout compimonent */
 import { Component } from 'react';
 import Carousel from 'react-elastic-carousel';
+// import styled from 'styled-components'
 
 import OffersCardJob from '../../UI/Cards/OffersCardJob/OffersCardJob';
 import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg';
