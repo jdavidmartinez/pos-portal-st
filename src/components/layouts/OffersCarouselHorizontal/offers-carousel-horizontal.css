@@ -69,23 +69,32 @@
 }
 
 .rec.rec-carousel-item-visible{
-    background-color: var(--primary);
-    width: 350px;
+    position: absolute;
+    width: 350px; /* this is a test */
     overflow: visible;
 }
 
 .cardOffer{
-    width: 300px;
+    z-index: 1;
+    top: 20px;
     overflow: visible;
-    top: 30px;
 }
 
 .rec.rec-pagination{
     background-color: var(--secondary);
-    visibility: hidden;
+    visibility: visible;
+    align-self: flex-start;
+    display: flexbox;
+
 }
 
 .rec.rec-pagination:hover {
     border-radius: var(--border-radius);
+    
+}
+
+.rec.rec-dot:hover{
+    background-color: var(--secondary);
+    box-shadow: 0 0 1px 2px var(--primary);
 }
 }
