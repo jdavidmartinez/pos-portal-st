@@ -13,7 +13,7 @@ const Header = () => (
       <div className="row between-xs header-top-bar">
         <img src={logo} alt="empleapp logo" className="header-logo" />
         <a
-          href="https://"
+          href="http://dashboard.empleapp.co.s3-website-us-east-1.amazonaws.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="header-ingress-button"
@@ -59,7 +59,7 @@ const Header = () => (
       <div className="row between-xs header-top-bar">
         <img src={logo} alt="empleapp logo" className="header-logo" />
         <a
-          href="https://"
+          href="http://dashboard.empleapp.co.s3-website-us-east-1.amazonaws.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="header-ingress-button"

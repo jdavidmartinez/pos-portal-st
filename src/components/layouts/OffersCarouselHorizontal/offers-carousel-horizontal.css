@@ -8,12 +8,8 @@
 
 @media (min-width: 700px) and (max-width: 1200px) {
     .rec.rec-arrow {
-        align-items: flex-start;
         background-color: var(--primary);
         border-radius: var(--border-radius);
-        display: flex;
-        position: relative;
-        top:500;        
         visibility: visible;
     }
     
@@ -21,6 +17,14 @@
         background-color: var(--primary);
         border-radius: var(--border-radius);
     }
+
+    .rec-arrow-left{
+        align-self: flex-start;
+    } 
+
+    .rec-arrow-right{
+        align-self: flex-start;
+    } 
     
     .rec.rec-pagination{
         background-color: var(--secondary);
@@ -36,6 +40,8 @@
     background-color: var(--primary);
     border-radius: var(--border-radius);
     visibility: visible;
+    display: flexbox;
+    position: relative;
 }
 
 .rec.rec-arrow:hover {
@@ -43,12 +49,52 @@
     border-radius: var(--border-radius);
 }
 
+.rec.rec-arrow-left{
+    align-self: flex-start;
+    position: relative;
+    top: -40px;
+} 
+
+.rec.rec-arrow-right{
+    align-self: flex-start;
+    position: relative;
+    top: -40px;
+} 
+
+.rec.rec-carousel{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    height: 300px;
+}
+
+.rec.rec-carousel-item-visible{
+    position: absolute;
+    width: 350px; /* this is a test */
+    overflow: visible;
+}
+
+.cardOffer{
+    z-index: 1;
+    top: 20px;
+    overflow: visible;
+}
+
 .rec.rec-pagination{
     background-color: var(--secondary);
     visibility: visible;
+    align-self: flex-start;
+    display: flexbox;
+
 }
 
 .rec.rec-pagination:hover {
     border-radius: var(--border-radius);
+    
+}
+
+.rec.rec-dot:hover{
+    background-color: var(--secondary);
+    box-shadow: 0 0 1px 2px var(--primary);
 }
 }
