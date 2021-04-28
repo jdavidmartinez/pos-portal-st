@@ -1,0 +1,20 @@
+.simple-slider .slick-next{
+    top: 0;
+    right: 20px  !important;
+}
+.simple-slider .slick-slider{
+    padding-top: 40px;
+}  
+
+.simple-slider .slick-next:before{
+    content: '>';
+    color: black;
+}
+.simple-slider .slick-prev{
+    top: 0;
+    left: 20px  !important;
+}
+.simple-slider .slick-prev:before{
+    content: '<';
+    color: black;
+}
