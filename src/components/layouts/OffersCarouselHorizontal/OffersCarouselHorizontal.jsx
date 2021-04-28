@@ -16,7 +16,7 @@ class OffersCarouselHorizontal extends Component {
     render() {
       const { items } = this.state;
       return (
-        <Carousel enableAutoPlay autoPlaySpeed={2000}>
+        <Carousel autoPlaySpeed={2000}>
           {items.map((item) => (
             <div key={item.id}>
               <OffersCardJob

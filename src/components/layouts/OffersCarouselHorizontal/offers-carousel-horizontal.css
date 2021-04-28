@@ -36,12 +36,45 @@
     }
 }
 @media (min-width: 320px) and (max-width: 699px) {
+.rec.rec-carousel-wrapper{
+    display: flex;
+}
+
+.rec.rec-carousel{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    height: 300px;
+}
+
+.rec.rec-slider-container{
+    overflow: visible;
+    /* Shows lateral items */
+}
+
+.rec.rec-slider{
+    overflow: visible;
+}
+
+.rec.rec-swipable{
+    overflow: visible;
+}
+
+.rec.rec-carousel-item-visible{
+    position: absolute;
+    width: 350px; /* this is a test */
+    overflow: visible;
+}
+
+.rec.rec-item-wrapper{
+    overflow: visible;
+}
+
 .rec.rec-arrow {
     background-color: var(--primary);
     border-radius: var(--border-radius);
-    visibility: visible;
-    display: flexbox;
     position: relative;
+    visibility: visible;
 }
 
 .rec.rec-arrow:hover {
@@ -61,31 +94,17 @@
     top: -40px;
 } 
 
-.rec.rec-carousel{
-    position: relative;
-    width: 100%;
-    margin: 30px 0;
-    height: 300px;
-}
-
-.rec.rec-carousel-item-visible{
-    position: absolute;
-    width: 350px; /* this is a test */
-    overflow: visible;
-}
-
 .cardOffer{
-    z-index: 1;
+    z-index: 0;
     top: 20px;
-    overflow: visible;
+    overflow: hidden;
+    margin: 0 30px 0 30px;
 }
 
 .rec.rec-pagination{
     background-color: var(--secondary);
     visibility: visible;
-    align-self: flex-start;
-    display: flexbox;
-
+    align-self: center;
 }
 
 .rec.rec-pagination:hover {
