@@ -53,7 +53,7 @@
 
 .rec.rec-slider-container{
     overflow: hidden;
-    /* Shows lateral items */
+    /* Shows lateral items, but scale de size of te screen */
 }
 
 .rec.rec-slider{
