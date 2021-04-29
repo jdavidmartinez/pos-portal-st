@@ -21,29 +21,31 @@ const ResponsiveCardOfferes = (
     <Card className="row responsive-card-offers">
       <Card.Body className="col-xs-10">
         <div className="row">
-          <Card.Img src={portfolioImg} className="col-xs-2 offer-card-portfolio-img" />
-          <Card.Title className="col-xs-7 offer-card-title">
+          <Card.Img src={portfolioImg} className="col-xs-2 responsive-offers-card-portfolio-img" />
+          <Card.Title className="col-xs-10 responsive-offers-card-title">
             {tittleOffer}
           </Card.Title>
-          <Card.Text className="col-xs-3 offer-card-tex">{offerVactNumber}</Card.Text>
         </div>
         <div className="row">
-          <Card.Text className="col-xs-9 offer-card-tex">
+          <Card.Text className="col-xs-12 responsive-offers-card-tex">
             {companie}
             -
             {salary}
           </Card.Text>
         </div>
         <div className="row">
-          <Card.Text className="col-xs-9 offer-card-tex">
+          <Card.Text className="col-xs-10 responsive-offers-card-tex">
             {description}
           </Card.Text>
-          <Card.Text className="col-xs-3 offer-card-tex">
-            {offerNumber}
-          </Card.Text>
+          <Card.Text className="col-xs-2 responsive-offers-card-tex">{offerVactNumber}</Card.Text>
         </div>
       </Card.Body>
-      <Card.Img src={offerIcon} className="col-xs-2 offer-card-rigth-icon" />
+      <div className="col-xs-12 responsive-buttom-img-section">
+        <Card.Img src={offerIcon} className="col-xs-12 responsive-offers-card-buttom-icon" />
+      </div>
+      <Card.Text className="col-xs-12 responsive-offers-card-number">
+        {offerNumber}
+      </Card.Text>
     </Card>
   </>
 );
@@ -59,6 +61,12 @@ ResponsiveCardOfferes.propTypes = {
   }
 export default ResponsiveCardOfferes;
 /* 
+
+<Card.Text className="col-xs-3 offer-card-tex">
+            {offerNumber}
+          </Card.Text>
+
+
 const OffersCardJob = (
   {
     companie,
