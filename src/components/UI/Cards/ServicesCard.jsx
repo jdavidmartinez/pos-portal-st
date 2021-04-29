@@ -24,7 +24,7 @@ const CardType = ({
           </Card.Text>
           <Card.Img
             src={iconImage}
-            className="col-xs-3 col-sm-2"
+            className="col-xs-3 col-sm-2 card-icon-img"
           />
         </article>
       </Card.Body>
