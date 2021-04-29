@@ -1,19 +1,19 @@
 .simple-slider{
-    visibility: hidden;
     height: 1vh;
+    visibility: hidden;
 }
 @media (min-width: 320px) and (max-width: 699px) {
 .simple-slider{
-    visibility: visible;
-    height: 90vh;
     background-color: var(--secondary);
-    padding: auto;
     border-radius: var(--border-radius);
+    height: 90vh;
+    padding: auto;
+    visibility: visible;
 }
 
 .simple-slider .slick-next{
-    top: 30px;
     right: 20px  !important;
+    top: 30px;
 }
 .simple-slider .slick-slider{
     padding-top: 60px;
@@ -24,8 +24,8 @@
     color: black;
 }
 .simple-slider .slick-prev{
-    top: 30px;
     left: 20px  !important;
+    top: 30px;
 }
 .simple-slider .slick-prev:before{
     content: '<';
@@ -37,6 +37,5 @@
 }
 .simple-slider .slide-image{
     border-radius: 1rem;
-    
 }
 }
