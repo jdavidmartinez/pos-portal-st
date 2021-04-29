@@ -1,9 +1,11 @@
 .simple-slider{
     visibility: hidden;
+    height: 1vh;
 }
 @media (min-width: 320px) and (max-width: 699px) {
 .simple-slider{
     visibility: visible;
+    height: 90vh;
     background-color: var(--secondary);
     padding: auto;
     border-radius: var(--border-radius);
@@ -29,8 +31,12 @@
     content: '<';
     color: black;
 }
+
+.simple-slider .responsive-content-img{
+    padding: 20px;
+}
 .simple-slider .slide-image{
-    padding: 20px 20px 20px 20px;
-    border-radius: var(--border-radius);
+    border-radius: 1rem;
+    
 }
 }
