@@ -28,4 +28,5 @@ deploy to s3:
   before_script:
     - pip install awscli
   script:
+    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DIST_PROD --paths "/*"
     - aws s3 cp build s3://empleapp.co --recursive
