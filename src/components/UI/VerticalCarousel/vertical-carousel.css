@@ -2,9 +2,9 @@
   box-sizing: content-box;
 }
 .container{
-  box-sizing: border-box; /* mine, trying to put a limit to the elements */
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 body {
@@ -18,19 +18,16 @@ button {
 
 img {
   max-width: 100%;
-  border-radius: --border-radius;
 }
 
 .outer-container {
   /* box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3); */
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   height: 700px;
   /* Increase container size */
   width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  
+  margin-left: 0%;
 }
 
 .outer-container>div {
@@ -41,6 +38,7 @@ img {
 .outer-container .carousel-wrapper {
   display: flex;
   flex-direction: column;
+  
 }
 
 .carousel-wrapper {
@@ -130,6 +128,9 @@ img {
 .content {
   height: auto;
   margin-top: 40px;
+  padding: 0;
+  border-radius: var(--border-radius);
+  
 }
 
 @media (min-width: 700px) and (max-width: 1200px) {
