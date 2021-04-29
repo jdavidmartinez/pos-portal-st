@@ -1,0 +1,18 @@
+.responsive-card-offers{
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-color: var(--gray1);
+    border-radius: var(--border-radius);
+    padding: 0 20px;
+    margin: 0 20px !important;
+
+}
+
+.responsive-card-offers .responsive-card-offers-body{
+    align-items: center;
+    justify-items: center;
+    padding: auto;
+    
+}
