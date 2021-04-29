@@ -29,7 +29,9 @@ function ResponsiveOffers() {
                 offerVactNumber={item.offerVactNumber}
                 offerNumber={item.offerNumber}
               />
-              <img src={offerRigthImg} className="slide-image"></img>
+              <div className="slide-image">
+                <img src={offerRigthImg}></img>
+              </div>
             </div>
           ))}
       </Slider>
