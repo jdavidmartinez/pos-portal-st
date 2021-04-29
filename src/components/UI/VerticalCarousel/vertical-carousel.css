@@ -1,10 +1,11 @@
 * {
   box-sizing: content-box;
 }
+
 .container{
-  box-sizing: border-box; /* mine, trying to put a limit to the elements */
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 body {
@@ -18,19 +19,16 @@ button {
 
 img {
   max-width: 100%;
-  border-radius: --border-radius;
 }
 
 .outer-container {
   /* box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3); */
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   height: 700px;
   /* Increase container size */
   width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  
+  margin-left: 0%;
 }
 
 .outer-container>div {
@@ -52,21 +50,21 @@ img {
 } */
 
 .carousel {
-  height: 100%;
-  display: flex;
-  flex: 5;
   align-items: center;
   color: var(--white);
+  display: flex;
+  flex: 5;
+  height: 100%;
 }
 
 .carousel-button {
-  display: flex;
   align-self: flex-end;
-  padding: 10px;
-  max-width: 50px;
-  border-radius: 30px;
   background: var(--primary);
+  border-radius: 30px;
   border: 2px solid var(--white);
+  display: flex;
+  max-width: 50px;
+  padding: 10px;
 }
 
 .carousel-button svg {
@@ -81,28 +79,28 @@ img {
 .slides {
   align-self: flex-start;
   flex: 1;
-  width: 100%;
   overflow: hidden;
+  width: 100%;
 }
 
 .carousel-inner {
-  position: absolute;
-  max-height: 250px;
   height: 250px;
+  max-height: 250px;
+  position: absolute;
 }
 
 .carousel-inner::before, .carousel-inner::after {
   content: "";
-  z-index: 1;
-  position: absolute;
-  width: 100%;
   height: 110px;
   pointer-events: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 
 .carousel-inner::before {
-  top: 0;
   background: linear-gradient( 0deg, hsla(0, 0%, 100%, 0) 0%, hsla(27, 100%, 48%, 1) 100%);
+  top: 0;
 }
 
 .carousel-inner::after {
@@ -120,7 +118,6 @@ img {
   position: absolute;
   top: 112px;
   transition: transform 0.4s ease, opacity 0.4s ease;
-
 }
 
 .carousel-item.visible {
@@ -130,11 +127,6 @@ img {
 .content {
   height: auto;
   margin-top: 40px;
-}
-
-@media (min-width: 700px) and (max-width: 1200px) {
-
-}
-@media (min-width: 320px) and (max-width: 699px) {
-
+  padding: 0;
+  border-radius: var(--border-radius);
 }

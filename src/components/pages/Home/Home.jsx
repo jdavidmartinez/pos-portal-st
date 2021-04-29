@@ -11,7 +11,7 @@ import Header from '../../layouts/Header/Header';
 import Services from '../../layouts/Services/Services';
 import WhatsAppButton from '../../UI/WhatsAppButton/WhatsAppButton';
 import Offers from '../../layouts/Offers/Offers';
-import OffersCarouselHorizontal from '../../layouts/OffersCarouselHorizontal/OffersCarouselHorizontal';
+import ResponsiveOffers from '../../layouts/ResponsiveOffers/ResponsiveOffers';
 
 const Home = () => (
   <div className="container-fluid home">
@@ -20,7 +20,7 @@ const Home = () => (
     <AboutUs />
     <Features />
     <Services />
-    <OffersCarouselHorizontal />
+    <ResponsiveOffers />
     <Companies />
     <Bulletin />
     <Footer />

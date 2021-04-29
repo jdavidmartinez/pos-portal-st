@@ -1,0 +1,60 @@
+.responsive-card-offers{
+    background-color: var(--gray1);
+    border-radius: var(--border-radius);
+    display: flex;
+    height: 200px;
+    margin: 0 20px !important;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+.responsive-card-offers .responsive-card-offers-body{
+    align-items: center;
+    justify-items: center;
+    padding: auto;
+}
+
+.responsive-card-offers .responsive-offers-card-portfolio-img{
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    top: 20px;
+}
+
+.responsive-card-offers .responsive-offers-card-title{
+    font-size: 15px;
+    left: 35px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 15px;
+}
+
+.responsive-card-offers .responsive-offers-card-tex{
+    font-size: 15px;
+    padding: 5px 0 0 15px;
+}
+
+.responsive-card-offers .responsive-buttom-img-section{
+    background-color: var(--primary);
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    height: 59px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.responsive-card-offers .responsive-offers-card-buttom-icon{
+    margin: auto;
+    padding: auto;
+    position: relative;
+    top: 20px;
+}
+
+.responsive-card-offers .responsive-offers-card-number{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -210px;
+}

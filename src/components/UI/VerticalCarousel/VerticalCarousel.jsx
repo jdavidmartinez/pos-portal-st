@@ -127,7 +127,7 @@ const VerticalCarousel = ({ data }) => {
         <div className="col-xs-12 col-md-12 col-lg-6 content">
           <img
             src={offerRigthImg}
-            alt={data[activeIndex].content.title}
+            alt={data[activeIndex].title}
           />
         </div>
       </section>
