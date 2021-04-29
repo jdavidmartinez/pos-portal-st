@@ -4,18 +4,15 @@
     display: flex;
     height: 200px;
     margin: 0 20px !important;
-    position: relative;
     padding: 0;
+    position: relative;
     width: auto;
-    
-
 }
 
 .responsive-card-offers .responsive-card-offers-body{
     align-items: center;
     justify-items: center;
     padding: auto;
-    
 }
 
 .responsive-card-offers .responsive-offers-card-portfolio-img{
@@ -37,6 +34,7 @@
     font-size: 15px;
     padding: 5px 0 0 15px;
 }
+
 .responsive-card-offers .responsive-buttom-img-section{
     background-color: var(--primary);
     border-bottom-left-radius: var(--border-radius);
@@ -45,8 +43,8 @@
     margin: 0;
     padding: 0;
     width: auto;
-    
 }
+
 .responsive-card-offers .responsive-offers-card-buttom-icon{
     margin: auto;
     padding: auto;
