@@ -17,23 +17,23 @@ function ResponsiveOffers() {
   };
   return (
     <div className="simple-slider">
-      <Slider {...settings}> 
-      {data.slides.map((item) => (
-            <div key={item.id}>
-              <ResponsiveCardOffers
-                tittleOffer={item.title}
-                companie={item.companie}
-                salary={item.salary}
-                description={item.description}
-                offerIcon={offerIcon}
-                offerVactNumber={item.offerVactNumber}
-                offerNumber={item.offerNumber}
-              />
-              <div className="responsive-content-img">
-                <img src={offerRigthImg} className="slide-image"></img>
-              </div>
+      <Slider {...settings}>  {/* eslint-disable-line */}
+        {data.slides.map((item) => (
+          <div key={item.id}>
+            <ResponsiveCardOffers
+              tittleOffer={item.title}
+              companie={item.companie}
+              salary={item.salary}
+              description={item.description}
+              offerIcon={offerIcon}
+              offerVactNumber={item.offerVactNumber}
+              offerNumber={item.offerNumber}
+            />
+            <div className="responsive-content-img">
+              <img src={offerRigthImg} className="slide-image" alt="" />
             </div>
-          ))}
+          </div>
+        ))}
       </Slider>
     </div>
   );
