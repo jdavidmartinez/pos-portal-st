@@ -14,7 +14,7 @@ const Features = () => (
       <div className="row center-xs">
         <h2 className="col-xs-12 h2-titles features-title">¿Por qué Nosotros?</h2>
       </div>
-      <div className="row between-xs">
+      <div className="row around-xs">
         <FeaturesCard
           image={identify}
           alt="Identify"

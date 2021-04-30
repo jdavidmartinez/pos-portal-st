@@ -1,8 +1,10 @@
 /* styles from Features layout-component */
 
 .features {
-  margin: auto;
-  width: 80%;
+  display: inline;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
 }
 
 .features-title {
@@ -15,7 +17,8 @@
   background-color: var(--secondary);
   border-radius: var(--border-radius);
   padding: 0 1em 1em 1em;
-  width: 25%;
+  width: 20%;
+  margin: auto;
 }
 
 .features-card-text {
@@ -60,38 +63,45 @@
 }
 
 @media (min-width: 320px) and (max-width: 699px) {
-  .features-title {
-    font-size: 1.3em;
-    margin: 1em 0 2em 0;
-  }
-  
-  .features-card-title {
-    color: var(--primary);
-    font-family: 'medium';
-    font-size: 1.3em;
-    margin-bottom: 1em;
-  }
-
-  .features-card {
-    border-radius: 1.56em;
+.features-card {
+    border-radius: var(--border-radius);
+    height: 150px;
     margin-bottom: 4em;
     padding: 0 1em 1em 1em;
     width: 100%;
   }
 
-  .features-card-text {
-    line-height: 1.25em;
-    margin: 0;
+.features-title {
+    font-size: 1.2rem !important;
+    margin: 3em 0 4em 0;
+  }
+  
+.features-card-title {
+    color: var(--primary);
+    font-family: 'medium';
+    font-size: 1em;
+    margin-bottom: 1em;
+    position: relative;
+    top: -50px;
+    
   }
 
-  .features-card-top-image {
+.features-card-text {
+    line-height: 1.5em;
+    font-size: 0.7em;
+    margin: 0;
+    position: relative;
+    top: -50px;
+  }
+
+.features-card-top-image {
     border-radius: --border-radius;
     box-sizing: border-box;
-    left: 39%;
+    left: 59%;
     position: relative;
     padding: 0;
     margin: 0;
     top: -1.4em;
-    width: 200px;
+    width: 130px;
    }
 }
