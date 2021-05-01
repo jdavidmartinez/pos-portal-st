@@ -21,6 +21,72 @@
       "offerVactNumber": " ",
       "offerNumber": "02",
       "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
-    }    
+    },
+    {
+      "title": "Ranchera",
+      "id": "ranchera",
+      "companie": "Portal St",
+      "cost": 14000,
+      "description": " ",
+      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
+      "offerVactNumber": " ",
+      "offerNumber": "03",
+      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
+    },
+    {
+      "title": "Hamburguesa Pollo",
+      "id": "hpollo",
+      "companie": "Portal St",
+      "cost": 11000,
+      "description": " ",
+      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
+      "offerVactNumber": " ",
+      "offerNumber": "04",
+      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
+    },
+    {
+      "title": "Norteña",
+      "id": "nortena",
+      "companie": "Portal St",
+      "cost": 14000,
+      "description": " ",
+      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
+      "offerVactNumber": " ",
+      "offerNumber": "05",
+      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
+    },
+    {
+      "title": "Cheese Burger",
+      "id": "cheese",
+      "companie": "Portal St",
+      "cost": 11000,
+      "description": " ",
+      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
+      "offerVactNumber": " ",
+      "offerNumber": "06",
+      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
+    },
+    {
+      "title": "Arepa Burger",
+      "id": "arepa",
+      "companie": "Portal St",
+      "cost": 11000,
+      "description": " ",
+      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
+      "offerVactNumber": " ",
+      "offerNumber": "07",
+      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
+    },
+    {
+      "title": "Ham Junior",
+      "id": "hjunior",
+      "companie": "Portal St",
+      "cost": 9000,
+      "description": " ",
+      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
+      "offerVactNumber": " ",
+      "offerNumber": "08",
+      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
+    }      
   ]
 }
