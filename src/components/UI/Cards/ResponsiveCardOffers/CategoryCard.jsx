@@ -4,14 +4,13 @@ import PropTypes from 'prop-types';
 
 import portfolioImg from '../../../../assets/icons/img/offer-job.png';
 
-import './responsive-card-offers.css';
+import './category-card.css';
 
-const ResponsiveCardOfferes = (
+const CategoryCard = (
   {
     companie,
     description,
     offerIcon,
-    offerNumber,
     offerVactNumber,
     cost,
     tittleOffer
@@ -40,23 +39,21 @@ const ResponsiveCardOfferes = (
           <Card.Text className="col-xs-2 responsive-offers-card-tex">{offerVactNumber}</Card.Text>
         </div>
       </Card.Body>
+      <input placeholder="Cantidad" />
+      <button>OK</button> { /* eslint-disable-line */ }
       <div className="col-xs-12 responsive-buttom-img-section">
         <Card.Img src={offerIcon} className="col-xs-12 responsive-offers-card-buttom-icon" />
       </div>
-      <Card.Text className="col-xs-12 responsive-offers-card-number">
-        {offerNumber}
-      </Card.Text>
     </Card>
   </>
 );
 
-ResponsiveCardOfferes.propTypes = {
+CategoryCard.propTypes = {
   offerIcon: PropTypes.string.isRequired,
   tittleOffer: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   cost: PropTypes.string.isRequired,
   offerVactNumber: PropTypes.string.isRequired,
-  companie: PropTypes.string.isRequired,
-  offerNumber: PropTypes.string.isRequired
+  companie: PropTypes.string.isRequired
 }
-export default ResponsiveCardOfferes;
+export default CategoryCard;

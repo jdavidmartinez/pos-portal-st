@@ -6,7 +6,7 @@ import portfolioImg from '../../../../assets/icons/img/offer-job.png';
 
 import './offer-card-job.css';
 
-const OffersCardJob = (
+const CategoryCard = (
   {
     companie,
     description,
@@ -48,7 +48,7 @@ const OffersCardJob = (
   </>
 );
 
-OffersCardJob.propTypes = {
+CategoryCard.propTypes = {
   offerIcon: PropTypes.string.isRequired,
   tittleOffer: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
@@ -57,4 +57,4 @@ OffersCardJob.propTypes = {
   companie: PropTypes.string.isRequired,
   offerNumber: PropTypes.string.isRequired
 }
-export default OffersCardJob;
+export default CategoryCard;

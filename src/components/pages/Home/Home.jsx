@@ -2,11 +2,11 @@
 
 import './home.css';
 
-import ResponsiveOffers from '../../layouts/ResponsiveOffers/ResponsiveOffers';
+import Category from '../../layouts/Category/Category';
 
 const Home = () => (
   <div className="container-fluid home">
-    <ResponsiveOffers />
+    <Category />
   </div>
 );
 

@@ -2,7 +2,7 @@
     background-color: var(--gray1);
     border-radius: var(--border-radius);
     display: flex;
-    height: 200px;
+    height: 160px;
     margin: 0 20px !important;
     padding: 0;
     position: relative;
@@ -50,11 +50,4 @@
     padding: auto;
     position: relative;
     top: 20px;
-}
-
-.responsive-card-offers .responsive-offers-card-number{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -210px;
 }
