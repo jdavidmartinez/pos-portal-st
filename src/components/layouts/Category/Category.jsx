@@ -15,7 +15,15 @@ function Category() {
   const [quantityNortena, setQuantityNortena] = useState(0);  // eslint-disable-line
   const [quantityCheese, setQuantityCheese] = useState(0);  // eslint-disable-line
   const [quantityArepa, setQuantityArepa] = useState(0);  // eslint-disable-line
-  const [quantityHJunion, setQuantityHJunior] = useState(0);  // eslint-disable-line
+  const [quantityHJunior, setQuantityHJunior] = useState(0);  // eslint-disable-line
+  let Portal = data.slides[0].cost * quantityPortal; // eslint-disable-line
+  let Portazo = data.slides[1].cost * quantityPortazo; // eslint-disable-line
+  let HPollo = data.slides[3].cost * quantityHPollo; // eslint-disable-line
+  let Ranchera = data.slides[2].cost * quantityRanchera; // eslint-disable-line
+  let Nortena = data.slides[4].cost * quantityNortena; // eslint-disable-line
+  let Cheese = data.slides[5].cost * quantityCheese;// eslint-disable-line
+  let Arepa = data.slides[6].cost * quantityArepa;// eslint-disable-line
+  let HJunior = data.slides[7].cost * quantityHJunior; // eslint-disable-line
 
   return (
     <>
@@ -27,51 +35,55 @@ function Category() {
               <div>  { /* eslint-disable-line */ }
                 <h1>{data.slides[0].title}</h1>
                 <h2>{quantityPortal}</h2>
-                {data.slides[0].cost * quantityPortal}
+                {Portal}
               </div> : null }
               {quantityPortazo > 0 ?  // eslint-disable-line
               <div>  { /* eslint-disable-line */ }
                 <h1>{data.slides[1].title}</h1>
                 <h2>{quantityPortazo}</h2>
-                {data.slides[1].cost * quantityPortazo}
+                {Portazo}
               </div> : null }
               {quantityRanchera > 0 ?  // eslint-disable-line
               <div>  { /* eslint-disable-line */ }
                 <h1>{data.slides[2].title}</h1>
                 <h2>{quantityRanchera}</h2>
-                {data.slides[2].cost * quantityRanchera}
+                {Ranchera}
               </div> : null }
               {quantityHPollo > 0 ?  // eslint-disable-line
               <div>  { /* eslint-disable-line */ }
                 <h1>{data.slides[3].title}</h1>
                 <h2>{quantityHPollo}</h2>
-                {data.slides[3].cost * quantityHPollo}
+                {HPollo}
               </div> : null }
               {quantityNortena > 0 ?  // eslint-disable-line
               <div>  { /* eslint-disable-line */ }
                 <h1>{data.slides[4].title}</h1>
                 <h2>{quantityNortena}</h2>
-                {data.slides[4].cost * quantityNortena}
+                {Nortena}
               </div> : null }
               {quantityCheese > 0 ?  // eslint-disable-line
               <div>  { /* eslint-disable-line */ }
                 <h1>{data.slides[5].title}</h1>
                 <h2>{quantityCheese}</h2>
-                {data.slides[5].cost * quantityCheese}
+                {Cheese}
               </div> : null }
               {quantityArepa > 0 ?  // eslint-disable-line
               <div>  { /* eslint-disable-line */ }
                 <h1>{data.slides[6].title}</h1>
                 <h2>{quantityArepa}</h2>
-                {data.slides[6].cost * quantityArepa}
+                {Arepa}
               </div> : null }
-              {quantityHJunion > 0 ?  // eslint-disable-line
+              {quantityHJunior > 0 ?  // eslint-disable-line
               <div>  { /* eslint-disable-line */ }
                 <h1>{data.slides[7].title}</h1>
-                <h2>{quantityHJunion}</h2>
-                {data.slides[7].cost * quantityHJunion}
+                <h2>{quantityHJunior}</h2>
+                {HJunior}
               </div> : null }
           </Card>
+          <div>
+            Total :
+            {Portal + Portazo + HPollo + Ranchera + Nortena + Cheese + Arepa + HJunior}
+          </div>
         </div>
       </section>
       <div className="category">
@@ -168,7 +180,7 @@ function Category() {
               onChange={(event) => setQuantityHJunior(event.target.value)}
               placeholder="cantidad"
             />
-            <h1>{quantityHJunion}</h1>
+            <h1>{quantityHJunior}</h1>
           </div>
         </Card>
       </div>
