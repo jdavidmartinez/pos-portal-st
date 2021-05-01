@@ -1,30 +1,28 @@
 import { useState } from 'react';
+import { Card } from 'react-bootstrap';
 
 import data from '../../Data/data.json';
-import CategoryCard from '../../UI/Cards/ResponsiveCardOffers/CategoryCard';
-import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg';
+// import CategoryCard from '../../UI/Cards/ResponsiveCardOffers/CategoryCard';
+// import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg';
 
 import './category.css'
 
 function Category() {
-  const [quantity, setTitle] = useState('');  // eslint-disable-line
+  const [quantity, setQuantity] = useState(0);  // eslint-disable-line
 
   return (
-    <div className="category">
-      {data.slides.map((item) => (
-        <div key={item.id}>
-          <CategoryCard
-            tittleOffer={item.title}
-            companie={item.companie}
-            cost={item.cost}
-            description={item.description}
-            offerIcon={offerIcon}
-            offerVactNumber={item.offerVactNumber}
-            offerNumber={item.offerNumber}
-          />
-        </div>
-      ))}
-    </div>
+    <>
+      <div className="category">
+        <Card className="card-category">
+          <div>
+            <h3>{data.slides[0].title}</h3>
+            <h2>{data.slides[0].cost}</h2>
+            <input onChange={(event) => setQuantity(event.target.value)} placeholder="cantidad" />
+            <h1>{quantity}</h1>
+          </div>
+        </Card>
+      </div>
+    </>
   );
 }
 

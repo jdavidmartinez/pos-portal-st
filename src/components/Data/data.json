@@ -21,51 +21,6 @@
       "offerVactNumber": " ",
       "offerNumber": "02",
       "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
-    },
-    {
-      "title": "Ham. Pollo",
-      "id": "ham_pollo",
-      "companie": "Portal St",
-      "cost": 11000,
-      "description": " ",
-      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
-      "offerVactNumber": " ",
-      "offerNumber": "03",
-      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
-    },
-    {
-      "title": "Burgercheese",
-      "id": "burgercheese",
-      "companie": "Portal St",
-      "cost": 11000,
-      "description": " ",
-      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
-      "offerVactNumber": " ",
-      "offerNumber": "04",
-      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
-    },
-    {
-      "title": "Ranchera",
-      "id": "ranchera",
-      "companie": "Portal St",
-      "cost": 14500,
-      "description": " ",
-      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
-      "offerVactNumber": " ",
-      "offerNumber": "05",
-      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
-    },
-    {
-      "title": "Norteña",
-      "id": "norteña",
-      "companie": "Portal St",
-      "cost": 14500,
-      "description": " ",
-      "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
-      "offerVactNumber": " ",
-      "offerNumber": "06",
-      "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
-    }
-      
+    }    
   ]
 }

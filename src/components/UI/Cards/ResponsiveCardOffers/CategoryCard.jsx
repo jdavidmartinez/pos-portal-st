@@ -1,4 +1,5 @@
 /* OffersCardJob UI-component */
+
 import { Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
@@ -16,6 +17,7 @@ const CategoryCard = (
     tittleOffer
   }
 ) => (
+
   <>
     <Card className="row responsive-card-offers">
       <Card.Body className="col-xs-10">
