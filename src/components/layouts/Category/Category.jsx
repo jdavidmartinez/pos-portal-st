@@ -27,7 +27,205 @@ function Category() {
 
   return (
     <>
-      <section>
+      <section className="general-section">
+        <div>
+          <div className="category">
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[0].title}</h3>
+                <h2>{data.slides[0].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityPortal(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityPortal}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[1].title}</h3>
+                <h2>{data.slides[1].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityPortazo(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityPortazo}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[2].title}</h3>
+                <h2>{data.slides[2].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityRanchera(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityRanchera}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[3].title}</h3>
+                <h2>{data.slides[3].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityHPollo(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityHPollo}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[4].title}</h3>
+                <h2>{data.slides[4].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityNortena(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityNortena}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[5].title}</h3>
+                <h2>{data.slides[5].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityCheese(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityCheese}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[6].title}</h3>
+                <h2>{data.slides[6].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityArepa(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityArepa}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[7].title}</h3>
+                <h2>{data.slides[7].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityHJunior(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityHJunior}</h1>
+              </div>
+            </Card>
+          </div>
+          <div className="category-others">
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[0].title}</h3>
+                <h2>{data.slides[0].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityPortal(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityPortal}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[1].title}</h3>
+                <h2>{data.slides[1].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityPortazo(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityPortazo}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[2].title}</h3>
+                <h2>{data.slides[2].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityRanchera(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityRanchera}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[3].title}</h3>
+                <h2>{data.slides[3].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityHPollo(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityHPollo}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[4].title}</h3>
+                <h2>{data.slides[4].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityNortena(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityNortena}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[5].title}</h3>
+                <h2>{data.slides[5].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityCheese(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityCheese}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[6].title}</h3>
+                <h2>{data.slides[6].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityArepa(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityArepa}</h1>
+              </div>
+            </Card>
+            <Card className="card-category">
+              <div>
+                <h3>{data.slides[7].title}</h3>
+                <h2>{data.slides[7].cost}</h2>
+                <input
+                  className="category-place-holder"
+                  onChange={(event) => setQuantityHJunior(event.target.value)}
+                  placeholder="cantidad"
+                />
+                <h1>{quantityHJunior}</h1>
+              </div>
+            </Card>
+          </div>
+        </div>
         <div>
           <Card className="summary-section">
             <h1>Resumen</h1>
@@ -79,111 +277,13 @@ function Category() {
                 <h2>{quantityHJunior}</h2>
                 {HJunior}
               </div> : null }
+            <div>
+              Total :
+              {Portal + Portazo + HPollo + Ranchera + Nortena + Cheese + Arepa + HJunior}
+            </div>
           </Card>
-          <div>
-            Total :
-            {Portal + Portazo + HPollo + Ranchera + Nortena + Cheese + Arepa + HJunior}
-          </div>
         </div>
       </section>
-      <div className="category">
-        <Card className="card-category">
-          <div>
-            <h3>{data.slides[0].title}</h3>
-            <h2>{data.slides[0].cost}</h2>
-            <input
-              className="category-place-holder"
-              onChange={(event) => setQuantityPortal(event.target.value)}
-              placeholder="cantidad"
-            />
-            <h1>{quantityPortal}</h1>
-          </div>
-        </Card>
-        <Card className="card-category">
-          <div>
-            <h3>{data.slides[1].title}</h3>
-            <h2>{data.slides[1].cost}</h2>
-            <input
-              className="category-place-holder"
-              onChange={(event) => setQuantityPortazo(event.target.value)}
-              placeholder="cantidad"
-            />
-            <h1>{quantityPortazo}</h1>
-          </div>
-        </Card>
-        <Card className="card-category">
-          <div>
-            <h3>{data.slides[2].title}</h3>
-            <h2>{data.slides[2].cost}</h2>
-            <input
-              className="category-place-holder"
-              onChange={(event) => setQuantityRanchera(event.target.value)}
-              placeholder="cantidad"
-            />
-            <h1>{quantityRanchera}</h1>
-          </div>
-        </Card>
-        <Card className="card-category">
-          <div>
-            <h3>{data.slides[3].title}</h3>
-            <h2>{data.slides[3].cost}</h2>
-            <input
-              className="category-place-holder"
-              onChange={(event) => setQuantityHPollo(event.target.value)}
-              placeholder="cantidad"
-            />
-            <h1>{quantityHPollo}</h1>
-          </div>
-        </Card>
-        <Card className="card-category">
-          <div>
-            <h3>{data.slides[4].title}</h3>
-            <h2>{data.slides[4].cost}</h2>
-            <input
-              className="category-place-holder"
-              onChange={(event) => setQuantityNortena(event.target.value)}
-              placeholder="cantidad"
-            />
-            <h1>{quantityNortena}</h1>
-          </div>
-        </Card>
-        <Card className="card-category">
-          <div>
-            <h3>{data.slides[5].title}</h3>
-            <h2>{data.slides[5].cost}</h2>
-            <input
-              className="category-place-holder"
-              onChange={(event) => setQuantityCheese(event.target.value)}
-              placeholder="cantidad"
-            />
-            <h1>{quantityCheese}</h1>
-          </div>
-        </Card>
-        <Card className="card-category">
-          <div>
-            <h3>{data.slides[6].title}</h3>
-            <h2>{data.slides[6].cost}</h2>
-            <input
-              className="category-place-holder"
-              onChange={(event) => setQuantityArepa(event.target.value)}
-              placeholder="cantidad"
-            />
-            <h1>{quantityArepa}</h1>
-          </div>
-        </Card>
-        <Card className="card-category">
-          <div>
-            <h3>{data.slides[7].title}</h3>
-            <h2>{data.slides[7].cost}</h2>
-            <input
-              className="category-place-holder"
-              onChange={(event) => setQuantityHJunior(event.target.value)}
-              placeholder="cantidad"
-            />
-            <h1>{quantityHJunior}</h1>
-          </div>
-        </Card>
-      </div>
     </>
   );
 }
