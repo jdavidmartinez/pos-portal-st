@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import data from '../../Data/data.json';
 import ResponsiveCardOffers from '../../UI/Cards/ResponsiveCardOffers/ResponsiveCardOffers';
 import offerIcon from '../../../assets/icons/svg/offer-programmer-icon.svg';
-import offerRigthImg from '../../../assets/img/offers/offerImage1.jpg';
+// import offerRigthImg from '../../../assets/img/offers/offerImage1.jpg';
 
 import './responsive-offers.css'
 
@@ -12,7 +12,7 @@ function ResponsiveOffers() {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1
   };
   return (
@@ -23,15 +23,12 @@ function ResponsiveOffers() {
             <ResponsiveCardOffers
               tittleOffer={item.title}
               companie={item.companie}
-              salary={item.salary}
+              cost={item.cost}
               description={item.description}
               offerIcon={offerIcon}
               offerVactNumber={item.offerVactNumber}
               offerNumber={item.offerNumber}
             />
-            <div className="responsive-content-img">
-              <img src={offerRigthImg} className="slide-image" alt="" />
-            </div>
           </div>
         ))}
       </Slider>
@@ -40,3 +37,8 @@ function ResponsiveOffers() {
 }
 
 export default ResponsiveOffers;
+/*
+<div className="responsive-content-img">
+              <img src={offerRigthImg} className="slide-image" alt="" />
+            </div>
+*/

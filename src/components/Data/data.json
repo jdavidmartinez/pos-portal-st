@@ -1,10 +1,10 @@
 {
   "slides": [
     {
-      "title": "Desarrollador",
-      "id": "desarrollador",
-      "companie": "Perfiltic",
-      "salary": "$5.000.000",
+      "title": "Portal",
+      "id": "portal",
+      "companie": "Portal St",
+      "cost": "11.000",
       "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
       "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
       "offerVactNumber": "Vact#52",
@@ -12,10 +12,10 @@
       "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
     },
     {
-      "title": "Diseñador",
-      "id": "diseñador",
-      "companie": "RBB",
-      "salary": "$5.000.000",
+      "title": "Portazo",
+      "id": "portazo",
+      "companie": "Portal St",
+      "cost": "$17.000",
       "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
       "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
       "offerVactNumber": "Vact#52",
@@ -23,10 +23,10 @@
       "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
     },
     {
-      "title": "Manager",
-      "id": "manager",
-      "companie": "Atlanticsoft",
-      "salary": "$5.000.000",
+      "title": "Ham. Pollo",
+      "id": "ham_pollo",
+      "companie": "Portal St",
+      "cost": "11.000",
       "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
       "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
       "offerVactNumber": "Vact#3",
@@ -34,10 +34,10 @@
       "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
     },
     {
-      "title": "Full Stack Java",
-      "id": "java",
-      "companie": "Gnomos",
-      "salary": "$5.000.000",
+      "title": "Burgercheese",
+      "id": "burgercheese",
+      "companie": "Portal St",
+      "cost": "11.000",
       "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
       "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
       "offerVactNumber": "Vact#52",
@@ -45,10 +45,10 @@
       "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
     },
     {
-      "title": "Desarrollador Junior",
-      "id": "junior",
-      "companie": "Perfiltic",
-      "salary": "$5.000.000",
+      "title": "Ranchera",
+      "id": "ranchera",
+      "companie": "Portal St",
+      "cost": "14.500",
       "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
       "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
       "offerVactNumber": "Vact#05",
@@ -56,10 +56,10 @@
       "offerRigthImg": "/static/media/../Cards/OfferRigthCardJob/OfferRigthCardJob"
     },
     {
-      "title": "Frontend",
-      "id": "frontend",
-      "companie": "Perfiltic",
-      "salary": "$5.000.000",
+      "title": "Norteña",
+      "id": "norteña",
+      "companie": "Portal St",
+      "cost": "14.500",
       "description": "!BUSCAMOS¡ profesor en Lenguaje GO",
       "offerIcon":"../../../assets/icons/svg/offer-programmer-icon.svg",
       "offerVactNumber": "Vact#55",

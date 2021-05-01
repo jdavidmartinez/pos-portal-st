@@ -13,7 +13,7 @@ const ResponsiveCardOfferes = (
     offerIcon,
     offerNumber,
     offerVactNumber,
-    salary,
+    cost,
     tittleOffer
   }
 ) => (
@@ -30,7 +30,7 @@ const ResponsiveCardOfferes = (
           <Card.Text className="col-xs-12 responsive-offers-card-tex">
             {companie}
             -
-            {salary}
+            {cost}
           </Card.Text>
         </div>
         <div className="row">
@@ -54,7 +54,7 @@ ResponsiveCardOfferes.propTypes = {
   offerIcon: PropTypes.string.isRequired,
   tittleOffer: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  salary: PropTypes.string.isRequired,
+  cost: PropTypes.string.isRequired,
   offerVactNumber: PropTypes.string.isRequired,
   companie: PropTypes.string.isRequired,
   offerNumber: PropTypes.string.isRequired
