@@ -1,23 +1,13 @@
 /* styles from Home page-component */
 
 .home {
-  background-image: url("../../../assets/img/background.png");
-  background-repeat: no-repeat;
   background-size: 100%;
 }
 
 @media (min-width: 700px) and (max-width: 1200px) {
-  .home {
-    background-image: url("../../../assets/img/background-mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100vh;
-  }
+  
 }
 
 @media (min-width: 320px) and (max-width: 699px) {
-  .home {
-    background-image: url("../../../assets/img/background-mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
+  
 }

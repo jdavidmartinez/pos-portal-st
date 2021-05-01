@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    height: 250px;
+    height: 280px;
     width: 800px;
     background-color: var(--secondary);
     border-radius: var(--border-radius);
