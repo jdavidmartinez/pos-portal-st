@@ -1,9 +1,9 @@
 .category{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     height: 250px;
-    width: 1300px;
-    visibility: visible;
+    width: 800px;
     background-color: var(--secondary);
     border-radius: var(--border-radius);
 }
@@ -11,5 +11,15 @@
 .card-category{
     background-color: var(--primary);
     height: 150px;
+    border-radius: var(--border-radius);
+}
+
+.summary-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 250px;
+    width: 800px;
+    background-color: var(--secondary);
     border-radius: var(--border-radius);
 }

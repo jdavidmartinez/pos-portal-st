@@ -8,17 +8,43 @@ import data from '../../Data/data.json';
 import './category.css'
 
 function Category() {
-  const [quantity, setQuantity] = useState(0);  // eslint-disable-line
+  const [quantityPortal, setQuantityPortal] = useState(0);  // eslint-disable-line
+  const [quantityPortazo, setQuantityPortazo] = useState(0);  // eslint-disable-line
 
   return (
     <>
+      <section>
+        <div>
+          <Card className="summary-section">
+            <h1>Resumen</h1>
+            <div>
+              <h1>{data.slides[0].title}</h1>
+              <h2>{quantityPortal}</h2>
+              {data.slides[0].cost * quantityPortal}
+            </div>
+            <div>
+              <h1>{data.slides[1].title}</h1>
+              <h2>{quantityPortazo}</h2>
+              {data.slides[1].cost * quantityPortazo}
+            </div>
+          </Card>
+        </div>
+      </section>
       <div className="category">
         <Card className="card-category">
           <div>
             <h3>{data.slides[0].title}</h3>
             <h2>{data.slides[0].cost}</h2>
-            <input onChange={(event) => setQuantity(event.target.value)} placeholder="cantidad" />
-            <h1>{quantity}</h1>
+            <input onChange={(event) => setQuantityPortal(event.target.value)} placeholder="cantidad" />
+            <h1>{quantityPortal}</h1>
+          </div>
+        </Card>
+        <Card className="card-category">
+          <div>
+            <h3>{data.slides[1].title}</h3>
+            <h2>{data.slides[1].cost}</h2>
+            <input onChange={(event) => setQuantityPortazo(event.target.value)} placeholder="cantidad" />
+            <h1>{quantityPortazo}</h1>
           </div>
         </Card>
       </div>
